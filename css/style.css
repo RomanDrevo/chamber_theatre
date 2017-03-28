@@ -200,7 +200,11 @@ chek-mate-photos-container {
 
 
 .translate-chekhov-container {
-    border: 1px dashed blue;
+    /*border: 1px dashed blue;*/
+}
+
+.chekhov{
+    margin-top: 104px;
 }
 
 .strindberg-and-helium-container {
@@ -346,21 +350,7 @@ chek-mate-photos-container {
     padding-top: 0;
 }
 
-.eli-btn {
-    border-radius: 0;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    transition: all 0.3s;
-    color: black;
-    font-size: 22px;
-    background: none;
-    border: 6px solid #c7a462;
-    font-family: 'Open Sans', sans-serif;
-    padding: 11px 87px;
-    float: right;
-    margin-top: 26px;
-    margin-bottom: 30px;
-}
+
 
 #panel-article-marriages-on-the-verge {
     margin-top: 20px;
@@ -446,6 +436,21 @@ chek-mate-photos-container {
     padding: 11px 87px;
     float: right;
     margin-top: 45px;
+    margin-bottom: 30px;
+}
+
+.eli-btn {
+    border-radius: 0;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    color: black;
+    font-size: 22px;
+    background: none;
+    font-family: 'Open Sans', sans-serif;
+    padding: 11px 87px;
+    float: right;
+    margin-top: 26px;
     margin-bottom: 30px;
 }
 
@@ -717,7 +722,7 @@ chek-mate-photos-container {
     padding-bottom: 0px;
     margin: 0px;
     border: 0px;
-    margin-top: -25px;
+    margin-top: 0px;
     line-height: 56px;
 }
 
@@ -1013,7 +1018,7 @@ chek-mate-photos-container {
     padding-bottom: 0px;
     margin: 0px;
     border: 0px;
-    line-height: 36px;   
+    line-height: 42px;
 }
 
 .panel-link-to-article-text {
@@ -1156,6 +1161,19 @@ chek-mate-photos-container {
     height: 160px;
 }
 
+.bio-column {
+    /*border: 1px dashed red;*/
+    padding: 0 140px;
+    margin-bottom: 52px;
+}
+
+/*.martin-bio{*/
+    /*margin-right: 60px;*/
+/*}*/
+
+/*.polina-bio{*/
+    /*margin-left: 60px;*/
+/*}*/
 
 /*MOBILE STYLES*/
 
@@ -1328,9 +1346,10 @@ chek-mate-photos-container {
         position: absolute;
         background-color: rgba(255,255,255, 0.85);
         z-index: 20;
-        top:-88px;
+        top: -49px;
         right: 52px;
-        max-width: 49%;
+        max-width: 60%;
+        height: 238px;
         color: black;
         padding-left: 25px;
         padding-right: 25px;
@@ -1343,7 +1362,7 @@ chek-mate-photos-container {
         padding-bottom: 0px;
         margin: 0px;
         border: 0px;
-        margin-top: -50px;
+        margin-top: 4px;
         line-height: 35px;
     }
 

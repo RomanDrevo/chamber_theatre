@@ -16,6 +16,11 @@ image{
     padding: 0;
 }
 
+.section-text-block{
+    margin-top: 34px;
+    margin-bottom: 34px;
+}
+
 .btn-read-more {
     border-radius: 0;
     -webkit-transition: all 0.3s;
@@ -28,7 +33,6 @@ image{
     font-family: 'Open Sans', sans-serif;
     padding: 11px 87px;
     float: right;
-    margin-bottom: 30px;
 }
 
 .btn-read-more:hover,
@@ -93,6 +97,12 @@ image{
     margin-top: 35px;
     margin-left: 70px;
 }
+
+/*Dropdown menu*/
+.navbar-default .navbar-toggle {
+    border: none;
+}
+
 
 #nav-bar {
     height: 150px !important;
@@ -334,6 +344,10 @@ image{
 /*Coming Next Section End*/
 
 /*Eli Keel Section Start*/
+.eli-keel-container{
+    margin-bottom: 52px;
+}
+
 .panel-article-insider-louisville {
     /*margin-top: 20px;*/
     /*padding: 0px;*/
@@ -349,16 +363,19 @@ image{
 
 .insider-louisville-image{
     width: 100%;
+    margin-top: 34px;
 }
 /*Eli Keel Section End*/
 
 /*Marriages On The Verge Section Start*/
 .marriages-on-the-verge-container {
     line-height: 30px;
+    margin-bottom: 52px;
 }
 
 .marriages-on-the-verge-img{
-    margin-bottom: 52px;
+    width: 81%;
+    margin-top: 34px;
 }
 
 
@@ -376,6 +393,8 @@ image{
     margin-top: 104px;
     padding-left: 25px;
     padding-right: 25px;
+    padding-bottom: 34px;
+    padding-top: 34px;
 }
 
 .strindberg-in-bergman-container {
@@ -410,18 +429,22 @@ image{
     text-align: left;
     color: black;
     margin-top: 15px;
+    margin-bottom: 34px
 }
 /*Strindberg in Bergman Section End*/
 
 /*Chekhov Section Start*/
+.translate-chekhov-container{
+    margin-bottom: 52px;
+}
+
 .chekhov-image{
     margin-top: 104px;
 }
 
-.panel-article-translate-chekhov {
-    margin-top: 10px;
-    padding: 0px;
-    margin-left: 0;
+.panel-article-translate-chekhov p {
+   line-height: 30px;
+    margin-top: 34px;
 }
 
 #panel-article-translate-chekhov .panel-body {
@@ -926,110 +949,134 @@ chek-mate-photos-container {
 
 /*MOBILE STYLES*/
 
-/*iPad Pro*/
-@media (max-width: 1310px){
+
+
+@media (max-width: 1025px) {
     html, body {
-        max-width: 100%;
-        overflow-x: hidden;
-    }
-
-    .insider-louisville-container .panel-body {
-        padding: 0px;
-        margin-top: 52px;
-        line-height: 38px;
-        font-size: 35px;
-    }
-
-    .marriages-on-the-verge-container {
-        margin-left: 25%;
-        margin-right: auto;
-        max-width: 65%;
-        max-height: 620px;
-        line-height: 30px;
-        font-size: 18px;
+    max-width: 100%;
+    overflow-x: hidden;
     }
 
     .strindberg-in-bergman-container .strindberg-in-bergman-well {
         position: absolute;
         background-color: rgba(255,255,255, 0.85);
         z-index: 20;
-        top: -77px;
+        top: 0px;
         right: 52px;
-        max-width: 38%;
+        max-width: 61%;
         color: black;
         margin-top: 104px;
         padding-left: 25px;
         padding-right: 25px;
-    }
-
-    .translate-chekhov-container {
-        padding-top: 83px;
-        padding-bottom: 30px;
-        margin-left: 20%;
-        margin-right: auto;
-        max-width: 65%;
-        max-height: 500px;
-    }
-
-    .translate-chekhov-container .page-header {
-        margin-top: -125px;
-        margin-bottom: 34px;
-    }
-
-    .translate-chekhov-container .panel-body {
-        padding: 0px;
-        margin-top: 52px;
-        line-height: 44px;
-        font-size: 30px;
-    }
-
-    .chekhov{
-        position: absolute;
-        left: -126px;
-    }
-
-    /*About Us Styles*/
-    .aboutus-container{
-        font-size: 35px;
-        line-height: 56px;
-    }
-
-    .bio-column{
-        padding: 0 43px;
-    }
-
-    .coart-dir {
-        padding-top: 40px;
-        padding-bottom: 20px;
-        padding-left: 0px;
-        margin-left: -57px;
-    }
-
-    .coart-name {
-        margin-bottom: 0px !important;
-        margin-top: 0;
-        font-size: 60px;
-        font-family: 'Open Sans', sans-serif;
-        font-weight: lighter;
-        color: #c7a462;
-    }
-
-    .coart-pos {
-        font-size: 34px;
-        font-family: 'Open Sans', sans-serif;
-        font-weight: lighter;
-        font-style: italic;
-        color: #c7a462;
-        margin-top: 11px;
-    }
-
-    .bio-text-insert {
-        font-family: 'Playfair Display';
-        font-weight: bold;
-        font-style: italic;
-        font-size: 35px;
+        padding-bottom: 34px;
+        padding-top: 34px;
     }
 }
+
+/*iPad Pro*/
+/*@media (max-width: 1310px){*/
+    /*html, body {*/
+        /*max-width: 100%;*/
+        /*overflow-x: hidden;*/
+    /*}*/
+
+    /*.insider-louisville-container .panel-body {*/
+        /*padding: 0px;*/
+        /*margin-top: 52px;*/
+        /*line-height: 38px;*/
+        /*font-size: 35px;*/
+    /*}*/
+
+    /*.marriages-on-the-verge-container {*/
+        /*margin-left: 25%;*/
+        /*margin-right: auto;*/
+        /*max-width: 65%;*/
+        /*max-height: 620px;*/
+        /*line-height: 30px;*/
+        /*font-size: 18px;*/
+    /*}*/
+
+    /*.strindberg-in-bergman-container .strindberg-in-bergman-well {*/
+        /*position: absolute;*/
+        /*background-color: rgba(255,255,255, 0.85);*/
+        /*z-index: 20;*/
+        /*top: -77px;*/
+        /*right: 52px;*/
+        /*max-width: 38%;*/
+        /*color: black;*/
+        /*margin-top: 104px;*/
+        /*padding-left: 25px;*/
+        /*padding-right: 25px;*/
+    /*}*/
+
+    /*.translate-chekhov-container {*/
+        /*padding-top: 83px;*/
+        /*padding-bottom: 30px;*/
+        /*margin-left: 20%;*/
+        /*margin-right: auto;*/
+        /*max-width: 65%;*/
+        /*max-height: 500px;*/
+    /*}*/
+
+    /*.translate-chekhov-container .page-header {*/
+        /*margin-top: -125px;*/
+        /*margin-bottom: 34px;*/
+    /*}*/
+
+    /*.translate-chekhov-container .panel-body {*/
+        /*padding: 0px;*/
+        /*margin-top: 52px;*/
+        /*line-height: 44px;*/
+        /*font-size: 30px;*/
+    /*}*/
+
+    /*.chekhov{*/
+        /*position: absolute;*/
+        /*left: -126px;*/
+    /*}*/
+
+    /*!*About Us Styles*!*/
+    /*.aboutus-container{*/
+        /*font-size: 35px;*/
+        /*line-height: 56px;*/
+    /*}*/
+
+    /*.bio-column{*/
+        /*padding: 0 43px;*/
+    /*}*/
+
+    /*.coart-dir {*/
+        /*padding-top: 40px;*/
+        /*padding-bottom: 20px;*/
+        /*padding-left: 0px;*/
+        /*margin-left: -57px;*/
+    /*}*/
+
+    /*.coart-name {*/
+        /*margin-bottom: 0px !important;*/
+        /*margin-top: 0;*/
+        /*font-size: 60px;*/
+        /*font-family: 'Open Sans', sans-serif;*/
+        /*font-weight: lighter;*/
+        /*color: #c7a462;*/
+    /*}*/
+
+    /*.coart-pos {*/
+        /*font-size: 34px;*/
+        /*font-family: 'Open Sans', sans-serif;*/
+        /*font-weight: lighter;*/
+        /*font-style: italic;*/
+        /*color: #c7a462;*/
+        /*margin-top: 11px;*/
+    /*}*/
+
+    /*.bio-text-insert {*/
+        /*font-family: 'Playfair Display';*/
+        /*font-weight: bold;*/
+        /*font-style: italic;*/
+        /*font-size: 35px;*/
+    /*}*/
+/*}*/
 
 /*iPad*/
 @media (max-width: 768px){

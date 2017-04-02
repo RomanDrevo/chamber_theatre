@@ -1,71 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width = device-width, initial-scale = 1">
-    <title>The Chamber Theatre</title>
-    <meta name="description"
-          content="The Chamber Theatre is a small independent non-profit theatre company based in Louisville, Kentucky, that explores modern classics">
-
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css">
-    <link href='https://fonts.googleapis.com/css?family=Playfair+Display' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:100,200,300,400,600,700,800,300' rel='stylesheet'
-          type='text/css'/>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script src="js/bootstrap.js"></script>
-
-</head>
-
-<body>
-<div class="fill-background-black">
-    <div class="container-fluid">
-        <nav class="navbar navbar-default navbar-static-top" id="nav-bar-top">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-bar"
-                        aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a href="index.htm" class="navbar-left"><img src="img/logo.svg" id="logo-img"
-                                                             class="img-responsive hover-decoration"></a>
-            </div>
-            <div class="collapse navbar-collapse" id="nav-bar">
-                <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 pull-right text-right" id="top-nav-social">
-                    <a href="https://www.instagram.com/thechambertheatre/" target="_blank"><img src="img/instagram.svg"
-                                                                                                class="social-icon navbar-social pull-right img-responsive "></a>
-                    <a href="https://twitter.com/TheChamberLVL" target="_blank"><img src="img/twitter.svg"
-                                                                                     class="social-icon navbar-social pull-right img-responsive "></a>
-                    <a href="https://www.facebook.com/thechambertheatre/" target="_blank"><img src="img/facebook.svg"
-                                                                                               class="social-icon navbar-social pull-right img-responsive "></a>
-                </div>
-                <ul class="nav navbar-nav navbar-right" id="navbar-menus">
-                    <li><a href="index.html">HOME<span class="sr-only">(current)</span></a></li>
-                    <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
-                                            aria-haspopup="true" aria-expanded="false">SHOWS<span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li role="separator" class="divider"></li>
-                            <li class="dropdown-header">Season 2016/2017</li>
-                            <li><a href="dolls-house.htm">A DOLL'S HOUSE</a></li>
-                            <li><a href="creditors.htm">CREDITORS</a></li>
-                            <li role="separator" class="divider"></li>
-                            <li class="dropdown-header">Season 2015/2016</li>
-                            <li><a href="check-mate.htm">CHEK-MATE</a></li>
-                        </ul>
-                    </li>
-                    <li class="active"><a href="aboutus.htm">ABOUT US</a></li>
-                    <li><a href="contactus.htm">CONTACT US</a></li>
-                    <!--   <li><a href="#">Blog</a></li>-->
-                </ul>
-            </div>
-        </nav>
+<?php
+include "header.php";
+?>
 
         <div class="coming-next-container">
             <div class="row">
@@ -260,40 +195,6 @@
 <!--</div>-->
 <!--</section>-->
 
-<div class="fill-footer">
-    <div class="container-fluid">
-        <div class="navbar navbar-default navbar-static-bottom" id="nav-bar-bottom">
-            <p id="contact-info-footer">thechambertheatre@gmail.com &nbsp;&nbsp;|&nbsp;&nbsp; (502) 724-6968 &nbsp;&nbsp;|&nbsp;&nbsp;
-                <a href="https://www.facebook.com/thechambertheatre/" target="_blank"><img src="img/fb_gold.svg"
-                                                                                           class="social-icon-footer"></a>
-                &nbsp;
-                <a href="https://twitter.com/TheChamberLVL" target="_blank"><img src="img/tw_gold.svg"
-                                                                                 class="social-icon-footer"></a> &nbsp;
-                <a href="https://www.instagram.com/thechambertheatre/" target="_blank"><img src="img/inst_gold.svg"
-                                                                                            class="social-icon-footer"></a>
-                &nbsp;
-                &nbsp;&nbsp;|
-                <a href="https://www.olla-nikolenko.me/" class="olla_copyright" target="_blank">&nbsp;&nbsp; &copy; 2017
-                    Olla Nikolenko &nbsp;&nbsp;</a>|&nbsp;&nbsp; Logo: Elina Unger</p>
-        </div>
-    </div>
-</div>
-
-<script>
-    (function (i, s, o, g, r, a, m) {
-        i['GoogleAnalyticsObject'] = r;
-        i[r] = i[r] || function () {
-                (i[r].q = i[r].q || []).push(arguments)
-            }, i[r].l = 1 * new Date();
-        a = s.createElement(o),
-            m = s.getElementsByTagName(o)[0];
-        a.async = 1;
-        a.src = g;
-        m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
-
-    ga('create', 'UA-88295944-1', 'auto');
-    ga('send', 'pageview');
-
-</script>
-</body>
+<?php
+include "footer.php";
+?>

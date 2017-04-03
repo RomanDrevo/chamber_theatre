@@ -531,7 +531,75 @@ image{
     padding: 0 140px;
     margin-bottom: 52px;
 }
+
+.border-gold{
+    border: 2px solid  rgba(199, 164, 98, 0.4);
+    border-radius: 7px;
+    margin-bottom: 104px;
+}
+
+.panel-link-to-article {
+    padding-top: 36px;
+    padding-bottom: 36px;
+    padding-left: 140px;
+    padding-right: 140px;
+}
+
+.panel-link-to-article:focus,
+.panel-link-to-article:hover {
+    opacity: 0.5;
+    text-decoration: none !important;
+}
+
+
+.panel-link-to-article-heading-style {
+    color: #c7a462;
+    font-size: 34px;
+    font-family: 'Playfair Display';
+    padding-bottom: 0px;
+    margin: 0px;
+    border: 0px;
+    line-height: 42px;
+}
+
+.panel-link-to-article-text {
+    margin-top:10px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300 !important;
+    color: black;
+}
+
+.btn-link-to-article:focus,
+.btn-link-to-article:hover {
+    opacity: 0.5;
+    text-decoration: none !important;
+}
+
+.mission-about-us-container{
+    background: #E6E6E6;
+    padding-top: 36px;
+    padding-bottom: 36px;
+    padding-left: 140px;
+    padding-right: 140px;
+}
+
 /*About Us Page End*/
+
+/*Contact Us Page Start*/
+.social-container {
+    max-width: 100%;
+    padding-top:100px;
+    padding-bottom:100px;
+}
+
+.facebook_svg,
+.twitter_svg,
+.instagram_svg{
+    text-align: center;
+}
+/*Contact Us Page End*/
+
 
 
 /*HZ Start*/
@@ -577,12 +645,7 @@ chek-mate-photos-container {
     max-width: 40%;
 }
 
-.social-container {
-    max-width: 100%;
-    padding-top:100px;
-    padding-bottom:100px;
-    width: 70%;
-}
+
 
 .email-phone-container {
     padding-top:100px;
@@ -626,18 +689,6 @@ chek-mate-photos-container {
     font-size: 36px;
 }
 
-.jumbotron {
-    background-color: #E8E8E8;
-    color: black;
-    margin-bottom: 0;
-}
-
-#mission-jt {
-    background-color: white;
-    height: 200px;
-    width: 700px;
-    background-position: center;
-}
 
 .boor-and-proposal-heading {
     font-weight: bold;
@@ -807,47 +858,6 @@ chek-mate-photos-container {
     overflow-y: scroll;
 }
 
-.panel-link-to-article {
-    padding-top: 36px;
-    padding-bottom: 36px;
-    padding-left:55px;
-    padding-right:55px;
-}
-
-.panel-link-to-article:focus,
-.panel-link-to-article:hover {
-    opacity: 0.5;
-    text-decoration: none !important;
-}
-
-.border-gold{
-    border: 2px solid  rgba(199, 164, 98, 0.4);
-    border-radius: 7px;
-}
-
-.panel-link-to-article-heading-style {
-    color: #c7a462;
-    font-size: 34px;
-    font-family: 'Playfair Display';
-    padding-bottom: 0px;
-    margin: 0px;
-    border: 0px;
-    line-height: 42px;
-}
-
-.panel-link-to-article-text {
-    margin-top:10px;
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 300 !important;
-    color: black;
-}
-
-.btn-link-to-article:focus,
-.btn-link-to-article:hover {
-    opacity: 0.5;
-    text-decoration: none !important;
-}
 
 .grey-background {
     background-color: #EDEDED;
@@ -864,28 +874,10 @@ chek-mate-photos-container {
     padding-left:0px;
 }
 
-.reviews-section {
-    background-color: #e6e6e6;
-    height: 400px;
-}
 
-.panel-link-to-review-text {
-    margin-top:10px;
-    font-family: 'Plaifair';
-    font-style: italic;
-    color: black;
-    background-color: #e6e6e6;
-}
 
-.reviews-panel {
-    background-color: #e6e6e6;
-    border: 2px solid  rgba(199, 164, 98, 0.4);
-    border-radius: 7px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left:35px;
-    padding-right:20px;
-}
+
+
 
 .reviews-panel:focus,
 .reviews-panel:hover {
@@ -1711,10 +1703,56 @@ chek-mate-photos-container {
     }
 
     /*About Us Styles*/
-    .coart-dir {
-        margin-left: 9px;
-        padding-bottom: 20px;
-        padding-top: 0;
+    /*.coart-dir {*/
+        /*margin-left: 9px;*/
+        /*padding-bottom: 20px;*/
+        /*padding-top: 0;*/
+    /*}*/
+
+    .bio-column {
+        /* border: 1px dashed red; */
+        padding: 0 18px;
+        margin-bottom: 52px;
+    }
+
+    .coart-name {
+        margin-top: 80px;
+        margin-bottom: 0px !important;
+        font-size: 24px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: lighter;
+        color: #c7a462;
+        line-height: 28px;
+    }
+
+    .coart-pos {
+        font-size: 15px;
+        line-height: 27px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: lighter;
+        font-style: italic;
+        color: #c7a462;
+    }
+
+    .panel-link-to-article {
+        padding-top: 36px;
+        padding-bottom: 36px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .panel-link-to-article a{
+        color: black;
+    }
+
+    .panel-link-to-article-heading-style {
+        color: #c7a462;
+        font-size: 24px;
+        font-family: 'Playfair Display';
+        padding-bottom: 0px;
+        margin: 0px;
+        border: 0px;
+        line-height: 28px;
     }
 }
 

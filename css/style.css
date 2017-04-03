@@ -1308,10 +1308,85 @@ chek-mate-photos-container {
     }
 
     /*About Us Styles*/
+    /*.coart-dir {*/
+        /*margin-left: 9px;*/
+        /*padding-bottom: 20px;*/
+        /*padding-top: 0;*/
+    /*}*/
+
+    .bio-column {
+        padding: 0px 47px;
+        margin-bottom: 42px;
+    }
+
     .coart-dir {
-        margin-left: 9px;
-        padding-bottom: 20px;
-        padding-top: 0;
+         margin-right: 0px;
+         padding-top: 0px;
+        padding-bottom: 0px;
+        /* padding-left: 20px; */
+    }
+
+    .coart-name {
+        margin-top: 76px;
+        margin-bottom: 0px !important;
+        font-size: 32px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: lighter;
+        color: #c7a462;
+        /* padding-right: 107px; */
+        margin-right: 72px;
+    }
+
+    .panel-link-to-article {
+        padding-top: 36px;
+        padding-bottom: 36px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .coart-pos {
+        font-size: 15px;
+        line-height: 27px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: lighter;
+        font-style: italic;
+        color: #c7a462;
+    }
+
+    .panel-link-to-article {
+        padding-top: 36px;
+        padding-bottom: 36px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .panel-link-to-article a{
+        color: black;
+    }
+
+    .border-gold {
+        border: 2px solid rgba(199, 164, 98, 0.4);
+        border-radius: 7px;
+        margin-bottom: 0;
+    }
+
+    .panel-link-to-article-heading-style {
+        color: #c7a462;
+        font-size: 24px;
+        font-family: 'Playfair Display';
+        padding-bottom: 0px;
+        padding-top: 66px;
+        margin: 0px;
+        border: 0px;
+        line-height: 28px;
+    }
+
+    .mission-about-us-container {
+        background: #E6E6E6;
+        padding-top: 36px;
+        padding-bottom: 36px;
+        padding-left: 15px;
+        padding-right: 15px;
     }
 }
 
@@ -1508,9 +1583,69 @@ chek-mate-photos-container {
 
     /*About Us Styles*/
     .coart-dir {
-        margin-left: 9px;
+        margin-left: -24px;
         padding-bottom: 20px;
-        padding-top: 0;
+        padding-top: 31px;
+    }
+
+    .bio-column {
+        /* border: 1px dashed red; */
+        padding: 0 18px;
+        margin-bottom: 52px;
+    }
+
+    .coart-name {
+        margin-top: 80px;
+        margin-bottom: 0px !important;
+        font-size: 24px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: lighter;
+        color: #c7a462;
+        line-height: 28px;
+    }
+
+    .coart-pos {
+        font-size: 15px;
+        line-height: 27px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: lighter;
+        font-style: italic;
+        color: #c7a462;
+    }
+
+    .panel-link-to-article {
+        padding-top: 36px;
+        padding-bottom: 36px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .panel-link-to-article a{
+        color: black;
+    }
+
+    .border-gold {
+        border: 2px solid rgba(199, 164, 98, 0.4);
+        border-radius: 7px;
+        margin-bottom: 0;
+    }
+
+    .panel-link-to-article-heading-style {
+        color: #c7a462;
+        font-size: 24px;
+        font-family: 'Playfair Display';
+        padding-bottom: 0px;
+        margin: 0px;
+        border: 0px;
+        line-height: 28px;
+    }
+
+    .mission-about-us-container {
+        background: #E6E6E6;
+        padding-top: 36px;
+        padding-bottom: 36px;
+        padding-left: 15px;
+        padding-right: 15px;
     }
 
 }
@@ -1703,11 +1838,6 @@ chek-mate-photos-container {
     }
 
     /*About Us Styles*/
-    /*.coart-dir {*/
-        /*margin-left: 9px;*/
-        /*padding-bottom: 20px;*/
-        /*padding-top: 0;*/
-    /*}*/
 
     .bio-column {
         /* border: 1px dashed red; */
@@ -1715,10 +1845,16 @@ chek-mate-photos-container {
         margin-bottom: 52px;
     }
 
+    .coart-dir {
+        margin-left: -11px;
+        padding-bottom: 20px;
+        padding-top: 31px;
+    }
+
     .coart-name {
         margin-top: 80px;
         margin-bottom: 0px !important;
-        font-size: 24px;
+        font-size: 23px;
         font-family: 'Open Sans', sans-serif;
         font-weight: lighter;
         color: #c7a462;
@@ -1745,6 +1881,12 @@ chek-mate-photos-container {
         color: black;
     }
 
+    .border-gold {
+        border: 2px solid rgba(199, 164, 98, 0.4);
+        border-radius: 7px;
+        margin-bottom: 0;
+    }
+
     .panel-link-to-article-heading-style {
         color: #c7a462;
         font-size: 24px;
@@ -1753,6 +1895,14 @@ chek-mate-photos-container {
         margin: 0px;
         border: 0px;
         line-height: 28px;
+    }
+
+    .mission-about-us-container {
+        background: #E6E6E6;
+        padding-top: 36px;
+        padding-bottom: 36px;
+        padding-left: 15px;
+        padding-right: 15px;
     }
 }
 

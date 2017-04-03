@@ -38,7 +38,7 @@ include "header.php";
                     </div>
                     <div class="col-md-7 col-sm-7 col-xs-6">
                         <div class="coart-dir">
-                            <div class="coart-name">Martin French</div>
+                            <div class="coart-name coart-name-martin">Martin French</div>
                             <div class="coart-pos">Co-Artistic Director</div>
                         </div>
                     </div>

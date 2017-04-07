@@ -145,25 +145,25 @@ include "header.php";
     </div>
 
 
-    <div class="row">
-        <div class="border-gold">
-            <div class="row">
-                <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+    <div class="row border-gold">
+        <div class="row">
+                <div class="col-lg-5 col-md-6 col-sm-12 col-xs-12 panel panel-default">
                     <div class="panel-link-to-article">
                         <a href="http://arts-louisville.com/2013/04/02/the-second-coming-of-undead-theater-at-the-alley-a-conversation-with-martin-french/"
                            target="_blank" class="hover-decoration" role="button">
 
-                            <div class="row">
+                            <div class="row panel-heading">
                                 <div class="col-lg-3 col-md-3 col-sm-2 col-xs-4 thumb-column">
                                     <img src="img/undead.png" alt="Chekhov" width="100" height="150">
                                 </div>
-                                <div class="col-lg-9 col-md-9 col-sm-10 col-xs-8">
+                                <div class="col-lg-9 col-md-9 col-sm-8 col-xs-8">
                                     <p class="panel-link-to-article-heading-style"> Undead Theatre: A Conversation with
                                         Martin French</p>
                                 </div>
                             </div>
-                            <div class="row">
-                                <p>
+
+                            <div class="row panel-body">
+                                <p class="gold-block-text">
                                     Mr. French’s first foray into Louisville theatre was in last year’s inaugural Inhuman
                                     Festival, Alley Artistic Director Scott Davis invited him to write and direct a parody
                                     of
@@ -174,22 +174,22 @@ include "header.php";
                         </a>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                <div class="col-lg-5 col-lg-offset-2 col-md-6 col-sm-12 col-xs-12 panel panel-default">
                     <div class="panel-link-to-article">
                         <a href="http://arts-louisville.com/2016/01/04/polina-shafran-translates-chekhov-for-you/"
                            target="_blank" class="hover-decoration" role="button">
 
-                            <div class="row">
-                                <div class="col-md-3 col-sm-3 col-xs-4 grey-background thumb-column">
+                            <div class="row panel-heading">
+                                <div class="col-lg-3 col-md-3 col-sm-2 col-xs-4 grey-background thumb-column">
                                     <img src="img/Chekhov_Homepage.svg" alt="Chekhov" width="100" height="150">
                                 </div>
-                                <div class="col-md-9 col-sm-9 col-xs-8">
+                                <div class="col-lg-8 col-md-9 col-sm-8 col-xs-8">
                                     <p class="panel-link-to-article-heading-style"> Polina Shafran Translates Chekhov for
                                         You</p>
                                 </div>
                             </div>
-                            <div class="row">
-                                <p>Louisville can boast an entire community of home grown theatre artists; more than a few
+                            <div class="row panel-body">
+                                <p class="gold-block-text">Louisville can boast an entire community of home grown theatre artists; more than a few
                                     that
                                     have relocated from other cities in the US, but a much smaller number have found their
                                     way
@@ -200,16 +200,14 @@ include "header.php";
                     </div>
                 </div>
             </div>
-        </div>
     </div>
 </div>
 
-<div class="container-fluid mission-about-us-container">
+<div class="container mission-about-us-container">
     <div class="row">
-                    <div class="col-lg-6 col-md-6 info-column info-column-right">
-                        <h2 class="coart-name heading-style-italic">Our Mission</h2>
-                        <br>
-                        <p>The goal of the Chamber Theatre is to produce high quality small scale theatre that is
+        <div class="col-lg-5 col-md-6 col-sm-12 col-xs-12 panel panel-default">
+            <h2 class="heading-style-italic">Our Mission</h2>
+            <p class="panel-body">The goal of the Chamber Theatre is to produce high quality small scale theatre that is
                             intimate,
                             personal, and engages directly with the audience. We want to explore some of the best modern
                             dramatists, particularly those from the late
@@ -223,19 +221,18 @@ include "header.php";
                             community to develop a distinct method
                             to our productions.
                         </p>
-                    </div>
-                    <div class="col-lg-6 col-md-6 info-column info-column-left">
-                        <h2 class="coart-name heading-style-italic">About Us</h2>
-                        <br>
-                        <p>Formed in late 2015, The Chamber Theatre is a small independent theatre company based in
+        </div>
+        <div class="col-lg-5 col-lg-offset-2 col-md-6 col-sm-12 col-xs-12 panel panel-default">
+            <h2 class="heading-style-italic">About Us</h2>
+            <p class="panel-body">Formed in late 2015, The Chamber Theatre is a small independent theatre company based in
                             Louisville, Kentucky. Our first production was Chek-Mate in January 2016, produced at Vault
                             1031, and subsequently touring to University of Kentucky.
                             The Chamber Theatre was founded and is run by co-Artistic Directors Martin French and Polina
                             Shafran, two multi-disciplinary international theatre artists who have been working in
                             Louisville for the past few years. The Chamber Theatre Inc. is a 501(c)3 organization.
                         </p>
-                    </div>
-                </div>
+        </div>
+    </div>
 </div>
 
 <?php

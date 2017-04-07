@@ -29,56 +29,96 @@ include "header.php";
     </div>
 </div>
 
-<div class="container-fluid aboutus-container">
+<div class="container">
     <div class="row">
-        <div class="col-lg-6  col-md-12 col-sm-12 col-xs-12 bio-column martin-bio">
-                <div class="row">
-                    <div class="col-md-5 col-sm-5 col-xs-6">
-                        <img src="img/martin-french-bio.jpg" class="director-img" alt="...">
-                    </div>
-                    <div class="col-md-7 col-sm-7 col-xs-6">
-                        <div class="coart-dir">
-                            <div class="coart-name coart-name-martin">Martin French</div>
-                            <div class="coart-pos">Co-Artistic Director</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="bio-text-container">
-                    <p class="bio-text">Martin French is from Ireland originally, and has worked in theatre for many years,
-                        covering a wide variety of positions. By trade a designer, and by preference a director, Martin has
-                        worked professionally in theatre for over 20
-                        years in Dublin, London, and Louisville, combining his creative work with positions as theatre
-                        technician, and more recently instructor. He has been an artistic director with Ourclann and Dublin
-                        Shakespeare in Ireland, and
-                        in Louisville has previously been on the board of The Alley Theatre, and currently serves on the
-                        board
-                        of the Louisville Repertory Company.
-                    </p>
-                    <p class="bio-text-insert">
-                        Some highlights of his directing work include The Bloomsday Breakfast Show, Elektra, Busu,
-                        Electile Dysfunction, Metamorphosis, and Chek-Mate.
+<!--        <div class="col-lg-6  col-md-12 col-sm-12 col-xs-12 bio-column martin-bio">-->
+<!--                <div class="row">-->
+<!--                    <div class="col-md-5 col-sm-5 col-xs-6">-->
+<!--                        <img src="img/martin-french-bio.jpg" class="director-img" alt="...">-->
+<!--                    </div>-->
+<!--                    <div class="col-md-7 col-sm-7 col-xs-6">-->
+<!--                        <div class="coart-dir">-->
+<!--                            <div class="coart-name coart-name-martin">Martin French</div>-->
+<!--                            <div class="coart-pos">Co-Artistic Director</div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="bio-text-container">-->
+<!--                    <p class="bio-text">Martin French is from Ireland originally, and has worked in theatre for many years,-->
+<!--                        covering a wide variety of positions. By trade a designer, and by preference a director, Martin has-->
+<!--                        worked professionally in theatre for over 20-->
+<!--                        years in Dublin, London, and Louisville, combining his creative work with positions as theatre-->
+<!--                        technician, and more recently instructor. He has been an artistic director with Ourclann and Dublin-->
+<!--                        Shakespeare in Ireland, and-->
+<!--                        in Louisville has previously been on the board of The Alley Theatre, and currently serves on the-->
+<!--                        board-->
+<!--                        of the Louisville Repertory Company.-->
+<!--                    </p>-->
+<!--                    <p class="bio-text-insert">-->
+<!--                        Some highlights of his directing work include The Bloomsday Breakfast Show, Elektra, Busu,-->
+<!--                        Electile Dysfunction, Metamorphosis, and Chek-Mate.-->
+<!---->
+<!--                    </p>-->
+<!--                    <p class="">Depending on when you ask him, his influences may include Edward Gordon Craig,-->
+<!--                        Vsevolod Meyehold, Tadeusz Kantor, Yoshi Oida, Robert Wilson, and Silviu Purcarete. He is known as a-->
+<!--                        devotee to Henrik Ibsen, a student of the ancient-->
+<!--                        Greeks, and a dabbler in Noh theatre when given the chance.-->
+<!--                    </p>-->
+<!--                </div>-->
+<!--            </div>-->
 
-                    </p>
-                    <p class="">Depending on when you ask him, his influences may include Edward Gordon Craig,
-                        Vsevolod Meyehold, Tadeusz Kantor, Yoshi Oida, Robert Wilson, and Silviu Purcarete. He is known as a
-                        devotee to Henrik Ibsen, a student of the ancient
-                        Greeks, and a dabbler in Noh theatre when given the chance.
-                    </p>
+
+
+        <div class="col-lg-5 col-md-12 col-sm-12 col-xs-12 panel panel-default coart-container">
+            <div class="row panel-heading coart-dir">
+                <div class="col-lg-6 col-md-3 col-sm-4 col-xs-5">
+                    <img src="img/martin-french-bio.jpg" class="img-responsive" alt="...">
+                </div>
+                <div class="col-lg-6 col-md-5 col-sm-7 col-xs-7">
+                    <div class="coart-info">
+                        <div class="coart-name">Martin French</div>
+                        <div class="coart-pos">Co-Artistic Director</div>
+                    </div>
                 </div>
             </div>
-        <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 bio-column polina-bio">
-                <div class="row">
-                    <div class="col-md-5 col-sm-6 col-xs-6">
-                        <img src="img/polina-shafran-bio.jpg" class="director-img" alt="...">
+            <div class="panel-body">
+                <p class="">Martin French is from Ireland originally, and has worked in theatre for many years,
+                    covering a wide variety of positions. By trade a designer, and by preference a director, Martin has
+                    worked professionally in theatre for over 20
+                    years in Dublin, London, and Louisville, combining his creative work with positions as theatre
+                    technician, and more recently instructor. He has been an artistic director with Ourclann and Dublin
+                    Shakespeare in Ireland, and
+                    in Louisville has previously been on the board of The Alley Theatre, and currently serves on the
+                    board
+                    of the Louisville Repertory Company.
+                </p>
+                <p class="bio-text-insert">
+                    Some highlights of his directing work include The Bloomsday Breakfast Show, Elektra, Busu,
+                    Electile Dysfunction, Metamorphosis, and Chek-Mate.
+
+                </p>
+                <p class="">Depending on when you ask him, his influences may include Edward Gordon Craig,
+                    Vsevolod Meyehold, Tadeusz Kantor, Yoshi Oida, Robert Wilson, and Silviu Purcarete. He is known as a
+                    devotee to Henrik Ibsen, a student of the ancient
+                    Greeks, and a dabbler in Noh theatre when given the chance.
+                </p>
+            </div>
+        </div>
+
+
+        <div class="col-lg-5 col-lg-offset-2 col-md-12 col-sm-12 col-xs-12 panel panel-default coart-container">
+                <div class="row panel-heading coart-dir">
+                    <div class="col-lg-6 col-md-3 col-sm-4 col-xs-5">
+                        <img src="img/polina-shafran-bio.jpg" class="img-responsive" alt="...">
                     </div>
-                    <div class="col-md-7 col-sm-6 col-xs-6">
-                        <div class="coart-dir">
+                    <div class="col-lg-6 col-md-5 col-sm-7 col-xs-7">
+                        <div class="coart-info">
                             <div class="coart-name">Polina Shafran</div>
                             <div class="coart-pos">Co-Artistic Director</div>
                         </div>
                     </div>
                 </div>
-
+            <div class="panel-body">
                 <p class="">Polina Shafran was born in Moscow, Russia, grew up in Israel and currently resides in
                     Louisville. Since early childhood her father used to take her to theatres. She got to see all the big
                     names of Russian theatre on Moscow stages. That’s when her love for theatre began. She got her theatre
@@ -99,7 +139,12 @@ include "header.php";
                     The Chamber Theatre's inaugural production Chek-Mate.
                 </p>
             </div>
+        </div>
+
+
     </div>
+
+
     <div class="row">
         <div class="border-gold">
             <div class="row">

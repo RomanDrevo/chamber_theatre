@@ -472,14 +472,21 @@ image{
 
 
 /*About Us Page Start*/
+.coart-container{
+    border: none;
+}
+
 .coart-dir {
-    padding-top: 40px;
-    padding-bottom: 20px;
-    /*padding-left: 20px;*/
+    border: none;
+}
+
+.coart-info{
+    margin-left: -60px;
+    margin-top: 88px;
 }
 
 .coart-name {
-    margin-top: 80px;
+    /*margin-top: 80px;*/
     margin-bottom: 0px !important;
     font-size: 32px;
     font-family: 'Open Sans', sans-serif;
@@ -1326,8 +1333,12 @@ chek-mate-photos-container {
         /* padding-left: 20px; */
     }
 
+    .coart-info {
+        margin-left: 0;
+    }
+
     .coart-name {
-        margin-top: 76px;
+        margin-top: -80px;
         margin-bottom: 0px !important;
         font-size: 32px;
         font-family: 'Open Sans', sans-serif;
@@ -1582,11 +1593,6 @@ chek-mate-photos-container {
     }
 
     /*About Us Styles*/
-    .coart-dir {
-        margin-left: -24px;
-        padding-bottom: 20px;
-        padding-top: 31px;
-    }
 
     .bio-column {
         /* border: 1px dashed red; */
@@ -1594,8 +1600,19 @@ chek-mate-photos-container {
         margin-bottom: 52px;
     }
 
-    .coart-name {
+    .coart-info {
+        margin-left: -15px;
         margin-top: 80px;
+    }
+
+    .coart-dir {
+        margin-left: -11px;
+        padding-bottom: 20px;
+        padding-top: 31px;
+    }
+
+    .coart-name {
+        margin-top: -50px;
         margin-bottom: 0px !important;
         font-size: 24px;
         font-family: 'Open Sans', sans-serif;
@@ -1845,6 +1862,11 @@ chek-mate-photos-container {
         margin-bottom: 52px;
     }
 
+    .coart-info {
+        margin-left: -15px;
+        margin-top: 88px;
+    }
+
     .coart-dir {
         margin-left: -11px;
         padding-bottom: 20px;
@@ -1852,7 +1874,7 @@ chek-mate-photos-container {
     }
 
     .coart-name {
-        margin-top: 80px;
+        margin-top: -80px;
         margin-bottom: 0px !important;
         font-size: 23px;
         font-family: 'Open Sans', sans-serif;

@@ -14,6 +14,7 @@ image{
 .container-fluid {
     max-width: 1440px;
     padding: 0;
+    /*border: 1px dashed white;*/
 }
 
 .section-text-block{
@@ -271,6 +272,7 @@ image{
     margin: 0;
     height: 11em;
     width: auto;
+    margin-bottom: 20px;
 }
 
 .social-icon-contact-us:hover {
@@ -284,14 +286,19 @@ image{
 /*Home Page Start*/
 
 /*Coming Next Section Start*/
-.top-container {
-    padding-left: 0px;
-    padding-right: 0px;
-    padding-top: 0px;
-    margin-bottom: 0px;
-    background-color: black;
-    height: 650px;
-    position: relative;
+
+.announce-container{
+    /*border: 1px solid white;*/
+}
+
+.announce-text-block{
+    margin-top: 280px;
+    margin-left: 75px;
+    /*border: 1px solid white;*/
+}
+
+.home-page-top-img{
+    margin-left: 135px;
 }
 
 .top-container .announce-well {
@@ -305,7 +312,6 @@ image{
     bottom: 0px;
     right:0px;
     padding: 50px;
-    text-align: right;
 }
 
 .show-name {
@@ -619,6 +625,7 @@ image{
 .twitter_svg,
 .instagram_svg{
     text-align: center;
+    padding: 20px;
 }
 /*Contact Us Page End*/
 
@@ -1053,6 +1060,12 @@ chek-mate-photos-container {
         padding-right: 40px !important;
         font-size: 70px !important;
     }
+
+    /*Home Page*/
+    .home-page-top-img {
+        margin-left: 0;
+        margin-top: 186px;
+    }
 }
 
 @media (max-width: 1025px) {
@@ -1130,6 +1143,17 @@ chek-mate-photos-container {
         padding-left: 40px !important;
         padding-right: 40px !important;
         font-size: 70px !important;
+    }
+
+    /*Home Page*/
+    .announce-text-block {
+        margin-top: 154px;
+        margin-left: 22px;
+    }
+
+    .home-page-top-img {
+        margin-top: 186px;
+        margin-left: 55px;
     }
 
     /*About Us Page*/
@@ -1225,6 +1249,30 @@ chek-mate-photos-container {
         top: 1px;
     }
 
+    /*Home Page*/
+    .announce-text-block {
+        margin-top: 124px;
+        margin-left: 22px;
+    }
+
+    .home-page-top-img {
+        margin-top: -38px;
+        margin-left: 33px;
+    }
+
+    .btn-buy-tickets-top {
+        color: #c7a462 !important;
+        border: 1px solid #c7a462 !important;
+        border-radius: 0px;
+        padding: 14px 107px;
+        position: absolute;
+        top: 309px;
+        left: 61px;
+        z-index: 10;
+        background: black;
+        opacity: .8;
+    }
+
     .top-container {
         padding-left: 0px;
         padding-right: 0px;
@@ -1250,12 +1298,6 @@ chek-mate-photos-container {
         text-align: right;
     }
 
-    .btn-buy-tickets-top {
-        color: #c7a462 !important;
-        border: 1px solid #c7a462 !important;
-        border-radius: 0px;
-        padding: 14px 65px;
-    }
 
     #navbar-menus {
         padding-top: 65px;
@@ -1525,7 +1567,13 @@ chek-mate-photos-container {
         color: #c7a462 !important;
         border: 1px solid #c7a462 !important;
         border-radius: 0px;
-        padding: 14px 65px;
+        padding: 14px 107px;
+        position: absolute;
+        top: 288px;
+        left: 39px;
+        z-index: 10;
+        background: black;
+        opacity: .8;
     }
 
     #navbar-menus {
@@ -1759,7 +1807,13 @@ chek-mate-photos-container {
         color: #c7a462 !important;
         border: 1px solid #c7a462 !important;
         border-radius: 0px;
-        padding: 14px 65px;
+        padding: 14px 107px;
+        position: absolute;
+        top: 271px;
+        left: 4px;
+        z-index: 10;
+        background: black;
+        opacity: .8;
     }
 
     #navbar-menus {

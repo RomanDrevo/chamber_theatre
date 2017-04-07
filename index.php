@@ -2,12 +2,11 @@
 include "header.php";
 ?>
 
-    <div class="container-fluid">
-        <section id="image">
-            <div class="top-container">
-                <img src="img/top_image_homepage_black_bg.jpg" class="img-responsive top-img" alt="1">
-                <div class="well well-sm announce-well">
-                    <a href="dolls-house.htm" class="btn-link btn-s announcement-btn" id="announcent-clickable-section">
+    <div class="container-fluid announce-container">
+
+            <div class="row">
+                <div class="announce-text-block col-md-3 col-sm-3 col-xs-12">
+                    <a href="dolls-house.php" class="btn-link btn-s announcement-btn" id="announcent-clickable-section">
                         <p class="coming-next">Coming Next</p>
                         <p class="announcement-dates">3/17/17 - 3/25/17</p>
                         <p class="show-name">A DOLL'S HOUSE</p>
@@ -15,12 +14,16 @@ include "header.php";
                         <p class="announcement-btn-p">Read More...</p>
                     </a>
                     <a href="http://tickets.thechambertheatre.com/" target="_blank"
-                                                       class="btn btn-buy-tickets-top hover-decoration" role="button">BUY
+                       class="btn btn-buy-tickets-top hover-decoration" role="button">BUY
                         TICKETS</a>
                 </div>
+                <div class="col-md-8 col-sm-8 col-xs-12">
+                    <img src="img/top_image_homepage_black_bg.png" class="img-responsive home-page-top-img">
+                </div>
             </div>
-        </section>
+
     </div>
+
 </div>
 
 <div class="container eli-keel-container">

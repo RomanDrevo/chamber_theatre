@@ -2,74 +2,36 @@
 include "header.php";
 ?>
 
-        <div class="coming-next-container">
-            <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-6">
-                    <img src="img/2.png" style="border: 1px solid red;width: 100%">
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-6">
-                    <div class="coming-next-text-block">
-                        <a href="dolls-house.htm" class="btn-link btn-s announcement-btn"
-                           id="announcent-clickable-section">
-                            <p class="coming-next">Coming Next</p>
-                            <p class="announcement-dates">3/17/17 - 3/25/17</p>
-                            <p class="show-name">A DOLL'S HOUSE</p>
-                            <p class="show-description"> World renowned masterpiece by Henrik Ibsen</p>
-                            <p class="announcement-read-more">Read More...</p>
-                        </a>
-                        <a href="http://tickets.thechambertheatre.com/"
-                           target="_blank"
-                           class="btn btn-read-more btn-buy-tickets-top"
-                           role="button">BUY TICKETS</a>
-                    </div>
-                </div>
-            </div>
-        </div>
+<!--        <div class="coming-next-container">-->
+<!--            <div class="row">-->
+<!--                <div class="col-lg-6 col-md-6 col-sm-6">-->
+<!--                    <img src="img/2.png" style="border: 1px solid red;width: 100%">-->
+<!--                </div>-->
+<!--                <div class="col-lg-6 col-md-6 col-sm-6">-->
+<!--                    <div class="coming-next-text-block">-->
+<!--                        <a href="dolls-house.htm" class="btn-link btn-s announcement-btn"-->
+<!--                           id="announcent-clickable-section">-->
+<!--                            <p class="coming-next">Coming Next</p>-->
+<!--                            <p class="announcement-dates">3/17/17 - 3/25/17</p>-->
+<!--                            <p class="show-name">A DOLL'S HOUSE</p>-->
+<!--                            <p class="show-description"> World renowned masterpiece by Henrik Ibsen</p>-->
+<!--                            <p class="announcement-read-more">Read More...</p>-->
+<!--                        </a>-->
+<!--                        <a href="http://tickets.thechambertheatre.com/"-->
+<!--                           target="_blank"-->
+<!--                           class="btn btn-read-more btn-buy-tickets-top"-->
+<!--                           role="button">BUY TICKETS</a>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
 
     </div>
 </div>
 
-<div class="container">
+<div class="container-fluid bio-container">
     <div class="row">
-<!--        <div class="col-lg-6  col-md-12 col-sm-12 col-xs-12 bio-column martin-bio">-->
-<!--                <div class="row">-->
-<!--                    <div class="col-md-5 col-sm-5 col-xs-6">-->
-<!--                        <img src="img/martin-french-bio.jpg" class="director-img" alt="...">-->
-<!--                    </div>-->
-<!--                    <div class="col-md-7 col-sm-7 col-xs-6">-->
-<!--                        <div class="coart-dir">-->
-<!--                            <div class="coart-name coart-name-martin">Martin French</div>-->
-<!--                            <div class="coart-pos">Co-Artistic Director</div>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--                <div class="bio-text-container">-->
-<!--                    <p class="bio-text">Martin French is from Ireland originally, and has worked in theatre for many years,-->
-<!--                        covering a wide variety of positions. By trade a designer, and by preference a director, Martin has-->
-<!--                        worked professionally in theatre for over 20-->
-<!--                        years in Dublin, London, and Louisville, combining his creative work with positions as theatre-->
-<!--                        technician, and more recently instructor. He has been an artistic director with Ourclann and Dublin-->
-<!--                        Shakespeare in Ireland, and-->
-<!--                        in Louisville has previously been on the board of The Alley Theatre, and currently serves on the-->
-<!--                        board-->
-<!--                        of the Louisville Repertory Company.-->
-<!--                    </p>-->
-<!--                    <p class="bio-text-insert">-->
-<!--                        Some highlights of his directing work include The Bloomsday Breakfast Show, Elektra, Busu,-->
-<!--                        Electile Dysfunction, Metamorphosis, and Chek-Mate.-->
-<!---->
-<!--                    </p>-->
-<!--                    <p class="">Depending on when you ask him, his influences may include Edward Gordon Craig,-->
-<!--                        Vsevolod Meyehold, Tadeusz Kantor, Yoshi Oida, Robert Wilson, and Silviu Purcarete. He is known as a-->
-<!--                        devotee to Henrik Ibsen, a student of the ancient-->
-<!--                        Greeks, and a dabbler in Noh theatre when given the chance.-->
-<!--                    </p>-->
-<!--                </div>-->
-<!--            </div>-->
-
-
-
-        <div class="col-lg-5 col-md-12 col-sm-12 col-xs-12 panel panel-default coart-container">
+        <div class="col-lg-5 col-lg-offset-1 col-md-12 col-sm-12 col-xs-12 panel panel-default coart-container">
             <div class="row panel-heading coart-dir">
                 <div class="col-lg-6 col-md-3 col-sm-4 col-xs-5">
                     <img src="img/martin-french-bio.jpg" class="img-responsive" alt="...">
@@ -106,7 +68,7 @@ include "header.php";
         </div>
 
 
-        <div class="col-lg-5 col-lg-offset-2 col-md-12 col-sm-12 col-xs-12 panel panel-default coart-container">
+        <div class="col-lg-5 col-md-12 col-sm-12 col-xs-12 panel panel-default coart-container">
                 <div class="row panel-heading coart-dir">
                     <div class="col-lg-6 col-md-3 col-sm-4 col-xs-5">
                         <img src="img/polina-shafran-bio.jpg" class="img-responsive" alt="...">
@@ -140,8 +102,6 @@ include "header.php";
                 </p>
             </div>
         </div>
-
-
     </div>
 
 

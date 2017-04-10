@@ -1,10 +1,19 @@
 /*Common Styles Start*/
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
-    font-weight: lighter;
+    font-weight: 300;
     color: black;
+}
+
+.top-wrapper{
+    padding-left: 25px;
+    border: 1px solid red;
 }
 
 image{
@@ -50,6 +59,7 @@ image{
     margin: 0px;
     border: 0px;
     line-height: 56px;
+    margin-top: 48px;
 }
 
 .heading-style-italic {
@@ -88,9 +98,7 @@ image{
     line-height: 38px;
 }
 
-.page-header {
-    margin-top: 104px;
-}
+
 
 /*Common Styles End*/
 
@@ -101,7 +109,7 @@ image{
     height: 75px;
     width: auto;
     margin-top: 35px;
-    margin-left: 70px;
+    /*margin-left: 70px;*/
 }
 
 /*Dropdown menu*/
@@ -125,6 +133,7 @@ image{
 }
 
 #top-nav-social {
+    left: -6px;
     margin-top: 40px;
     font-size: 0.7em;
     z-index: 1001;
@@ -209,12 +218,19 @@ image{
     background-color: black;
 }
 
+.navbar-default .navbar-nav>.active>a {
+    background-color: transparent;
+    color: #c7a462;
+    /* text-decoration: underline; */
+    border-bottom: none;
+}
+
 .social-icon {
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: white;
     color: transparent !important;
-    height: 2em;
-    width: 2em;
+    height: 70px;
+    width: 70px;
 }
 
 .social-icon:hover,
@@ -286,19 +302,47 @@ image{
 /*Home Page Start*/
 
 /*Coming Next Section Start*/
-
-.announce-container{
-    /*border: 1px solid white;*/
+h3{
+    font-weight: 300;
 }
 
-.announce-text-block{
-    margin-top: 280px;
-    margin-left: 75px;
-    /*border: 1px solid white;*/
+.announce-container{
+    margin-top: 116px;
+}
+
+.announce-text-block {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300!important;
+    /*margin-top: 143px;*/
+    border: 1px dashed white;
+}
+
+.coming-next{
+    font-family: "Playfair Display";
+    font-size: 36px;
+    line-height: 49px;
+}
+
+.announcement-dates {
+    font-size: 36px;
+    /*line-height: 18px;*/
+    /*margin: 0px;*/
+}
+
+.show-name {
+    font-size: 36px;
+    margin-bottom: 0;
+    margin-top: -8px;
+}
+
+.announcement-read-more{
+    font-size: 18px;
 }
 
 .home-page-top-img{
-    margin-left: 135px;
+    /*margin-left: 135px;*/
+    /*margin-left: 135px;*/
+    border: 1px solid red;
 }
 
 .top-container .announce-well {
@@ -314,26 +358,15 @@ image{
     padding: 50px;
 }
 
-.show-name {
-    font-family: "Playfair Display";
-    font-weight: regular;
-    font-size: 32px;
-    line-height: 55px;
-    margin: 0px;
-}
 
-.announcement-dates {
-    font-family: "Playfair Display" !important;
-    font-size: 28px !important;
-    line-height: 18px !important;
-    margin: 0px;
-}
+
+
 
 .show-description {
-    font-family: 'Open Sans' !important;
     font-weight: lighter !important;
     font-size: 16px;
-    line-height: 10px;
+    line-height: 24px;
+    margin-bottom: 30px;
 }
 
 #announcent-clickable-section:hover {
@@ -343,7 +376,6 @@ image{
 
 
 .announcement-btn {
-    font-family: 'Open Sans' !important;
     font-weight: lighter !important;
     color: #c7a462 !important;
     font-size: 16px !important;
@@ -399,7 +431,7 @@ image{
 }
 
 .marriages-on-the-verge-img{
-    width: 81%;
+    /*width: 81%;*/
     margin-top: 34px;
 }
 
@@ -461,30 +493,35 @@ image{
 /*Chekhov Section Start*/
 .translate-chekhov-container{
     margin-bottom: 52px;
+    font-size: 18px;
+    line-height: 30px;
 }
 
 .chekhov-image{
-    margin-top: 104px;
+    width: 161px!important;
+    height: 281px!important;
+    margin-top: 30px;
 }
 
-.panel-article-translate-chekhov p {
-   line-height: 30px;
-    margin-top: 34px;
-}
 
-#panel-article-translate-chekhov .panel-body {
-    padding: 0px;
-    margin-top: 0px;
-    line-height: 30px;
-}
+
+
 /*Chekhov Section End*/
 
 /*Home Page End*/
 
 
 /*About Us Page Start*/
+.panel-body{
+    line-height: 30px;
+}
+
+.bio-container{
+    margin-top: 104px;
+}
+
 .coart-container{
-    border: none;
+    border: 1px solid red;
 }
 
 .coart-dir {
@@ -553,12 +590,17 @@ image{
 .border-gold{
     border: 2px solid  rgba(199, 164, 98, 0.4);
     border-radius: 7px;
-    margin-bottom: 0px;
+    margin-bottom: 104px;
     padding: 0px 52px;
 }
 
 .gold-block-text{
     color: black;
+}
+
+.panel-default > .panel-heading {
+    color: #333;
+    background-color: white;
 }
 
 .panel-link-to-article {
@@ -684,7 +726,7 @@ chek-mate-photos-container {
 }
 
 .fill-email-phone-bg {
-    background-color: #e6e6e6;
+    background-color: #fff;
 }
 
 .center-block {
@@ -1066,12 +1108,38 @@ chek-mate-photos-container {
         margin-left: 0;
         margin-top: 186px;
     }
+
+    .strindberg-in-bergman-container .strindberg-in-bergman-well {
+        position: absolute;
+        background-color: rgba(255,255,255, 0.85);
+        z-index: 20;
+        top: 0px;
+        right: 52px;
+        max-width: 61%;
+        color: black;
+        margin-top: 104px;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-bottom: 34px;
+        padding-top: 34px;
+    }
 }
 
 @media (max-width: 1025px) {
     html, body {
     max-width: 100%;
     overflow-x: hidden;
+    }
+
+    .heading-style {
+        color: #c7a462;
+        font-size: 36px;
+        font-family: "Playfair Display";
+        padding-bottom: 0px;
+        margin: 0px;
+        border: 0px;
+        line-height: 40px;
+        margin-top: 48px;
     }
 
     .strindberg-in-bergman-container .strindberg-in-bergman-well {
@@ -1081,6 +1149,29 @@ chek-mate-photos-container {
         top: 0px;
         right: 52px;
         max-width: 61%;
+        color: black;
+        margin-top: 104px;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-bottom: 34px;
+        padding-top: 34px;
+    }
+
+    .chekhov-image {
+        margin-top: 32px;
+        width: 243px!important;
+        height: 322px!important;
+    }
+}
+
+@media  (max-width: 974px) {
+    .strindberg-in-bergman-container .strindberg-in-bergman-well {
+        position: absolute;
+        background-color: rgba(255,255,255, 0.85);
+        z-index: 20;
+        top: -78px;
+        right: 52px;
+        max-width: 48%;
         color: black;
         margin-top: 104px;
         padding-left: 25px;
@@ -1156,6 +1247,79 @@ chek-mate-photos-container {
         margin-left: 55px;
     }
 
+    .section-text-block {
+        margin-top: 13px;
+        margin-bottom: 34px;
+    }
+
+    .heading-style {
+        color: #c7a462;
+        font-size: 36px;
+        font-family: "Playfair Display";
+        padding-bottom: 0px;
+        margin: 0px;
+        border: 0px;
+        line-height: 40px;
+        margin-top: 48px;
+    }
+
+    .strindberg-in-bergman-container .strindberg-in-bergman-well {
+        position: absolute;
+        background-color: rgba(255,255,255, 0.85);
+        z-index: 20;
+        top: -95px;
+        right: 52px;
+        max-width: 46%;
+        color: black;
+        margin-top: 104px;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-bottom: 15px;
+        padding-top: 19px;
+    }
+
+    .strindberg-in-bergman-heading {
+        color: #c7a462;
+        font-size: 36px;
+        font-family: "Playfair Display";
+        padding-bottom: 0px;
+        margin: 0px;
+        border: 0px;
+        margin-top: 0px;
+        line-height: 40px;
+    }
+
+    .strindberg-in-bergman-text {
+        font-family: 'Open Sans';
+        font-weight: lighter;
+        margin: 0px;
+        border: 0px;
+        text-align: left;
+        color: black;
+        margin-top: 9px;
+        margin-bottom: 23px;
+    }
+
+    .btn-read-more {
+        border-radius: 0;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        transition: all 0.3s;
+        color: black;
+        font-size: 22px;
+        background: none;
+        border: 2px solid #c7a462;
+        font-family: 'Open Sans', sans-serif;
+        padding: 11px 87px;
+        float: right;
+    }
+
+    .chekhov-image {
+        margin-top: 32px;
+        width: 222px!important;
+        height: 318px!important;
+    }
+
     /*About Us Page*/
     .panel-link-to-article {
         padding-top: 20px;
@@ -1192,16 +1356,16 @@ chek-mate-photos-container {
         padding-bottom: 0px;
         margin: 0px;
         border: 0px;
-        line-height: 28px;
+        line-height: 31px;
         margin-top: 56px;
     }
 
     .section-text-block {
-        margin: 0 0 10px;
+        margin: 0 0 2px;
         padding-right: 0px;
         font-size: 16px;
         line-height: 27px;
-        margin-top: 28px;
+        margin-top: 10px;
     }
 
     .btn-read-more {
@@ -1212,7 +1376,7 @@ chek-mate-photos-container {
         font-family: 'Open Sans', sans-serif;
         padding: 0;
         float: none;
-        margin-bottom: 28px;
+        margin-bottom: 11px;
     }
 
     .marriages-on-the-verge-img,
@@ -1325,6 +1489,10 @@ chek-mate-photos-container {
         bottom: 0px;
     }
 
+    .author {
+        line-height: 0px;
+    }
+
     .strindberg-in-bergman-container .strindberg-in-bergman-well {
         width: 345px;
         height: 195px;
@@ -1355,10 +1523,7 @@ chek-mate-photos-container {
         left: 129px;
     }
 
-    .panel-article-translate-chekhov p {
-        line-height: 30px;
-        margin-top: 28px;
-    }
+
 
     .chekhov {
         position: absolute;
@@ -1474,6 +1639,10 @@ chek-mate-photos-container {
         width: 111%;
     }
 
+    .mobile-img{
+        margin-bottom: 12px
+    }
+
     .heading-style {
         color: #c7a462;
         font-size: 24px;
@@ -1481,16 +1650,16 @@ chek-mate-photos-container {
         padding-bottom: 0px;
         margin: 0px;
         border: 0px;
-        line-height: 28px;
+        line-height: 31px;
         margin-top: 56px;
     }
 
     .section-text-block {
-        margin: 0 0 10px;
+        margin: 0 0 2px;
         padding-right: 0px;
         font-size: 16px;
         line-height: 27px;
-        margin-top: 28px;
+        margin-top: 10px;
     }
 
     .btn-read-more {
@@ -1501,7 +1670,7 @@ chek-mate-photos-container {
         font-family: 'Open Sans', sans-serif;
         padding: 0;
         float: none;
-        margin-bottom: 28px;
+        margin-bottom: 11px;
     }
 
     .marriages-on-the-verge-img,
@@ -1518,6 +1687,10 @@ chek-mate-photos-container {
     .marriages-on-the-verge-container
     {
         margin-bottom: 0;
+    }
+
+    .author {
+        line-height: 0px;
     }
 
     #image {
@@ -1632,10 +1805,7 @@ chek-mate-photos-container {
         left: 129px;
     }
 
-    .panel-article-translate-chekhov p {
-        line-height: 30px;
-        margin-top: 28px;
-    }
+
 
     .chekhov {
         position: absolute;
@@ -1721,16 +1891,16 @@ chek-mate-photos-container {
         padding-bottom: 0px;
         margin: 0px;
         border: 0px;
-        line-height: 28px;
+        line-height: 31px;
         margin-top: 56px;
     }
 
     .section-text-block {
-        margin: 0 0 10px;
+        margin: 0 0 2px;
         padding-right: 0px;
         font-size: 16px;
         line-height: 27px;
-        margin-top: 28px;
+        margin-top: 10px;
     }
 
     .btn-read-more {
@@ -1741,12 +1911,16 @@ chek-mate-photos-container {
         font-family: 'Open Sans', sans-serif;
         padding: 0;
         float: none;
-        margin-bottom: 28px;
+        margin-bottom: 11px;
     }
 
     .marriages-on-the-verge-img,
     .insider-louisville-image {
         display: none;
+    }
+
+    .author{
+        line-height: 0;
     }
 
     .insider-louisville-image_mobile{
@@ -1873,10 +2047,7 @@ chek-mate-photos-container {
         left: 129px;
     }
 
-    .panel-article-translate-chekhov p {
-        line-height: 30px;
-        margin-top: 28px;
-    }
+
 
     .chekhov {
         position: absolute;

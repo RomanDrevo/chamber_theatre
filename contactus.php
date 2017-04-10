@@ -44,7 +44,7 @@ include "header.php";
     </div>
 </div>
 
-<div class="fill-email-phone-bg">
+<div class="">
     <div class="container-fluid email-phone-container">
         <div class="row">
             <div class="col-lg-6 col-md-6 col-sm-12 col-sm-12">

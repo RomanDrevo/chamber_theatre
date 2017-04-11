@@ -1312,20 +1312,142 @@ chek-mate-photos-container {
     }
 }
 
-@media  (max-width: 974px) {
+@media  (max-width: 1070px) {
+    html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+    body {
+        width: 102%;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 18px;
+        font-weight: lighter;
+        color: black;
+    }
+
+    #logo-img {
+        height: 56px;
+        width: auto;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    /*Dropdown menu open*/
+    #nav-bar {
+        /*height: 794px !important;*/
+    }
+
+    #navbar-menus {
+        padding-top: 0px;
+        text-align: center;
+        padding-top: 251px;
+    }
+
+    .navbar-nav>li {
+        padding-top: 60px !important;
+        padding-left: 40px !important;
+        padding-right: 40px !important;
+        font-size: 70px !important;
+    }
+
+    /*Home Page*/
+
+    .announce-container {
+        margin-top: 74px;
+    }
+
+    .announce-text-block {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 300!important;
+        padding-top: 2px;
+        padding-left: 0;
+        padding-right: 0px;
+        padding-bottom: 16px;
+        z-index: 1;
+        background: rgba(0, 0, 0, 0.5);
+    }
+
+
+    .section-text-block {
+        margin-top: 13px;
+        margin-bottom: 34px;
+    }
+
+    .heading-style {
+        color: #c7a462;
+        font-size: 36px;
+        font-family: "Playfair Display";
+        padding-bottom: 0px;
+        margin: 0px;
+        border: 0px;
+        line-height: 40px;
+        margin-top: 48px;
+    }
+
     .strindberg-in-bergman-container .strindberg-in-bergman-well {
         position: absolute;
         background-color: rgba(255,255,255, 0.85);
         z-index: 20;
-        top: -78px;
+        top: -95px;
         right: 52px;
-        max-width: 48%;
+        max-width: 46%;
         color: black;
         margin-top: 104px;
         padding-left: 25px;
         padding-right: 25px;
-        padding-bottom: 34px;
-        padding-top: 34px;
+        padding-bottom: 15px;
+        padding-top: 19px;
+    }
+
+    .strindberg-in-bergman-heading {
+        color: #c7a462;
+        font-size: 36px;
+        font-family: "Playfair Display";
+        padding-bottom: 0px;
+        margin: 0px;
+        border: 0px;
+        margin-top: 0px;
+        line-height: 40px;
+    }
+
+    .strindberg-in-bergman-text {
+        font-family: 'Open Sans';
+        font-weight: lighter;
+        margin: 0px;
+        border: 0px;
+        text-align: left;
+        color: black;
+        margin-top: 9px;
+        margin-bottom: 23px;
+    }
+
+    .btn-read-more {
+        border-radius: 0;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        transition: all 0.3s;
+        color: black;
+        font-size: 22px;
+        background: none;
+        border: 2px solid #c7a462;
+        font-family: 'Open Sans', sans-serif;
+        padding: 11px 87px;
+        float: right;
+    }
+
+    .chekhov-image {
+        margin-top: 32px;
+        width: 222px!important;
+        height: 318px!important;
+    }
+
+    /*About Us Page*/
+    .panel-link-to-article {
+        padding-top: 20px;
+        padding-bottom: 0px;
+        padding-left: 36px;
+        padding-right: 36px;
     }
 }
 

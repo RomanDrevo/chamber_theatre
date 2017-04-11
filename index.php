@@ -5,7 +5,7 @@ include "header.php";
     <div class="container-fluid announce-container">
         <div class="top-wrapper">
 
-                <div class="announce-text-block col-md-4 col-sm-5 col-xs-5">
+                <div class="announce-text-block col-lg-5 col-md-5 col-sm-5 col-xs-8">
                     <a href="dolls-house.php" class="btn-link btn-s announcement-btn" id="announcent-clickable-section">
                         <h3 class="coming-next">Coming Next:</h3>
                         <h3 class="announcement-dates">3.17.17 - 3.25.17</h3>
@@ -16,8 +16,8 @@ include "header.php";
                        class="btn btn-buy-tickets-top hover-decoration" role="button">BUY
                         TICKETS</a>
                 </div>
-                <div class="col-md-8 col-sm-12 col-xs-12">
-                    <img src="img/top_image_homepage_black_bg.png" class="img-responsive home-page-top-img">
+                <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
+                    <img src="img/top_image_homepage_black_bg.png" class="home-page-top-img">
                 </div>
 
         </div>

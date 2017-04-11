@@ -1089,7 +1089,11 @@ chek-mate-photos-container {
 /*MOBILE STYLES*/
 
 @media (max-width: 1320px) {
-
+    .home-page-top-img {
+        /* margin-left: 135px; */
+        margin-left: 0px;
+        /* border: 1px solid red; */
+    }
 }
 
 @media (max-width: 1200px) {
@@ -1236,8 +1240,7 @@ chek-mate-photos-container {
     .announce-text-block {
         font-family: 'Open Sans', sans-serif;
         font-weight: 300!important;
-        padding-top: 85px;
-        /* border: 1px dashed white; */
+        padding-top: 0px;
         padding-left: 0;
         padding-right: 30px;
     }
@@ -1274,7 +1277,7 @@ chek-mate-photos-container {
 
 
     .home-page-top-img {
-        margin-left: 49px;
+        margin-left: -59px;
         margin-top: 0;
     }
 
@@ -1349,20 +1352,6 @@ chek-mate-photos-container {
         margin-left: 10px;
     }
 
-    #top-nav-social {
-        /*margin-top: 15px;*/
-        /*font-size: 28px;*/
-        /*z-index: 1001;*/
-        /*float: left;*/
-        /*left: -259px;*/
-    }
-
-    /*.navbar-default .navbar-toggle {*/
-        /*border: none;*/
-        /*left: 474px;*/
-        /*top: 12px;*/
-        /*padding: 12px;*/
-    /*}*/
 /*Dropdown menu open*/
     #nav-bar {
         /*height: 794px !important;*/
@@ -1398,10 +1387,6 @@ chek-mate-photos-container {
         background: rgba(0, 0, 0, 0.5);
     }
 
-    .home-page-top-img {
-        margin-top: -262px;
-        margin-left: 55px;
-    }
 
     .section-text-block {
         margin-top: 13px;
@@ -1592,14 +1577,50 @@ chek-mate-photos-container {
 
 
     /*Home Page*/
+
+    .top-wrapper {
+        padding-top: 35px;
+        padding-left: 12px;
+        padding-right: 12px;
+        /* border: 1px solid red; */
+    }
+
     .announce-text-block {
-        margin-top: 124px;
-        margin-left: 22px;
+        margin-top: -40px;
+        margin-left: 34px;
+        background: none;
+    }
+
+    .coming-next {
+        font-family: "Playfair Display";
+        font-size: 24px;
+        line-height: 15px;
+    }
+
+    .announcement-dates {
+        font-size: 24px;
+        /* line-height: 18px; */
+        /* margin: 0px; */
+    }
+
+    .show-name {
+        font-size: 24px;
+        margin-bottom: 0;
+        margin-top: -8px;
+    }
+
+    .show-description {
+        font-weight: lighter !important;
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 27px;
+        margin-top: 12px;
     }
 
     .home-page-top-img {
-        margin-top: -38px;
-        margin-left: 33px;
+        margin-top: -37px;
+        margin-left: 19px;
+        width: 128%;
     }
 
     .btn-buy-tickets-top {
@@ -1608,8 +1629,8 @@ chek-mate-photos-container {
         border-radius: 0px;
         padding: 14px 107px;
         position: absolute;
-        top: 309px;
-        left: 61px;
+        top: 377px;
+        left: 8px;
         z-index: 10;
         background: black;
         opacity: .8;
@@ -1753,20 +1774,6 @@ chek-mate-photos-container {
         margin-top: -8px;
     }
 
-    /*.coart-info {*/
-        /*margin-left: 0;*/
-    /*}*/
-
-    /*.coart-name {*/
-        /*margin-top: -80px;*/
-        /*margin-bottom: 0px !important;*/
-        /*font-size: 32px;*/
-        /*font-family: 'Open Sans', sans-serif;*/
-        /*font-weight: lighter;*/
-        /*color: #c7a462;*/
-        /*!* padding-right: 107px; *!*/
-        /*margin-right: 72px;*/
-    /*}*/
 
     .border-gold {
         border: 2px solid rgba(199, 164, 98, 0.4);
@@ -1946,8 +1953,8 @@ chek-mate-photos-container {
         border-radius: 0px;
         padding: 14px 107px;
         position: absolute;
-        top: 288px;
-        left: 39px;
+        top: 347px;
+        left: 5px;
         z-index: 10;
         background: black;
         opacity: .8;
@@ -2199,10 +2206,10 @@ chek-mate-photos-container {
         color: #c7a462 !important;
         border: 1px solid #c7a462 !important;
         border-radius: 0px;
-        padding: 14px 107px;
+        padding: 14px 81px;
         position: absolute;
-        top: 271px;
-        left: 4px;
+        top: 324px;
+        left: 1px;
         z-index: 10;
         background: black;
         opacity: .8;

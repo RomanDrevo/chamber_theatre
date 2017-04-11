@@ -3,21 +3,20 @@ include "header.php";
 ?>
 
     <div class="container-fluid announce-container">
-        <div class="top-wrapper" style="border: 1px solid yellow">
+        <div class="top-wrapper">
 
-                <div class="announce-text-block col-md-4 col-sm-4 col-xs-12">
+                <div class="announce-text-block col-md-4 col-sm-5 col-xs-5">
                     <a href="dolls-house.php" class="btn-link btn-s announcement-btn" id="announcent-clickable-section">
                         <h3 class="coming-next">Coming Next:</h3>
                         <h3 class="announcement-dates">3.17.17 - 3.25.17</h3>
                         <h3 class="show-name">A DOLL'S HOUSE</h3>
-                        <h3 class="show-description"> World renowned masterpiece by Henrik Ibsen<br>
-                            Read More...</h3>
+                        <h3 class="show-description"> World renowned masterpiece by Henrik Ibsen. Read More...</h3>
                     </a>
                     <a href="http://tickets.thechambertheatre.com/" target="_blank"
                        class="btn btn-buy-tickets-top hover-decoration" role="button">BUY
                         TICKETS</a>
                 </div>
-                <div class="col-md-8 col-sm-7 col-xs-12">
+                <div class="col-md-8 col-sm-12 col-xs-12">
                     <img src="img/top_image_homepage_black_bg.png" class="img-responsive home-page-top-img">
                 </div>
 
@@ -29,7 +28,9 @@ include "header.php";
 <div class="container eli-keel-container">
     <div class="col-md-10 col-md-offset-1">
         <div class="row">
-            <div class="heading-style col-md-12">The Chamber Theatre continues its Modernist focus with
+
+
+            <div class="homepage-heading-style col-md-12">The Chamber Theatre continues its Modernist focus with
                     Strindberg’s ‘Creditors’
                 </div>
             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
@@ -109,7 +110,7 @@ include "header.php";
         <div class="translate-chekhov-container col-md-10 col-md-offset-1">
             <div class="row">
 
-                <div class="heading-style col-md-12">Polina Shafran translates Chekhov for you</div>
+                <div class="homepage-heading-style col-md-12">Polina Shafran translates Chekhov for you</div>
                 <div class="col-md-9 col-sm-8 col-xs-12">
                     <div class="panel-article-translate-chekhov">
                             <p class="section-text-block">

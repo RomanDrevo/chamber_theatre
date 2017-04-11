@@ -33,17 +33,17 @@ include "header.php";
     <div class="row">
         <div class="col-lg-5 col-lg-offset-1 col-md-12 col-sm-12 col-xs-12 panel panel-default coart-container">
             <div class="row panel-heading coart-dir">
-                <div class="col-lg-6 col-md-3 col-sm-4 col-xs-5">
-                    <img src="img/martin-french-bio.jpg" class="img-responsive" alt="...">
+                <div class="col-lg-5 col-md-3 col-sm-4 col-xs-4">
+                    <img src="img/martin-french-bio.jpg" class="img-responsive">
                 </div>
-                <div class="col-lg-6 col-md-5 col-sm-7 col-xs-7">
+                <div class="col-lg-7 col-md-7 col-sm-7 col-xs-8">
                     <div class="coart-info">
-                        <div class="coart-name">Martin French</div>
+                        <div class="coart-name about-us-heading-style">Martin French</div>
                         <div class="coart-pos">Co-Artistic Director</div>
                     </div>
                 </div>
             </div>
-            <div class="panel-body">
+            <div class="panel-body coart-bio">
                 <p class="">Martin French is from Ireland originally, and has worked in theatre for many years,
                     covering a wide variety of positions. By trade a designer, and by preference a director, Martin has
                     worked professionally in theatre for over 20
@@ -66,21 +66,19 @@ include "header.php";
                 </p>
             </div>
         </div>
-
-
         <div class="col-lg-5 col-md-12 col-sm-12 col-xs-12 panel panel-default coart-container">
-                <div class="row panel-heading coart-dir">
-                    <div class="col-lg-6 col-md-3 col-sm-4 col-xs-5">
+            <div class="row panel-heading coart-dir">
+                    <div class="col-lg-5 col-md-3 col-sm-4 col-xs-4">
                         <img src="img/polina-shafran-bio.jpg" class="img-responsive" alt="...">
                     </div>
-                    <div class="col-lg-6 col-md-5 col-sm-7 col-xs-7">
+                    <div class="col-lg-7 col-md-7 col-sm-7 col-xs-8">
                         <div class="coart-info">
-                            <div class="coart-name">Polina Shafran</div>
+                            <div class="coart-name about-us-heading-style">Polina Shafran</div>
                             <div class="coart-pos">Co-Artistic Director</div>
                         </div>
                     </div>
                 </div>
-            <div class="panel-body">
+            <div class="panel-body coart-bio">
                 <p class="">Polina Shafran was born in Moscow, Russia, grew up in Israel and currently resides in
                     Louisville. Since early childhood her father used to take her to theatres. She got to see all the big
                     names of Russian theatre on Moscow stages. That’s when her love for theatre began. She got her theatre
@@ -105,24 +103,26 @@ include "header.php";
     </div>
 
 
+
+
     <div class="row border-gold">
         <div class="row">
-                <div class="col-lg-5 col-md-6 col-sm-12 col-xs-12 panel panel-default">
-                    <div class="panel-link-to-article">
+            <div class="col-lg-5 col-lg-offset-1 col-md-6 col-sm-12 col-xs-12 panel panel-default border-gold-column">
+
                         <a href="http://arts-louisville.com/2013/04/02/the-second-coming-of-undead-theater-at-the-alley-a-conversation-with-martin-french/"
                            target="_blank" class="hover-decoration" role="button">
 
                             <div class="row panel-heading">
                                 <div class="col-lg-3 col-md-3 col-sm-2 col-xs-4 thumb-column">
-                                    <img src="img/undead.png" alt="Chekhov" width="100" height="150">
+                                    <img src="img/undead.png" alt="Skeleton" class="" width="100" height="150">
                                 </div>
                                 <div class="col-lg-9 col-md-9 col-sm-8 col-xs-8">
-                                    <p class="panel-link-to-article-heading-style"> Undead Theatre: A Conversation with
-                                        Martin French</p>
+                                    <div class="about-us-heading-style"> Undead Theatre: A Conversation with
+                                        Martin French</div>
                                 </div>
                             </div>
 
-                            <div class="row panel-body">
+                            <div class="panel-body">
                                 <p class="gold-block-text">
                                     Mr. French’s first foray into Louisville theatre was in last year’s inaugural Inhuman
                                     Festival, Alley Artistic Director Scott Davis invited him to write and direct a parody
@@ -132,10 +132,10 @@ include "header.php";
                             </div>
 
                         </a>
-                    </div>
+
                 </div>
-                <div class="col-lg-5 col-lg-offset-2 col-md-6 col-sm-12 col-xs-12 panel panel-default">
-                    <div class="panel-link-to-article">
+            <div class="col-lg-5 col-md-6 col-sm-12 col-xs-12 panel panel-default border-gold-column">
+
                         <a href="http://arts-louisville.com/2016/01/04/polina-shafran-translates-chekhov-for-you/"
                            target="_blank" class="hover-decoration" role="button">
 
@@ -144,11 +144,11 @@ include "header.php";
                                     <img src="img/Chekhov_Homepage.svg" alt="Chekhov" width="100" height="150">
                                 </div>
                                 <div class="col-lg-8 col-md-9 col-sm-8 col-xs-8">
-                                    <p class="panel-link-to-article-heading-style"> Polina Shafran Translates Chekhov for
+                                    <p class="about-us-heading-style"> Polina Shafran Translates Chekhov for
                                         You</p>
                                 </div>
                             </div>
-                            <div class="row panel-body">
+                            <div class="panel-body">
                                 <p class="gold-block-text">Louisville can boast an entire community of home grown theatre artists; more than a few
                                     that
                                     have relocated from other cities in the US, but a much smaller number have found their
@@ -157,9 +157,9 @@ include "header.php";
                             </div>
 
                         </a>
-                    </div>
+
                 </div>
-            </div>
+        </div>
     </div>
 </div>
 

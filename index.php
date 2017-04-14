@@ -16,7 +16,7 @@ include "header.php";
                        class="btn btn-buy-tickets-top hover-decoration" role="button">BUY
                         TICKETS</a>
                 </div>
-                <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
+                <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
                     <img src="img/top_image_homepage_black_bg.png" class="home-page-top-img">
                 </div>
 

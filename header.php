@@ -57,16 +57,16 @@
                 </div>
 
                 <div class="navbar-collapse collapse" id="nav-bar">
-                    <div class="col-lg-4 pull-right" id="top-nav-social">
+                    <div class="col-lg-5 pull-right" id="top-nav-social">
 <!--                        Social icons desktop-->
                         <a href="https://twitter.com/TheChamberLVL" target="_blank"><img src="img/twitter.svg"
-                                                                                         class="social-icon navbar-social pull-right img-responsive "></a>
+                                                                                         class="social-icon navbar-social pull-right img-responsive twitter-icon"></a>
 
                         <a href="https://www.instagram.com/thechambertheatre/" target="_blank"><img src="img/instagram.svg"
                                                                                                     class="social-icon navbar-social pull-right img-responsive "></a>
 
                         <a href="https://www.facebook.com/thechambertheatre/" target="_blank"><img src="img/facebook.svg"
-                                                                                                 class="social-icon navbar-social pull-right img-responsive "></a>
+                                                                                                 class="social-icon navbar-social pull-right img-responsive"></a>
                     </div>
                     <ul class="nav navbar-nav navbar-right">
                         <li class="navbar"><a href="index.php">HOME</a></li>

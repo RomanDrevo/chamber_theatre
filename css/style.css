@@ -225,6 +225,10 @@ image{
     margin-right: 42px;
 }
 
+.twitter-icon{
+    margin-right: 24px;
+}
+
 .navbar-default .navbar-nav>.active>a {
     background-color: transparent;
     color: #c7a462;

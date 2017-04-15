@@ -141,7 +141,7 @@ include "header.php";
                                 Louisville about five years ago.
                             </p>
                             <a href="http://arts-louisville.com/2016/01/04/polina-shafran-translates-chekhov-for-you/"
-                           target="_blank" class="btn btn-read-more pull-right" role="button">READ MORE</a>
+                           target="_blank" class="btn btn-read-more" role="button">READ MORE</a>
                     </div>
                 </div>
 

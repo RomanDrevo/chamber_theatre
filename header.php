@@ -42,11 +42,14 @@
                         <span class="icon-bar"></span>
                     </button>
                     <div class="col-lg-4" id="top-nav-social-mobile">
-                        <a href="https://www.instagram.com/thechambertheatre/" target="_blank"><img src="img/instagram.svg"
-                                                                                                    class="social-icon navbar-social pull-right img-responsive "></a>
-                        <a href="https://twitter.com/TheChamberLVL" target="_blank"><img src="img/twitter.svg"
+<!--                        Social icons mobile-->
+                        <a href="https://twitter.com/TheChamberLVL" target="_blank"><img src="img/social-icons/tw_white.svg"
                                                                                          class="social-icon navbar-social pull-right img-responsive "></a>
-                        <a href="https://www.facebook.com/thechambertheatre/" target="_blank"><img src="img/facebook.svg"
+
+                        <a href="https://www.instagram.com/thechambertheatre/" target="_blank"><img src="img/social-icons/inst.svg"
+                                                                                                    class="social-icon navbar-social pull-right img-responsive "></a>
+
+                        <a href="https://www.facebook.com/thechambertheatre/" target="_blank"><img src="img/social-icons/fb.svg"
                                                                                                    class="social-icon navbar-social pull-right img-responsive "></a>
                     </div>
                     <img src="img/logo.svg" id="logo-img" class="img-responsive hover-decoration">
@@ -55,12 +58,14 @@
 
                 <div class="navbar-collapse collapse" id="nav-bar">
                     <div class="col-lg-4 pull-right" id="top-nav-social">
-
-                        <a href="https://www.instagram.com/thechambertheatre/" target="_blank"><img src="img/social-icons/inst.svg"
-                                                                                                    class="social-icon navbar-social pull-right img-responsive "></a>
-                        <a href="https://twitter.com/TheChamberLVL" target="_blank"><img src="img/social-icons/tw_white.svg"
+<!--                        Social icons desktop-->
+                        <a href="https://twitter.com/TheChamberLVL" target="_blank"><img src="img/twitter.svg"
                                                                                          class="social-icon navbar-social pull-right img-responsive "></a>
-                        <a href="https://www.facebook.com/thechambertheatre/" target="_blank"><img src="img/social-icons/fb.svg"
+
+                        <a href="https://www.instagram.com/thechambertheatre/" target="_blank"><img src="img/instagram.svg"
+                                                                                                    class="social-icon navbar-social pull-right img-responsive "></a>
+
+                        <a href="https://www.facebook.com/thechambertheatre/" target="_blank"><img src="img/facebook.svg"
                                                                                                  class="social-icon navbar-social pull-right img-responsive "></a>
                     </div>
                     <ul class="nav navbar-nav navbar-right">

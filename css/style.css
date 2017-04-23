@@ -369,8 +369,9 @@ h3{
     font-weight: 300;
 }
 
-.announce-container{
-    margin-top: 116px;
+.announce-container {
+    margin-top: -2px;
+    padding-top: 100px;
 }
 
 .announce-text-block {
@@ -676,38 +677,6 @@ h3{
     background-color: white;
 }
 
-/*.panel-link-to-article {*/
-    /*padding-top: 36px;*/
-    /*padding-bottom: 36px;*/
-    /*padding-left: 0px;*/
-    /*padding-right: 0px;*/
-/*}*/
-
-/*.panel-link-to-article:focus,*/
-/*.panel-link-to-article:hover {*/
-    /*opacity: 0.5;*/
-    /*text-decoration: none !important;*/
-/*}*/
-
-
-/*.panel-link-to-article-heading-style {*/
-    /*color: #c7a462;*/
-    /*font-size: 34px;*/
-    /*font-family: 'Playfair Display';*/
-    /*padding-bottom: 0px;*/
-    /*margin: 0px;*/
-    /*border: 0px;*/
-    /*line-height: 42px;*/
-/*}*/
-
-/*.panel-link-to-article-text {*/
-    /*margin-top:10px;*/
-    /*font-family: 'Open Sans';*/
-    /*font-style: normal;*/
-    /*font-weight: 300 !important;*/
-    /*color: black;*/
-/*}*/
-
 .btn-link-to-article:focus,
 .btn-link-to-article:hover {
     opacity: 0.5;
@@ -718,8 +687,6 @@ h3{
     background: #E6E6E6;
     padding-top: 36px;
     padding-bottom: 36px;
-    /*padding-left: 140px;*/
-    /*padding-right: 140px;*/
 }
 
 .mission-about-us-container .panel {
@@ -744,29 +711,47 @@ h3{
 }
 /*Contact Us Page End*/
 
-
-
-/*HZ Start*/
-
-.chek-mate-top-container {
-    padding-top:60px;
-    margin-left:30%;
-    margin-right:auto;
-    max-width: 40%;
+/*Chek-Mate Page Start*/
+.chek-mate-slider{
+    margin-top: 56px;
 }
+
+.chek-mate-slider .homepage-heading-style {
+    color: #c7a462;
+    font-size: 46px;
+    font-family: "Playfair Display";
+    padding-bottom: -11px;
+    margin: 0px;
+    border: 0px;
+    line-height: 56px;
+    margin-top: 48px;
+    margin-bottom: -27px;
+}
+
+.chek-mate-crew{
+    margin-top: 104px;
+}
+
+
+.show-subheading-style{
+    font-family: Plaifair;
+    color:#c7a462;
+    font-weight: 800;
+}
+
+/*.chek-mate-top-container {*/
+    /*padding-top:60px;*/
+    /*margin-left:30%;*/
+    /*margin-right:auto;*/
+    /*max-width: 40%;*/
+/*}*/
 
 .chek-mate-photos-container {
-    padding-left:70px;
-    padding-right:100px;
-    padding-top:100px;
+    /*padding-left:70px;*/
+    /*padding-right:100px;*/
+    /*padding-top:100px;*/
 }
 
-chek-mate-photos-container {
-    padding-left: 5%;
-    padding-right: auto;
-    padding-top: 100px;
-    max-width: 90%;
-}
 
 .chek-mate-trailer-container {
     padding-top:60px;
@@ -774,6 +759,97 @@ chek-mate-photos-container {
     padding-left: 400px;
     padding-right: 400px;
 }
+
+/* Main carousel style */
+/*.gallery-carousel {
+    width: 600px;
+}*/
+
+/* Indicators list style */
+.article-slide .gallery-carousel-indicators {
+    width: 100%;
+    position: relative;
+    bottom: -1px !important;
+    padding: 0;
+    margin-left:0.5%;
+    list-style: none;
+    left:0 !important;
+}
+
+/*.article-slide .gallery-carousel-indicators {
+  bottom:-80px;
+}*/
+/* Indicators list style */
+.article-slide .gallery-carousel-indicators li {
+    border: medium none;
+    border-radius: 0;
+    float: left;
+    height: 54px;
+    margin-bottom: 5px;
+    margin-left: 0;
+    margin-right: 4px !important;
+    margin-top: 0;
+    width: 80px;
+}
+/* Indicators images style */
+.article-slide .gallery-carousel-indicators img {
+    border: 2px solid #FFFFFF;
+    float: left;
+    height: 54px;
+    left: 0;
+    width: 80px;
+}
+
+.slide-img{
+    width: 91%;
+}
+
+.show-video{
+    width: 91%;
+    margin-top: 30px;
+}
+/* Indicators active image style */
+.article-slide .gallery-carousel-indicators .active img {
+    border: 2px solid #428BCA;
+    opacity: 0.7;
+}
+
+.golden-quote{
+    border: 2px solid rgba(199, 164, 98, 0.4);
+    border-radius: 8px;
+    margin-top: 39px;
+    padding:52px;
+}
+
+
+.quote-text{
+    font-family: 'Plaifair';
+    font-style: italic;
+    color: black;
+}
+
+.golden-quote .quote-text:nth-child(2){
+    padding-top: 26px;
+}
+
+.quote-author{
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-style: normal;
+}
+
+.unicode-quote{
+    font-size: 56px;
+    line-height: 13px;
+    font-weight: 600;
+    color: #c7a462
+}
+
+/*Chek-Mate Page End*/
+
+
+/*HZ Start*/
+
 
 .reviews-container {
     padding-top:60px;
@@ -862,11 +938,13 @@ chek-mate-photos-container {
 
 .text-weight-400 {
     font-weight: 400;
+    line-height: 23px;
 }
 
 .gold-heading-small {
     font-style: italic;
     color:#c7a462;
+    /*font-size: 18px;*/
 }
 
 .vault-btn {
@@ -941,61 +1019,7 @@ chek-mate-photos-container {
 }
 
 
-/* Main carousel style */
-/*.gallery-carousel {
-    width: 600px;
-}*/
 
-/* Indicators list style */
-.article-slide .gallery-carousel-indicators {
-    /*   bottom: 0;
-       left: 0;
-       margin-left: 0px;*/
-    width: 100%;
-    position: relative;
-    bottom: -1px !important;
-    padding: 0;
-    margin-left:0.5%;
-    list-style: none;
-    left:0 !important;
-}
-
-/*.article-slide .gallery-carousel-indicators {
-  bottom:-80px;
-}*/
-/* Indicators list style */
-.article-slide .gallery-carousel-indicators li {
-    border: medium none;
-    border-radius: 0;
-    float: left;
-    height: 54px;
-    margin-bottom: 5px;
-    margin-left: 0;
-    margin-right: 4px !important;
-    margin-top: 0;
-    width: 100px;
-}
-/* Indicators images style */
-.article-slide .gallery-carousel-indicators img {
-    border: 2px solid #FFFFFF;
-    float: left;
-    height: 54px;
-    left: 0;
-    width: 100px;
-}
-/* Indicators active image style */
-.article-slide .gallery-carousel-indicators .active img {
-    border: 2px solid #428BCA;
-    opacity: 0.7;
-}
-
-.article-slide .gallery-carousel-indicators img {
-    width: 81px;
-}
-
-.article-slide .gallery-carousel-indicators li {
-    width: 81px;
-}
 
 .panel-reviews {
     height: 400px;
@@ -1269,9 +1293,9 @@ chek-mate-photos-container {
 
     /*Home Page*/
 
-    .announce-container {
-        margin-top: 74px;
-    }
+    /*.announce-container {*/
+        /*margin-top: 74px;*/
+    /*}*/
 
     .announce-text-block {
         font-family: 'Open Sans', sans-serif;
@@ -1524,9 +1548,9 @@ chek-mate-photos-container {
 
     /*Home Page*/
 
-    .announce-container {
-        margin-top: 74px;
-    }
+    /*.announce-container {*/
+        /*margin-top: 74px;*/
+    /*}*/
 
     .announce-text-block {
         font-family: 'Open Sans', sans-serif;

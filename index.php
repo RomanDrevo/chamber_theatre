@@ -2,7 +2,7 @@
 include "header.php";
 ?>
 
-    <div class="container-fluid announce-container">
+    <div class="container-fluid announce-container fill-background-black">
         <div class="top-wrapper">
 
                 <div class="announce-text-block col-lg-5 col-md-5 col-sm-5 col-xs-8">
@@ -50,7 +50,7 @@ include "header.php";
                             anyway.”
                         </p>
                         <a href="http://insiderlouisville.com/lifestyle_culture/arts-and-entertainment/with-strindbergs-the-creditors-the-chamber-theatre-continues-modernist-focus/"
-                           target="_blank" class="btn btn-read-more eli-btn" role="button">Read More</a>
+                           target="_blank" class="btn btn-read-more eli-btn" role="button">READ MORE</a>
                     </div>
                 </div>
 
@@ -64,7 +64,7 @@ include "header.php";
     <div class="container">
             <div class="marriages-on-the-verge-container col-md-10 col-md-offset-1">
                 <div class="row">
-                    <div class="heading-style col-md-9">Marriages On The Verge</div>
+                    <div class="homepage-heading-style col-md-9">Marriages On The Verge</div>
                     <div class="col-md-6 col-sm-6 col-xs-12 ashlie-stevens-text">
                         <p class="section-text-block">
                             <i class="author">By ASHLIE STEVENS, WFPL</i><br>
@@ -76,35 +76,54 @@ include "header.php";
                             Scandinavian playwrights.
                         </p>
                         <a href="http://wfpl.org/chamber-theatres-upcoming-season-explores-marriages-verge/"
-                           target="_blank" class="btn btn-read-more" role="button">Read More</a>
+                           target="_blank" class="btn btn-read-more" role="button">READ MORE</a>
                     </div>
                     <div class="col-md-6 col-sm-6 col-xs-12">
                         <img src="img/marriages_on_the_verge.jpg" id="" width="368" height="368"
                              class="marriages-on-the-verge-img img-responsive">
                     </div>
-                    <img class="insider-louisville-image_mobile mobile-img" src="img/insider-louisville_mobile.jpg">
+                    <img class="insider-louisville-image_mobile mobile-img" src="img/330x144_marriages.jpg">
                 </div>
             </div>
     </div>
 </div>
 
-<!--<div class="container-fluid">-->
-<!--    <section class="strindberg-in-bergman-section">-->
-<!--        <div class="strindberg-in-bergman-container">-->
-<!--            <img src="img/Strindberg_Homepage_550.jpg" class="img-responsive" id="strindberg-in-bergman-image" alt="1">-->
-<!--            <div class="strindberg-in-bergman-well col-md-10">-->
-<!--                <div class="hover-decoration">-->
-<!--                    <h2 class="strindberg-in-bergman-heading"> Strindberg in Bergman</h2>-->
-<!--                        <p class="strindberg-in-bergman-text"> Exclusive essay by Professor Egil Törnqvist on August-->
-<!--                            Strindberg's great influence on Bergman – and (in a manner of speaking) vice versa. </p>-->
-<!--                    <div class="text-center"><a href="http://www.ingmarbergman.se/en/universe/strindberg-bergman"-->
-<!--                                                target="_blank" class="btn btn-read-more btn-bergman" role="button">Read More</a>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </section>-->
-<!--</div>-->
+<div class="container-fluid">
+    <section class="strindberg-in-bergman-section">
+        <div class="strindberg-in-bergman-container">
+            <img src="img/Strindberg_Homepage_550.jpg" class="img-responsive" id="strindberg-in-bergman-image" alt="1">
+            <div class="strindberg-in-bergman-well col-md-10">
+                <div class="hover-decoration">
+                    <h2 class="strindberg-in-bergman-heading"> Strindberg in Bergman</h2>
+                        <p class="strindberg-in-bergman-text"> Exclusive essay by Professor Egil Törnqvist on August
+                            Strindberg's great influence on Bergman – and (in a manner of speaking) vice versa. </p>
+                    <div class="text-center"><a href="http://www.ingmarbergman.se/en/universe/strindberg-bergman"
+                                                target="_blank" class="btn btn-read-more btn-bergman" role="button">READ MORE</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="strindberg-in-bergman-section-mobile">
+        <div class="container">
+            <div class="col-md-10 col-md-offset-1">
+                <div class="row">
+                    <div class="homepage-heading-style col-md-9">Strindberg in Bergman</div>
+                    <div class="col-md-6 col-sm-6 col-xs-12 ashlie-stevens-text">
+                        <p class="section-text-block">
+                            Exclusive essay by Professor Egil Törnqvist on August
+                            Strindberg's great influence on Bergman – and (in a manner of speaking) vice versa.
+                        </p>
+                        <a href="http://www.ingmarbergman.se/en/universe/strindberg-bergman"
+                           target="_blank" class="btn btn-read-more btn-bergman" role="button">READ MORE</a>
+                    </div>
+                    <img class="insider-louisville-image_mobile mobile-img" src="img/Strindberg_Homepage_mobile.jpg">
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
 
 <div class="container">
         <div class="translate-chekhov-container col-md-10 col-md-offset-1">
@@ -122,7 +141,7 @@ include "header.php";
                                 Louisville about five years ago.
                             </p>
                             <a href="http://arts-louisville.com/2016/01/04/polina-shafran-translates-chekhov-for-you/"
-                           target="_blank" class="btn btn-read-more pull-right" role="button">Read More</a>
+                           target="_blank" class="btn btn-read-more" role="button">READ MORE</a>
                     </div>
                 </div>
 
@@ -130,6 +149,7 @@ include "header.php";
                     <img src="img/Chekhov_Homepage.svg" alt="..." class="chekhov-image"
                          style="width:350px;height:350px;">
                 </div>
+                <img class="insider-louisville-image_mobile mobile-img" src="img/chekhov-mobile.jpg">
             </div>
         </div>
 

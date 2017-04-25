@@ -43,7 +43,7 @@ image{
     -moz-transition: all 0.3s;
     transition: all 0.3s;
     color: black;
-    font-size: 22px;
+    font-size: 18px;
     background: none;
     border: 2px solid #c7a462;
     font-family: 'Open Sans', sans-serif;
@@ -171,7 +171,6 @@ image{
     -webkit-text-stroke-color: white;
     color: transparent !important;
     height: 30px;
-    width: 30px;
 }
 
 .social-icon:hover,
@@ -199,10 +198,9 @@ image{
 .navbar-nav>li {
     padding-bottom: 12px;
     padding-top: 10px !important;
-    padding-left: 40px !important;
+    padding-left: 9px !important;
     padding-right: 40px !important;
     font-size: 22px !important;
-    /*border: 1px solid red;*/
 }
 .navbar-nav > li > .dropdown-menu {
     background-color: black;
@@ -224,7 +222,11 @@ image{
 }
 
 .navbar-social {
-    margin-right: 50px;
+    margin-right: 42px;
+}
+
+.twitter-icon{
+    margin-right: 24px;
 }
 
 .navbar-default .navbar-nav>.active>a {
@@ -291,10 +293,10 @@ image{
 }
 .navbar-toggle .icon-bar {
     display: block;
-    width: 88px;
+    width: 80px;
     height: 2px;
-    margin-top: 5px;
-    margin-bottom: 30px;
+    margin-top: 16px;
+    margin-bottom: 23px;
 }
 
 
@@ -367,8 +369,9 @@ h3{
     font-weight: 300;
 }
 
-.announce-container{
-    margin-top: 116px;
+.announce-container {
+    margin-top: -2px;
+    padding-top: 100px;
 }
 
 .announce-text-block {
@@ -502,6 +505,10 @@ h3{
 /*Marriages On The Verge Section End*/
 
 /*Strindberg in Bergman Section Start*/
+.strindberg-in-bergman-section-mobile{
+    display: none;
+}
+
 .strindberg-in-bergman-container .strindberg-in-bergman-well {
     position: absolute;
     background-color: rgba(255,255,255, 0.8);
@@ -561,9 +568,14 @@ h3{
 }
 
 .chekhov-image{
+    display: block;
     width: 161px!important;
     height: 281px!important;
     margin-top: 30px;
+}
+
+.chekhov-image-mobile{
+    display: none;
 }
 
 
@@ -665,38 +677,6 @@ h3{
     background-color: white;
 }
 
-/*.panel-link-to-article {*/
-    /*padding-top: 36px;*/
-    /*padding-bottom: 36px;*/
-    /*padding-left: 0px;*/
-    /*padding-right: 0px;*/
-/*}*/
-
-/*.panel-link-to-article:focus,*/
-/*.panel-link-to-article:hover {*/
-    /*opacity: 0.5;*/
-    /*text-decoration: none !important;*/
-/*}*/
-
-
-/*.panel-link-to-article-heading-style {*/
-    /*color: #c7a462;*/
-    /*font-size: 34px;*/
-    /*font-family: 'Playfair Display';*/
-    /*padding-bottom: 0px;*/
-    /*margin: 0px;*/
-    /*border: 0px;*/
-    /*line-height: 42px;*/
-/*}*/
-
-/*.panel-link-to-article-text {*/
-    /*margin-top:10px;*/
-    /*font-family: 'Open Sans';*/
-    /*font-style: normal;*/
-    /*font-weight: 300 !important;*/
-    /*color: black;*/
-/*}*/
-
 .btn-link-to-article:focus,
 .btn-link-to-article:hover {
     opacity: 0.5;
@@ -707,8 +687,6 @@ h3{
     background: #E6E6E6;
     padding-top: 36px;
     padding-bottom: 36px;
-    /*padding-left: 140px;*/
-    /*padding-right: 140px;*/
 }
 
 .mission-about-us-container .panel {
@@ -733,29 +711,47 @@ h3{
 }
 /*Contact Us Page End*/
 
-
-
-/*HZ Start*/
-
-.chek-mate-top-container {
-    padding-top:60px;
-    margin-left:30%;
-    margin-right:auto;
-    max-width: 40%;
+/*Chek-Mate Page Start*/
+.chek-mate-slider{
+    margin-top: 56px;
 }
+
+.chek-mate-slider .homepage-heading-style {
+    color: #c7a462;
+    font-size: 46px;
+    font-family: "Playfair Display";
+    padding-bottom: -11px;
+    margin: 0px;
+    border: 0px;
+    line-height: 56px;
+    margin-top: 48px;
+    margin-bottom: -27px;
+}
+
+.chek-mate-crew{
+    margin-top: 104px;
+}
+
+
+.show-subheading-style{
+    font-family: Plaifair;
+    color:#c7a462;
+    font-weight: 800;
+}
+
+/*.chek-mate-top-container {*/
+    /*padding-top:60px;*/
+    /*margin-left:30%;*/
+    /*margin-right:auto;*/
+    /*max-width: 40%;*/
+/*}*/
 
 .chek-mate-photos-container {
-    padding-left:70px;
-    padding-right:100px;
-    padding-top:100px;
+    /*padding-left:70px;*/
+    /*padding-right:100px;*/
+    /*padding-top:100px;*/
 }
 
-chek-mate-photos-container {
-    padding-left: 5%;
-    padding-right: auto;
-    padding-top: 100px;
-    max-width: 90%;
-}
 
 .chek-mate-trailer-container {
     padding-top:60px;
@@ -763,6 +759,97 @@ chek-mate-photos-container {
     padding-left: 400px;
     padding-right: 400px;
 }
+
+/* Main carousel style */
+/*.gallery-carousel {
+    width: 600px;
+}*/
+
+/* Indicators list style */
+.article-slide .gallery-carousel-indicators {
+    width: 100%;
+    position: relative;
+    bottom: -1px !important;
+    padding: 0;
+    margin-left:0.5%;
+    list-style: none;
+    left:0 !important;
+}
+
+/*.article-slide .gallery-carousel-indicators {
+  bottom:-80px;
+}*/
+/* Indicators list style */
+.article-slide .gallery-carousel-indicators li {
+    border: medium none;
+    border-radius: 0;
+    float: left;
+    height: 54px;
+    margin-bottom: 5px;
+    margin-left: 0;
+    margin-right: 4px !important;
+    margin-top: 0;
+    width: 80px;
+}
+/* Indicators images style */
+.article-slide .gallery-carousel-indicators img {
+    border: 2px solid #FFFFFF;
+    float: left;
+    height: 54px;
+    left: 0;
+    width: 80px;
+}
+
+.slide-img{
+    width: 91%;
+}
+
+.show-video{
+    width: 91%;
+    margin-top: 30px;
+}
+/* Indicators active image style */
+.article-slide .gallery-carousel-indicators .active img {
+    border: 2px solid #428BCA;
+    opacity: 0.7;
+}
+
+.golden-quote{
+    border: 2px solid rgba(199, 164, 98, 0.4);
+    border-radius: 8px;
+    margin-top: 39px;
+    padding:52px;
+}
+
+
+.quote-text{
+    font-family: 'Plaifair';
+    font-style: italic;
+    color: black;
+}
+
+.golden-quote .quote-text:nth-child(2){
+    padding-top: 26px;
+}
+
+.quote-author{
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-style: normal;
+}
+
+.unicode-quote{
+    font-size: 56px;
+    line-height: 13px;
+    font-weight: 600;
+    color: #c7a462
+}
+
+/*Chek-Mate Page End*/
+
+
+/*HZ Start*/
+
 
 .reviews-container {
     padding-top:60px;
@@ -851,11 +938,13 @@ chek-mate-photos-container {
 
 .text-weight-400 {
     font-weight: 400;
+    line-height: 23px;
 }
 
 .gold-heading-small {
     font-style: italic;
     color:#c7a462;
+    /*font-size: 18px;*/
 }
 
 .vault-btn {
@@ -930,61 +1019,7 @@ chek-mate-photos-container {
 }
 
 
-/* Main carousel style */
-/*.gallery-carousel {
-    width: 600px;
-}*/
 
-/* Indicators list style */
-.article-slide .gallery-carousel-indicators {
-    /*   bottom: 0;
-       left: 0;
-       margin-left: 0px;*/
-    width: 100%;
-    position: relative;
-    bottom: -1px !important;
-    padding: 0;
-    margin-left:0.5%;
-    list-style: none;
-    left:0 !important;
-}
-
-/*.article-slide .gallery-carousel-indicators {
-  bottom:-80px;
-}*/
-/* Indicators list style */
-.article-slide .gallery-carousel-indicators li {
-    border: medium none;
-    border-radius: 0;
-    float: left;
-    height: 54px;
-    margin-bottom: 5px;
-    margin-left: 0;
-    margin-right: 4px !important;
-    margin-top: 0;
-    width: 100px;
-}
-/* Indicators images style */
-.article-slide .gallery-carousel-indicators img {
-    border: 2px solid #FFFFFF;
-    float: left;
-    height: 54px;
-    left: 0;
-    width: 100px;
-}
-/* Indicators active image style */
-.article-slide .gallery-carousel-indicators .active img {
-    border: 2px solid #428BCA;
-    opacity: 0.7;
-}
-
-.article-slide .gallery-carousel-indicators img {
-    width: 81px;
-}
-
-.article-slide .gallery-carousel-indicators li {
-    width: 81px;
-}
 
 .panel-reviews {
     height: 400px;
@@ -1003,6 +1038,7 @@ chek-mate-photos-container {
     margin-top: 100px;
 }
 
+<<<<<<< HEAD
 .thumb-column {
     /*padding-left:0px;*/
 }
@@ -1012,6 +1048,8 @@ chek-mate-photos-container {
 
 
 
+=======
+>>>>>>> 0909e2abe9406f25debdbc585913fca6d8a46419
 .reviews-panel:focus,
 .reviews-panel:hover {
     opacity: 0.4;
@@ -1187,8 +1225,8 @@ chek-mate-photos-container {
         -webkit-text-stroke-width: 1px;
         -webkit-text-stroke-color: white;
         color: transparent !important;
-        height: 75px;
-        width: 75px;
+        height: 56px;
+        margin-top: 12px;
     }
 
     /*Home Page*/
@@ -1267,9 +1305,9 @@ chek-mate-photos-container {
 
     /*Home Page*/
 
-    .announce-container {
-        margin-top: 74px;
-    }
+    /*.announce-container {*/
+        /*margin-top: 74px;*/
+    /*}*/
 
     .announce-text-block {
         font-family: 'Open Sans', sans-serif;
@@ -1342,7 +1380,7 @@ chek-mate-photos-container {
         -moz-transition: all 0.3s;
         transition: all 0.3s;
         color: black;
-        font-size: 22px;
+        font-size: 18px;
         background: none;
         border: 2px solid #c7a462;
         font-family: 'Open Sans', sans-serif;
@@ -1365,6 +1403,7 @@ chek-mate-photos-container {
     }
 }
 
+/*iPad Pro*/
 @media (max-width: 1025px) {
     html, body {
     max-width: 100%;
@@ -1415,6 +1454,19 @@ chek-mate-photos-container {
         margin-bottom: 27px;
     }
 
+<<<<<<< HEAD
+=======
+    .homepage-heading-style {
+        color: #c7a462;
+        font-size: 36px;
+        font-family: "Playfair Display";
+        padding-bottom: 0px;
+        margin: 0px;
+        border: 0px;
+        line-height: 51px;
+        margin-top: 48px;
+    }
+>>>>>>> 0909e2abe9406f25debdbc585913fca6d8a46419
 
     .home-page-top-img {
         margin-left: -59px;
@@ -1466,6 +1518,17 @@ chek-mate-photos-container {
     .home-page-top-img{
         width: 131%;
     }
+
+    .homepage-heading-style {
+        color: #c7a462;
+        font-size: 36px;
+        font-family: "Playfair Display";
+        padding-bottom: 0px;
+        margin: 0px;
+        border: 0px;
+        line-height: 51px;
+        margin-top: 48px;
+    }
 }
 
 /*iPad*/
@@ -1510,9 +1573,9 @@ chek-mate-photos-container {
 
     /*Home Page*/
 
-    .announce-container {
-        margin-top: 74px;
-    }
+    /*.announce-container {*/
+        /*margin-top: 74px;*/
+    /*}*/
 
     .announce-text-block {
         font-family: 'Open Sans', sans-serif;
@@ -1543,6 +1606,17 @@ chek-mate-photos-container {
         margin: 0px;
         border: 0px;
         line-height: 40px;
+        margin-top: 48px;
+    }
+
+    .homepage-heading-style {
+        color: #c7a462;
+        font-size: 36px;
+        font-family: "Playfair Display";
+        padding-bottom: 0px;
+        margin: 0px;
+        border: 0px;
+        line-height: 51px;
         margin-top: 48px;
     }
 
@@ -1589,7 +1663,7 @@ chek-mate-photos-container {
         -moz-transition: all 0.3s;
         transition: all 0.3s;
         color: black;
-        font-size: 22px;
+        font-size: 18px;
         background: none;
         border: 2px solid #c7a462;
         font-family: 'Open Sans', sans-serif;
@@ -1657,7 +1731,6 @@ chek-mate-photos-container {
         -webkit-text-stroke-color: white;
         color: transparent !important;
         height: 30px;
-        width: 30px;
     }
 
     .navbar-social {
@@ -2008,7 +2081,7 @@ chek-mate-photos-container {
         -webkit-text-stroke-color: white;
         color: transparent !important;
         height: 30px;
-        width: 30px;
+        margin-top: 0px;
     }
 
     .navbar-social {
@@ -2017,10 +2090,10 @@ chek-mate-photos-container {
 
     .navbar-toggle .icon-bar {
         display: block;
-        width: 43px;
-        height: 2px;
-        margin-top: 0px;
-        margin-bottom: 12px;
+        width: 35px;
+        height: 1px;
+        margin-top: 2px;
+        margin-bottom: 11px;
     }
 
     .heading-style {
@@ -2032,6 +2105,16 @@ chek-mate-photos-container {
         border: 0px;
         line-height: 31px;
         margin-top: 56px;
+    }
+    .homepage-heading-style {
+        color: #c7a462;
+        font-size: 36px;
+        font-family: "Playfair Display";
+        padding-bottom: 0px;
+        margin: 0px;
+        border: 0px;
+        line-height: 44px;
+        margin-top: 48px;
     }
 
     .section-text-block {
@@ -2191,34 +2274,12 @@ chek-mate-photos-container {
         line-height: 0px;
     }
 
-    .strindberg-in-bergman-container .strindberg-in-bergman-well {
-        width: 345px;
-        height: 195px;
-        position: absolute;
-        background-color: rgba(255,255,255, 0.8);
-        z-index: 20;
-        top: -277px;
-        right: 0px;
-        color: black;
+    .strindberg-in-bergman-section{
+        display: none;
     }
 
-    .strindberg-in-bergman-text {
-        width: 286px;
-        font-size: 16px;
-        line-height: 23px;
-        font-family: 'Open Sans';
-        font-weight: lighter;
-        padding-bottom: 0px;
-        margin: 0px;
-        border: 0px;
-        text-align: left;
-        color: black;
-    }
-
-    .strindberg-in-bergman-container .btn-read-more {
-        position: absolute;
-        top: 98px;
-        left: 129px;
+    .strindberg-in-bergman-section-mobile{
+        display: block;
     }
 
 
@@ -2232,7 +2293,11 @@ chek-mate-photos-container {
     }
 
     .chekhov-image {
-        margin-top: 0;
+        display: none;
+    }
+
+    .chekhov-image-mobile{
+        display: block;
     }
 
     #contact-info-footer {
@@ -2350,7 +2415,6 @@ chek-mate-photos-container {
         -webkit-text-stroke-color: white;
         color: transparent !important;
         height: 26px;
-        width: 26px;
     }
 
     .navbar-social {
@@ -2359,10 +2423,10 @@ chek-mate-photos-container {
 
     .navbar-toggle .icon-bar {
         display: block;
-        width: 43px;
-        height: 2px;
-        margin-top: 0px;
-        margin-bottom: 12px;
+        width: 35px;
+        height: 1px;
+        margin-top: 2px;
+        margin-bottom: 11px;
     }
 
     .heading-style {
@@ -2605,6 +2669,17 @@ chek-mate-photos-container {
         margin-top: 56px;
     }
 
+    .homepage-heading-style {
+        color: #c7a462;
+        font-size: 24px;
+        font-family: "Playfair Display";
+        padding-bottom: 0px;
+        margin: 0px;
+        border: 0px;
+        line-height: 30px;
+        margin-top: 48px;
+    }
+
     .section-text-block {
         margin: 0 0 2px;
         padding-right: 0px;
@@ -2624,7 +2699,6 @@ chek-mate-photos-container {
         -webkit-text-stroke-color: white;
         color: transparent !important;
         height: 26px;
-        width: 26px;
     }
 
     .navbar-social {
@@ -2633,10 +2707,10 @@ chek-mate-photos-container {
 
     .navbar-toggle .icon-bar {
         display: block;
-        width: 43px;
-        height: 2px;
-        margin-top: 0px;
-        margin-bottom: 12px;
+        width: 35px;
+        height: 1px;
+        margin-top: 2px;
+        margin-bottom: 11px;
     }
 
     .btn-read-more {

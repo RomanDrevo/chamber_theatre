@@ -212,29 +212,37 @@ include "header.php";
                     </div>
 
                     <div class="golden-quote col-md-12">
-                        <p class="quote-text">
-                            <i class="unicode-quote">&#x201c</i>
-                            The Chamber Theater has mounted a fascinating and bold production of
-                            Ibsen’s work that shines particularly bright in the, “nevertheless she persisted” world we have found ourselves in today.
-                            <br>
-                            <span class="quote-author">Kate Barry, Arts-Lousiville</span>
-                        </p>
+                        <a href="http://arts-louisville.com/2017/03/18/slamming-that-door/">
+                            <p class="quote-text">
+                                <i class="unicode-quote">&#x201c</i>
+                                The Chamber Theater has mounted a fascinating and bold production of
+                                Ibsen’s work that shines particularly bright in the, “nevertheless she persisted” world we have found ourselves in today.
+                                <br>
+                                <span class="quote-author">Kate Barry, Arts-Lousiville</span>
+                            </p>
+                        </a>
 
-                        <p class="quote-text">
-                            <i class="unicode-quote">&#x201c</i>
-                            The Chamber Theatre’s production at Vault1031 is brisk, clear and convincing.
-                            <br>
-                            <span class="quote-author">Marty Rosen, LEO Weekly</span>
-                        </p>
 
-                        <p class="quote-text">
-                            <i class="unicode-quote">&#x201c</i>
-                            Director Martin French delivers the goods,
-                            with the help of these actors, and presents a modern classic that will teach
-                            theater-goers a lot about how our contemporary theater is influenced by early realism.
-                            <br>
-                            <span class="quote-author">Eli Keel, Insider Louisville</span>
-                        </p>
+                        <a href="http://www.leoweekly.com/2017/03/recent-alien-abductions/">
+                            <p class="quote-text">
+                                <i class="unicode-quote">&#x201c</i>
+                                The Chamber Theatre’s production at Vault1031 is brisk, clear and convincing.
+                                <br>
+                                <span class="quote-author">Marty Rosen, LEO Weekly</span>
+                            </p>
+                        </a>
+
+                        <a href="http://insiderlouisville.com/lifestyle_culture/arts-and-entertainment/the-chamber-theatres-a-dolls-house-is-a-worthy-retelling/">
+                            <p class="quote-text">
+                                <i class="unicode-quote">&#x201c</i>
+                                Director Martin French delivers the goods,
+                                with the help of these actors, and presents a modern classic that will teach
+                                theater-goers a lot about how our contemporary theater is influenced by early realism.
+                                <br>
+                                <span class="quote-author">Eli Keel, Insider Louisville</span>
+                            </p>
+                        </a>
+
                     </div>
                 </div>
 

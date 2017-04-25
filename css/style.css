@@ -821,6 +821,11 @@ h3{
     padding:52px;
 }
 
+.golden-quote a{
+    text-decoration: none;
+    display: inline-block;
+}
+
 
 .quote-text{
     font-family: 'Plaifair';
@@ -828,9 +833,12 @@ h3{
     color: black;
 }
 
-.golden-quote .quote-text:nth-child(2){
+.golden-quote a:nth-child(2){
     padding-top: 26px;
-    padding-bottom: 26px;
+}
+
+.golden-quote a:nth-child(3){
+    padding-top: 26px;
 }
 
 .quote-author{

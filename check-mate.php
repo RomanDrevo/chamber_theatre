@@ -161,23 +161,27 @@ include "header.php";
                     </div>
 
                     <div class="golden-quote col-md-12">
-                        <p class="quote-text">
-                            <i class="unicode-quote">&#x201c</i>
-                            These tight little pieces - "The Boor" and "The Proposal" - can't
-                            be mistaken for anything other than the comic vaudevilles Chekhov instead.
-                            <br>
-                            <span class="quote-author">Marty Rosen, LEO Weekly</span>
-                        </p>
+                        <a href="http://www.leoweekly.com/2016/01/jubilant-comic-performances-of-chekhov">
+                            <p class="quote-text">
+                                <i class="unicode-quote">&#x201c</i>
+                                These tight little pieces - "The Boor" and "The Proposal" - can't
+                                be mistaken for anything other than the comic vaudevilles Chekhov instead.
+                                <br>
+                                <span class="quote-author">Marty Rosen, LEO Weekly</span>
+                            </p>
+                        </a>
 
-                        <p class="quote-text">
-                            <i class="unicode-quote">&#x201c</i>
-                            This production is truly a labor of love.
-                            With well-versed translations and adaptations along with a quality
-                            cast, Chek-Mate proves The Chamber Theatre will no doubt be
-                            a staple in the community in no time.
-                            <br>
-                            <span class="quote-author">Kate Barry, Arts-Louisville</span>
-                        </p>
+                        <a href="http://arts-louisville.com/2016/01/16/chekhov-in-balance/">
+                            <p class="quote-text">
+                                <i class="unicode-quote">&#x201c</i>
+                                This production is truly a labor of love.
+                                With well-versed translations and adaptations along with a quality
+                                cast, Chek-Mate proves The Chamber Theatre will no doubt be
+                                a staple in the community in no time.
+                                <br>
+                                <span class="quote-author">Kate Barry, Arts-Louisville</span>
+                            </p>
+                        </a>
                     </div>
                 </div>
 

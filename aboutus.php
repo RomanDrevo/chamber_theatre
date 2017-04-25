@@ -102,9 +102,6 @@ include "header.php";
         </div>
     </div>
 
-
-
-
     <div class="row border-gold">
         <div class="row">
             <div class="col-lg-5 col-lg-offset-1 col-md-6 col-sm-12 col-xs-12 panel panel-default border-gold-column">
@@ -163,37 +160,40 @@ include "header.php";
     </div>
 </div>
 
-<div class="container mission-about-us-container">
-    <div class="row">
-        <div class="col-lg-5 col-md-6 col-sm-12 col-xs-12 panel panel-default">
-            <h2 class="heading-style-italic">Our Mission</h2>
-            <p class="panel-body">The goal of the Chamber Theatre is to produce high quality small scale theatre that is
-                            intimate,
-                            personal, and engages directly with the audience. We want to explore some of the best modern
-                            dramatists, particularly those from the late
-                            19th and early 20th century. In doing so, we hope to reintroduce the texts to the public
-                            through
-                            a contemporary and local lens, reviving some, and taking others beyond the received
-                            understanding of what they are. We want to reach
-                            a wider audience through touring our productions. We aim to combine our blend of different
-                            international theatrical backgrounds and experiences with the currents of the Louisville
-                            Theatre
-                            community to develop a distinct method
-                            to our productions.
-                        </p>
-        </div>
-        <div class="col-lg-5 col-lg-offset-2 col-md-6 col-sm-12 col-xs-12 panel panel-default">
-            <h2 class="heading-style-italic">About Us</h2>
-            <p class="panel-body">Formed in late 2015, The Chamber Theatre is a small independent theatre company based in
-                            Louisville, Kentucky. Our first production was Chek-Mate in January 2016, produced at Vault
-                            1031, and subsequently touring to University of Kentucky.
-                            The Chamber Theatre was founded and is run by co-Artistic Directors Martin French and Polina
-                            Shafran, two multi-disciplinary international theatre artists who have been working in
-                            Louisville for the past few years. The Chamber Theatre Inc. is a 501(c)3 organization.
-                        </p>
+<div class="fill-background-gray">
+    <div class="container mission-about-us-container">
+        <div class="row">
+            <div class="col-lg-5 col-md-12 col-sm-12 col-xs-12 panel panel-default">
+                <h2 class="heading-style-italic">Our Mission</h2>
+                <p class="panel-body">The goal of the Chamber Theatre is to produce high quality small scale theatre that is
+                    intimate,
+                    personal, and engages directly with the audience. We want to explore some of the best modern
+                    dramatists, particularly those from the late
+                    19th and early 20th century. In doing so, we hope to reintroduce the texts to the public
+                    through
+                    a contemporary and local lens, reviving some, and taking others beyond the received
+                    understanding of what they are. We want to reach
+                    a wider audience through touring our productions. We aim to combine our blend of different
+                    international theatrical backgrounds and experiences with the currents of the Louisville
+                    Theatre
+                    community to develop a distinct method
+                    to our productions.
+                </p>
+            </div>
+            <div class="col-lg-5 col-lg-offset-2 col-md-12 col-sm-12 col-xs-12 panel panel-default">
+                <h2 class="heading-style-italic">About Us</h2>
+                <p class="panel-body">Formed in late 2015, The Chamber Theatre is a small independent theatre company based in
+                    Louisville, Kentucky. Our first production was Chek-Mate in January 2016, produced at Vault
+                    1031, and subsequently touring to University of Kentucky.
+                    The Chamber Theatre was founded and is run by co-Artistic Directors Martin French and Polina
+                    Shafran, two multi-disciplinary international theatre artists who have been working in
+                    Louisville for the past few years. The Chamber Theatre Inc. is a 501(c)3 organization.
+                </p>
+            </div>
         </div>
     </div>
 </div>
+
 
 <?php
 include "footer.php";

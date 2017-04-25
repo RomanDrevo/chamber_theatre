@@ -1004,7 +1004,7 @@ chek-mate-photos-container {
 }
 
 .thumb-column {
-    padding-left:0px;
+    /*padding-left:0px;*/
 }
 
 
@@ -1416,11 +1416,6 @@ chek-mate-photos-container {
     }
 
 
-
-
-
-
-
     .home-page-top-img {
         margin-left: -59px;
         margin-top: 0;
@@ -1454,6 +1449,16 @@ chek-mate-photos-container {
 
     .coart-bio{
         padding-top: 0;
+    }
+
+    .border-gold {
+        border: none;
+        border-radius: 7px;
+        margin-bottom: 104px;
+    }
+
+    .border-gold-column {
+        padding: 0px 59px;
     }
 }
 
@@ -1604,6 +1609,13 @@ chek-mate-photos-container {
         padding-bottom: 0px;
         padding-left: 36px;
         padding-right: 36px;
+    }
+
+    .border-gold {
+        border: none;
+        border-radius: 7px;
+        margin-bottom: 104px;
+        /* padding: 0px 52px; */
     }
 }
 

@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="73e54275-4fda-4192-8e2f-51613eca961a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/check-mate.php" afterPath="$PROJECT_DIR$/check-mate.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/header.php" afterPath="$PROJECT_DIR$/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,12 +20,9 @@
       <file leaf-file-name="check-mate.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/check-mate.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="143" column="70" lean-forward="true" selection-start-line="143" selection-start-column="70" selection-end-line="143" selection-end-column="70" />
-              <folding>
-                <element signature="e#1904#9607#0#HTML" expanded="false" />
-                <element signature="e#9853#10101#0#HTML" expanded="false" />
-              </folding>
+            <state relative-caret-position="2431">
+              <caret line="143" column="70" lean-forward="false" selection-start-line="143" selection-start-column="70" selection-end-line="143" selection-end-column="70" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -37,8 +30,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="808" column="17" lean-forward="false" selection-start-line="808" selection-start-column="17" selection-end-line="808" selection-end-column="17" />
+            <state relative-caret-position="374">
+              <caret line="829" column="0" lean-forward="true" selection-start-line="829" selection-start-column="0" selection-end-line="829" selection-end-column="0" />
               <folding>
                 <element signature="e#18122#18280#0" expanded="false" />
                 <element signature="e#18282#20943#0" expanded="false" />
@@ -247,12 +240,13 @@
       <workItem from="1491737372405" duration="55319000" />
       <workItem from="1492154498220" duration="5262000" />
       <workItem from="1492183956577" duration="13639000" />
-      <workItem from="1492937846037" duration="15523000" />
+      <workItem from="1492937846037" duration="16093000" />
+      <workItem from="1493477971144" duration="166000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="169155000" />
+    <option name="totallyTimeSpent" value="169891000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
@@ -288,6 +282,14 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/check-mate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3876">
@@ -405,7 +407,8 @@
         <state relative-caret-position="680">
           <caret line="40" column="68" lean-forward="false" selection-start-line="40" selection-start-column="68" selection-end-line="40" selection-end-column="68" />
           <folding>
-            <element signature="e#9274#11403#0#HTML" expanded="false" />
+            <element signature="e#1473#9232#0#HTML" expanded="false" />
+            <element signature="e#9235#11410#0#HTML" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -433,7 +436,8 @@
         <state relative-caret-position="2380">
           <caret line="140" column="70" lean-forward="false" selection-start-line="140" selection-start-column="70" selection-end-line="140" selection-end-column="70" />
           <folding>
-            <element signature="e#9274#11403#0#HTML" expanded="false" />
+            <element signature="e#1473#9232#0#HTML" expanded="false" />
+            <element signature="e#9235#11410#0#HTML" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -476,7 +480,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="74035">
           <caret line="4355" column="16" lean-forward="true" selection-start-line="4355" selection-start-column="16" selection-end-line="4355" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -595,7 +598,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
           <caret line="678" column="16" lean-forward="false" selection-start-line="678" selection-start-column="14" selection-end-line="678" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -644,19 +646,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/check-mate.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="143" column="70" lean-forward="true" selection-start-line="143" selection-start-column="70" selection-end-line="143" selection-end-column="70" />
-          <folding>
-            <element signature="e#1904#9607#0#HTML" expanded="false" />
-            <element signature="e#9853#10101#0#HTML" expanded="false" />
-          </folding>
+        <state relative-caret-position="2431">
+          <caret line="143" column="70" lean-forward="false" selection-start-line="143" selection-start-column="70" selection-end-line="143" selection-end-column="70" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="808" column="17" lean-forward="false" selection-start-line="808" selection-start-column="17" selection-end-line="808" selection-end-column="17" />
+        <state relative-caret-position="374">
+          <caret line="829" column="0" lean-forward="true" selection-start-line="829" selection-start-column="0" selection-end-line="829" selection-end-column="0" />
           <folding>
             <element signature="e#18122#18280#0" expanded="false" />
             <element signature="e#18282#20943#0" expanded="false" />

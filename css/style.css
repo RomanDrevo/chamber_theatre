@@ -29,7 +29,7 @@ image{
 }
 
 .fa{
-    color: white;
+    color: #c7a462;
 }
 
 .section-text-block{
@@ -85,6 +85,7 @@ image{
     line-height: 56px;
     font-style: italic;
     padding-left: 15px;
+    margin-bottom: -14px;
 }
 
 .panel,
@@ -509,6 +510,11 @@ h3{
     display: none;
 }
 
+.strindberg-in-bergman-image_mobile.mobile-img{
+    width: 100%;
+}
+
+
 .strindberg-in-bergman-container .strindberg-in-bergman-well {
     position: absolute;
     background-color: rgba(255,255,255, 0.8);
@@ -574,7 +580,7 @@ h3{
     margin-top: 30px;
 }
 
-.chekhov-image-mobile{
+.chekhov-image_mobile{
     display: none;
 }
 
@@ -684,8 +690,8 @@ h3{
 }
 
 .mission-about-us-container{
-    background: #E6E6E6;
-    padding-top: 36px;
+    background: #E8E8E8;
+    padding-top: 52px;
     padding-bottom: 36px;
 }
 
@@ -732,6 +738,10 @@ h3{
     margin-top: 104px;
 }
 
+.crew{
+    margin-bottom: 34px;
+    line-height: 11px;
+}
 
 .show-subheading-style{
     font-family: Plaifair;
@@ -956,11 +966,16 @@ h3{
     /*font-size: 18px;*/
 }
 
+.vault{
+    margin-top: -10px;
+    color: #c7a462;
+}
+
 .vault-btn {
     font-family: 'Open Sans' !important;
     font-weight: lighter !important;
     color: #c7a462 !important;
-    font-size: 1.6vw !important;
+    font-size: 18px !important;
     padding: 0px !important;
 }
 
@@ -1131,7 +1146,7 @@ h3{
     }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1199px) {
 
     #top-nav-social{
         display: none;
@@ -1526,6 +1541,23 @@ h3{
     }
 }
 
+@media (max-width: 854px){
+    .strindberg-in-bergman-container .strindberg-in-bergman-well {
+        position: absolute;
+        background-color: rgba(255,255,255, 0.85);
+        z-index: 20;
+        top: 0px;
+        right: 52px;
+        max-width: 61%;
+        color: black;
+        margin-top: 46px;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-bottom: 34px;
+        padding-top: 34px;
+    }
+}
+
 /*iPad*/
 @media (max-width: 768px){
     html, body {
@@ -1615,13 +1647,27 @@ h3{
         margin-top: 48px;
     }
 
+    .marriages-on-the-verge-img,
+    .insider-louisville-image {
+        display: none;
+    }
+
+    .insider-louisville-image_mobile{
+        width: 100%;
+        display: block;
+    }
+
+    .btn.btn-read-more{
+        margin-bottom: 5%;
+    }
+
     .strindberg-in-bergman-container .strindberg-in-bergman-well {
         position: absolute;
         background-color: rgba(255,255,255, 0.85);
         z-index: 20;
         top: -95px;
         right: 52px;
-        max-width: 46%;
+        max-width: 67%;
         color: black;
         margin-top: 104px;
         padding-left: 25px;
@@ -1651,6 +1697,8 @@ h3{
         margin-top: 9px;
         margin-bottom: 23px;
     }
+
+
 
     .btn-read-more {
         border-radius: 0;
@@ -1685,6 +1733,17 @@ h3{
         border-radius: 7px;
         margin-bottom: 104px;
         /* padding: 0px 52px; */
+    }
+}
+
+@media (max-width: 767px){
+    .chekhov-image{
+        display: none;
+    }
+
+    .chekhov-image_mobile{
+        display: block;
+        width: 100%;
     }
 }
 
@@ -1770,15 +1829,7 @@ h3{
         margin-bottom: 11px;
     }
 
-    .marriages-on-the-verge-img,
-    .insider-louisville-image {
-        display: none;
-    }
 
-    .insider-louisville-image_mobile{
-        width: 100%;
-        display: block;
-    }
 
     .eli-keel-container,
     .marriages-on-the-verge-container
@@ -1908,37 +1959,43 @@ h3{
         line-height: 0px;
     }
 
-    .strindberg-in-bergman-container .strindberg-in-bergman-well {
-        width: 345px;
-        height: 195px;
-        position: absolute;
-        background-color: rgba(255,255,255, 0.8);
-        z-index: 20;
-        top: -277px;
-        right: 0px;
-        color: black;
+    /*.strindberg-in-bergman-container .strindberg-in-bergman-well {*/
+        /*width: 345px;*/
+        /*height: 195px;*/
+        /*position: absolute;*/
+        /*background-color: rgba(255,255,255, 0.8);*/
+        /*z-index: 20;*/
+        /*top: -277px;*/
+        /*right: 0px;*/
+        /*color: black;*/
+    /*}*/
+
+    /*.strindberg-in-bergman-text {*/
+        /*width: 286px;*/
+        /*font-size: 16px;*/
+        /*line-height: 23px;*/
+        /*font-family: 'Open Sans';*/
+        /*font-weight: lighter;*/
+        /*padding-bottom: 0px;*/
+        /*margin: 0px;*/
+        /*border: 0px;*/
+        /*text-align: left;*/
+        /*color: black;*/
+    /*}*/
+
+    /*.strindberg-in-bergman-container .btn-read-more {*/
+        /*position: absolute;*/
+        /*top: 98px;*/
+        /*left: 129px;*/
+    /*}*/
+
+    .strindberg-in-bergman-section{
+        display: none;
     }
 
-    .strindberg-in-bergman-text {
-        width: 286px;
-        font-size: 16px;
-        line-height: 23px;
-        font-family: 'Open Sans';
-        font-weight: lighter;
-        padding-bottom: 0px;
-        margin: 0px;
-        border: 0px;
-        text-align: left;
-        color: black;
+    .strindberg-in-bergman-section-mobile{
+        display: block;
     }
-
-    .strindberg-in-bergman-container .btn-read-more {
-        position: absolute;
-        top: 98px;
-        left: 129px;
-    }
-
-
 
     .chekhov {
         position: absolute;
@@ -1949,7 +2006,7 @@ h3{
     }
 
     .chekhov-image {
-        margin-top: 0;
+        display: none;
     }
 
     #contact-info-footer {
@@ -2269,13 +2326,7 @@ h3{
         line-height: 0px;
     }
 
-    .strindberg-in-bergman-section{
-        display: none;
-    }
 
-    .strindberg-in-bergman-section-mobile{
-        display: block;
-    }
 
 
 
@@ -2377,6 +2428,56 @@ h3{
         padding-bottom: 36px;
         padding-left: 15px;
         padding-right: 15px;
+    }
+
+    /*Shows*/
+    .chek-mate-slider .homepage-heading-style {
+        color: #c7a462;
+        font-size: 36px;
+        font-family: "Playfair Display";
+        padding-bottom: -11px;
+        margin: 0px;
+        border: 0px;
+        line-height: 44px;
+        margin-top: 48px;
+        margin-bottom: -27px;
+    }
+
+    .chek-mate-slider .panel-body {
+        line-height: 27px;
+    }
+
+    .vault-btn {
+        font-family: 'Open Sans' !important;
+        font-weight: lighter !important;
+        color: #c7a462 !important;
+        font-size: 16px !important;
+        padding: 0px !important;
+    }
+
+    .chek-mate-slider .homepage-heading-style {
+        color: #c7a462;
+        font-size: 36px;
+        font-family: "Playfair Display";
+        padding-bottom: -11px;
+        margin: 0px;
+        border: 0px;
+        line-height: 44px;
+        margin-top: -13px;
+        margin-bottom: -27px;
+    }
+
+    .show-slider.panel-body{
+        margin-top: -23px;
+    }
+
+    .show-video.panel-body {
+        width: 91%;
+        margin-top: -13px;
+    }
+
+    .chek-mate-crew {
+        margin-top: -35px;
     }
 }
 
@@ -2851,6 +2952,7 @@ h3{
         color: #c7a462 !important;
         text-align: center;
         font-size: 13px;
+        line-height: 26px;
     }
 
     /*About Us Styles*/

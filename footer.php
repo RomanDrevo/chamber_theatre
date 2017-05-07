@@ -12,7 +12,9 @@
                 &nbsp;
                 &nbsp;&nbsp;|
                 <a href="https://www.olla-nikolenko.me/" class="olla_copyright" target="_blank">&nbsp;&nbsp; &copy; 2017
-                    Olla Nikolenko &nbsp;&nbsp;</a>|&nbsp;&nbsp; Logo: Elina Unger</p>
+                    Olla Nikolenko &nbsp;&nbsp;</a>|&nbsp;&nbsp; Logo: Elina Unger
+
+            </p>
         </div>
     </div>
 </div>

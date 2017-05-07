@@ -120,7 +120,7 @@ include "header.php";
                         <a href="http://www.ingmarbergman.se/en/universe/strindberg-bergman"
                            target="_blank" class="btn btn-read-more btn-bergman" role="button">READ MORE</a>
                     </div>
-                    <img class="insider-louisville-image_mobile mobile-img" src="img/Strindberg_Homepage_mobile.jpg">
+                    <img class="strindberg-in-bergman-image_mobile mobile-img" src="img/Strindberg_Homepage_mobile.jpg">
                 </div>
             </div>
         </div>
@@ -151,7 +151,7 @@ include "header.php";
                     <img src="img/Chekhov_Homepage.svg" alt="..." class="chekhov-image"
                          style="width:350px;height:350px;">
                 </div>
-                <img class="insider-louisville-image_mobile mobile-img" src="img/chekhov-mobile.jpg">
+                <img class="chekhov-image_mobile mobile-img" src="img/chekhov-mobile.jpg">
             </div>
         </div>
 

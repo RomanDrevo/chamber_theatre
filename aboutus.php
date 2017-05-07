@@ -2,29 +2,28 @@
 include "header.php";
 ?>
 
-    <!--        <div class="coming-next-container">-->
-    <!--            <div class="row">-->
-    <!--                <div class="col-lg-6 col-md-6 col-sm-6">-->
-    <!--                    <img src="img/2.png" style="border: 1px solid red;width: 100%">-->
-    <!--                </div>-->
-    <!--                <div class="col-lg-6 col-md-6 col-sm-6">-->
-    <!--                    <div class="coming-next-text-block">-->
-    <!--                        <a href="dolls-house.htm" class="btn-link btn-s announcement-btn"-->
-    <!--                           id="announcent-clickable-section">-->
-    <!--                            <p class="coming-next">Coming Next</p>-->
-    <!--                            <p class="announcement-dates">3/17/17 - 3/25/17</p>-->
-    <!--                            <p class="show-name">A DOLL'S HOUSE</p>-->
-    <!--                            <p class="show-description"> World renowned masterpiece by Henrik Ibsen</p>-->
-    <!--                            <p class="announcement-read-more">Read More...</p>-->
-    <!--                        </a>-->
-    <!--                        <a href="http://tickets.thechambertheatre.com/"-->
-    <!--                           target="_blank"-->
-    <!--                           class="btn btn-read-more btn-buy-tickets-top"-->
-    <!--                           role="button">BUY TICKETS</a>-->
-    <!--                    </div>-->
-    <!--                </div>-->
-    <!--            </div>-->
-    <!--        </div>-->
+    <div class="fill-background-black">
+        <div class="container-fluid announce-container">
+            <div class="top-wrapper">
+
+                <div class="announce-text-block col-lg-5 col-md-5 col-sm-5 col-xs-8">
+                    <a href="dolls-house.php" class="btn-link btn-s announcement-btn" id="announcent-clickable-section">
+                        <h3 class="coming-next">Coming Next:</h3>
+                        <h3 class="announcement-dates">3.17.17 - 3.25.17</h3>
+                        <h3 class="show-name">A DOLL'S HOUSE</h3>
+                        <h3 class="show-description"> World renowned masterpiece by Henrik Ibsen. Read More...</h3>
+                    </a>
+                    <a href="http://tickets.thechambertheatre.com/" target="_blank"
+                       class="btn btn-buy-tickets-top hover-decoration" role="button">BUY
+                        TICKETS</a>
+                </div>
+                <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
+                    <img src="img/top_image_homepage_black_bg.png" class="home-page-top-img">
+                </div>
+
+            </div>
+        </div>
+    </div>
 
     </div>
     </div>
@@ -105,12 +104,13 @@ include "header.php";
 
 
 
-        <div class="row border-gold">
-            <div class="row">
+        <div class="row">
+<!--            <div class="border-gold clearfix">-->
+
                 <div class="col-lg-5 col-lg-offset-1 col-md-6 col-sm-12 col-xs-12 panel panel-default border-gold-column">
 
-                    <a href="http://arts-louisville.com/2013/04/02/the-second-coming-of-undead-theater-at-the-alley-a-conversation-with-martin-french/"
-                       target="_blank" class="hover-decoration" role="button">
+<!--                    <a href="http://arts-louisville.com/2013/04/02/the-second-coming-of-undead-theater-at-the-alley-a-conversation-with-martin-french/"-->
+<!--                       target="_blank" class="hover-decoration" role="button">-->
 
                         <div class="row panel-heading">
                             <div class="col-lg-3 col-md-3 col-sm-2 col-xs-4 thumb-column">
@@ -131,16 +131,16 @@ include "header.php";
                             </p>
                         </div>
 
-                    </a>
+<!--                    </a>-->
 
                 </div>
                 <div class="col-lg-5 col-md-6 col-sm-12 col-xs-12 panel panel-default border-gold-column">
 
-                    <a href="http://arts-louisville.com/2016/01/04/polina-shafran-translates-chekhov-for-you/"
-                       target="_blank" class="hover-decoration" role="button">
+<!--                    <a href="http://arts-louisville.com/2016/01/04/polina-shafran-translates-chekhov-for-you/"-->
+<!--                       target="_blank" class="hover-decoration" role="button">-->
 
                         <div class="row panel-heading">
-                            <div class="col-lg-3 col-md-3 col-sm-2 col-xs-4 grey-background thumb-column">
+                            <div class="col-lg-3 col-md-3 col-sm-2 col-xs-4 thumb-column">
                                 <img src="img/Chekhov_Homepage.svg" alt="Chekhov" width="100" height="150">
                             </div>
                             <div class="col-lg-8 col-md-9 col-sm-8 col-xs-8">
@@ -156,18 +156,18 @@ include "header.php";
                                 here from other countries; Polina is one.</p>
                         </div>
 
-                    </a>
+<!--                    </a>-->
 
                 </div>
-            </div>
+<!--            </div>-->
         </div>
     </div>
 
 
     <div class="fill-background-gray">
-        <div class="container mission-about-us-container">
+        <div class="container-fluid mission-about-us-container">
             <div class="row">
-                <div class="col-lg-5 col-md-6 col-sm-12 col-xs-12 panel panel-default">
+                <div class="col-lg-5 col-lg-offset-1 col-md-6 col-sm-12 col-xs-12 panel panel-default border-gold-column">
                     <h2 class="heading-style-italic">Our Mission</h2>
                     <p class="panel-body">The goal of the Chamber Theatre is to produce high quality small scale theatre that is
                         intimate,
@@ -184,7 +184,7 @@ include "header.php";
                         to our productions.
                     </p>
                 </div>
-                <div class="col-lg-5 col-lg-offset-2 col-md-6 col-sm-12 col-xs-12 panel panel-default">
+                <div class="col-lg-5 col-md-6 col-sm-12 col-xs-12 panel panel-default">
                     <h2 class="heading-style-italic">About Us</h2>
                     <p class="panel-body">Formed in late 2015, The Chamber Theatre is a small independent theatre company based in
                         Louisville, Kentucky. Our first production was Chek-Mate in January 2016, produced at Vault

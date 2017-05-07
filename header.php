@@ -13,15 +13,15 @@
     <meta property="og:image" content="img/top_image_homepage_black_bg.jpg"/>
 
 
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-<!--    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css>-->
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
 
     <link href='https://fonts.googleapis.com/css?family=Playfair+Display' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800,300' rel='stylesheet'
           type='text/css'/>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <script src="js/bootstrap.js"></script>
 <!--    <script src="https://use.fontawesome.com/7d08d7ba58.js"></script>-->
 

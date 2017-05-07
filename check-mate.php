@@ -1,6 +1,28 @@
 <?php
 include "header.php";
 ?>
+    <div class="fill-background-black">
+        <div class="container-fluid announce-container">
+            <div class="top-wrapper">
+
+                <div class="announce-text-block col-lg-5 col-md-5 col-sm-5 col-xs-8">
+                    <a href="dolls-house.php" class="btn-link btn-s announcement-btn" id="announcent-clickable-section">
+                        <h3 class="coming-next">Coming Next:</h3>
+                        <h3 class="announcement-dates">3.17.17 - 3.25.17</h3>
+                        <h3 class="show-name">A DOLL'S HOUSE</h3>
+                        <h3 class="show-description"> World renowned masterpiece by Henrik Ibsen. Read More...</h3>
+                    </a>
+                    <a href="http://tickets.thechambertheatre.com/" target="_blank"
+                       class="btn btn-buy-tickets-top hover-decoration" role="button">BUY
+                        TICKETS</a>
+                </div>
+                <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
+                    <img src="img/top_image_homepage_black_bg.png" class="home-page-top-img">
+                </div>
+
+            </div>
+        </div>
+    </div>
 
     <div class="container-fluid">
         <div class="row">
@@ -10,8 +32,8 @@ include "header.php";
                 </div>
                 <div class="panel-body">
                     <p>
-                        <span class="show-subheading-style">Two Comic Vaudvilles by Anton Chekhov</span><br>
-                        <span class="show-subheading-style"> The Boor & The Proposal</span><br>
+                        <span class="show-subheading-style">Two Comic Vaudvilles by Anton Chekhov The Boor & The Proposal</span>
+<!--                        <span class="show-subheading-style"> The Boor & The Proposal</span><br>-->
                         The two plays feature unconventional love stories.
                         The Boor has a frustrated man just a day ahead of his creditors realize that he is falling for
                         the widow denying him his money.  The Proposal sees a courtship nearly thwarted by a casual mention of a
@@ -135,29 +157,43 @@ include "header.php";
             <div class="col-lg-5 col-md-6 col-sm-6 col-xs-12 panel panel-default chek-mate-crew">
                 <div class="panel-body">
                     <div class="col-md-6">
-                        <h4>The Boor</h4>
-                        <span class="text-weight-400">Adapted by Martin French and Polina Shafran </span>
+                        <div class="crew">
+                            <span class="text-weight-400">The Boor</span><br>
+                            <span class="text-weight-400">Adapted by Martin French and Polina Shafran </span>
+                        </div>
+                        <div class="crew">
+                            <span class="text-weight-400">The Proposal</span><br>
+                            <span class="text-weight-400">Original translation by Polina Shafran </span>
+                        </div>
 
-                        <h4>The Proposal</h4>
-                        <span class="text-weight-400">Original translation by Polina Shafran </span>
+                        <div class="crew">
+                            <span class="gold-heading-small text-weight-400"> Director </span><br>
+                            <span class="text-weight-400">Martin French </span>
+                        </div>
 
-                        <h4 class="gold-heading-small"> Director </h4>
-                        <span class="text-weight-400">Martin French </span>
+                        <div class="crew">
+                            <span class="gold-heading-small text-weight-400"> Stage Manager </span><br>
+                            <span class="text-weight-400">Jay Marie Padilla </span>
+                        </div>
 
-                        <h4 class="gold-heading-small"> Stage Manager </h4>
-                        <span class="text-weight-400">Jay Marie Padilla </span>
                     </div>
                     <div class="col-md-6">
-                        <h4 class="gold-heading-small"> Lights</h4>
-                        <span class="text-weight-400">Martin French </span>
+                        <div class="crew">
+                            <span class="gold-heading-small text-weight-400"> Lights</span><br>
+                            <span class="text-weight-400">Martin French </span>
+                        </div>
 
-                        <h4 class="gold-heading-small"> Design</h4>
-                        <span class="text-weight-400">Martin French and Polina Shafran </span>
+                        <div class="crew">
+                            <span class="gold-heading-small text-weight-400"> Design</span><br>
+                            <span class="text-weight-400">Martin French and Polina Shafran </span>
+                        </div>
 
-                        <h4 class="gold-heading-small"> Cast </h4>
-                        <span class="text-weight-400">Tom Pettey <br>
+                        <div class="crew">
+                            <span class="gold-heading-small text-weight-400"> Cast </span><br>
+                            <span class="text-weight-400">Tom Pettey <br>
                                     Gerry Rose <br>
                                     Polina Shafran </span>
+                        </div>
                     </div>
 
                     <div class="golden-quote col-md-12">

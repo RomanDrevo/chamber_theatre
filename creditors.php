@@ -158,28 +158,40 @@ include "header.php";
             <div class="col-lg-5 col-md-6 col-sm-6 col-xs-12 panel panel-default chek-mate-crew">
                 <div class="panel-body">
                     <div class="col-md-6">
-                        <h4 class="gold-heading-small"> Director </h4>
-                        <span class="text-weight-400">Martin French </span>
 
-                        <h4 class="gold-heading-small"> Assistant Director </h4>
-                        <span class="text-weight-400">Jay Marie Padilla</span>
+                        <div class="crew">
+                            <span class="gold-heading-small text-weight-400"> Director </span><br>
+                            <span class="text-weight-400">Martin French  </span>
+                        </div>
 
-                        <h4 class="gold-heading-small">Stage Manager</h4>
-                        <span class="text-weight-400">Martin French, Clare Hagan, Polina Shafran</span>
+                        <div class="crew">
+                            <span class="gold-heading-small text-weight-400"> Assistant Director </span><br>
+                            <span class="text-weight-400">Jay Marie Padilla</span>
+                        </div>
 
-                        <h4 class="gold-heading-small">Design</h4>
-                        <span class="text-weight-400">Elina Unger</span>
+                        <div class="crew">
+                            <span class="gold-heading-small text-weight-400"> Stage Manager </span><br>
+                            <span class="text-weight-400">Clare Hagan</span>
+                        </div>
+
+                        <div class="crew">
+                            <span class="gold-heading-small text-weight-400"> Design </span><br>
+                            <span class="text-weight-400">Martin French, Clare Hagan, Polina Shafran</span>
+                        </div>
+
+
                     </div>
                     <div class="col-md-6">
-
-
-                        <h4 class="gold-heading-small">Poster Design</h4>
-                        <span class="text-weight-400">Elina Unger</span>
-
-                        <h4 class="gold-heading-small"> Cast </h4>
-                        <span class="text-weight-400">Michael Drury </span> <br>
-                        <span class="text-weight-400">Ryan Watson</span><br>
-                        <span class="text-weight-400">Polina Shafran</span><br>
+                        <div class="crew">
+                            <span class="gold-heading-small text-weight-400"> Poster Design </span><br>
+                            <span class="text-weight-400">Elina Unger</span>
+                        </div>
+                        <div class="crew">
+                            <span class="gold-heading-small text-weight-400">Cast </span><br>
+                            <span class="text-weight-400">Michael Drury </span>
+                            <span class="text-weight-400">Ryan Watson </span>
+                            <span class="text-weight-400">Polina Shafran</span>
+                        </div>
                     </div>
 
                     <div class="golden-quote col-md-12">

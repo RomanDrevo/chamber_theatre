@@ -227,35 +227,37 @@ include "header.php";
 
                         <div class="crew">
                             <span class="gold-heading-small text-weight-400">Costume Design</span><br>
-                            <span class="text-weight-400">Martin French </span>
+                            <span class="text-weight-400">Carol Dines </span>
                         </div>
 
                         <div class="crew">
-                            <span class="gold-heading-small text-weight-400"> Director </span><br>
-                            <span class="text-weight-400">Martin French </span>
+                            <span class="gold-heading-small text-weight-400"> Poster Design </span><br>
+                            <span class="text-weight-400">Elina Unger </span>
                         </div>
 
-                        <div class="crew">
-                            <span class="gold-heading-small text-weight-400"> Director </span><br>
-                            <span class="text-weight-400">Martin French </span>
-                        </div>
+
 
 
                     </div>
                     <div class="col-md-6">
 
 
-                        <h4 class="gold-heading-small">Performing ASMs</h4>
-                        <span class="text-weight-400">Christina Woosley <br>
-                            Brice Cunningham
-                        </span>
+                        <div class="crew">
+                            <span class="gold-heading-small text-weight-400"> Performing ASMs </span><br>
+                            <span class="text-weight-400">Christina Woosley  </span>
+                            <span class="text-weight-400">Brice Cunningham</span>
+                        </div>
 
-                        <h4 class="gold-heading-small"> Cast </h4>
-                        <span class="text-weight-400">Polina Shafran</span><br>
-                        <span class="text-weight-400"> Brian Hinds </span> <br>
-                        <span class="text-weight-400">Joe Monroe</span><br>
-                        <span class="text-weight-400">Beth Tantanella</span><br>
-                        <span class="text-weight-400">Jay Marie Padilla</span>
+                        <div class="crew">
+                            <span class="gold-heading-small text-weight-400"> Cast </span><br>
+                            <span class="text-weight-400">Polina Shafran</span><br>
+                            <span class="text-weight-400"> Brian Hinds </span> <br>
+                            <span class="text-weight-400">Joe Monroe</span><br>
+                            <span class="text-weight-400">Beth Tantanella</span><br>
+                            <span class="text-weight-400">Jay Marie Padilla</span>
+                        </div>
+
+
 
                     </div>
 

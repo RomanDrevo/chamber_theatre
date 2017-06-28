@@ -13,7 +13,7 @@ include "header.php";
                         <h3 class="show-description"> World renowned masterpiece by Henrik Ibsen. Read More...</h3>
                     </a>
                     <a href="http://tickets.thechambertheatre.com/" target="_blank"
-                       class="btn btn-buy-tickets-top hover-decoration" role="button">BUY
+                       class="btn btn-buy-tickets-top checkmate hover-decoration" role="button">BUY
                         TICKETS</a>
                 </div>
                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">

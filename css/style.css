@@ -1145,9 +1145,7 @@ h3{
 
 /*MOBILE STYLES*/
 
-@media (max-width: 1650px){
 
-}
 
 @media (max-width: 1320px) {
     .home-page-top-img {
@@ -1424,6 +1422,12 @@ h3{
         padding-left: 36px;
         padding-right: 36px;
     }
+
+    /*Checkmate*/
+    .home-page-top-img.checkmate {
+        margin-left: -10%;
+        margin-top: 85px;
+    }
 }
 
 /*iPad Pro*/
@@ -1532,6 +1536,12 @@ h3{
 
     .border-gold-column {
         padding: 0px 59px;
+    }
+
+    /*Checkmate*/
+    .home-page-top-img.checkmate {
+        margin-left: -10%;
+        margin-top: 85px;
     }
 }
 
@@ -1768,6 +1778,15 @@ h3{
         border-radius: 7px;
         margin-bottom: 104px;
         /* padding: 0px 52px; */
+    }
+
+    /*Checkmate*/
+    .home-page-top-img.checkmate {
+        position: relative;
+        z-index: 1;
+        margin-left: -72%;
+        margin-top: 60px;
+        width: 175%;
     }
 }
 
@@ -2104,6 +2123,27 @@ h3{
         padding-left: 15px;
         padding-right: 15px;
     }
+
+    /*Checkmate*/
+    .home-page-top-img.checkmate {
+        position: initial;
+        margin-left: 289%;
+        margin-top: -192px;
+        width: 175%;
+    }
+
+    .btn-buy-tickets-top.checkmate {
+        color: #c7a462 !important;
+        border: 1px solid #c7a462 !important;
+        border-radius: 0px;
+        padding: 14px 144px;
+        position: absolute;
+        top: 89%;
+        left: 29%;
+        z-index: 10;
+        background: black;
+        opacity: .8;
+    }
 }
 
 @media (max-width: 650px){
@@ -2119,6 +2159,13 @@ h3{
         background: black;
         opacity: .8;
     }
+    /*Checkmate*/
+    .home-page-top-img.checkmate {
+        position: initial;
+        margin-left: 289%;
+        margin-top: -165px;
+        width: 175%;
+    }
 }
 
 @media (max-width: 588px){
@@ -2133,6 +2180,14 @@ h3{
         z-index: 10;
         background: black;
         opacity: .8;
+    }
+
+    /*Checkmate*/
+    .home-page-top-img.checkmate {
+        position: initial;
+        margin-left: 289%;
+        margin-top: -135px;
+        width: 175%;
     }
 }
 
@@ -2520,6 +2575,49 @@ h3{
     .chek-mate-crew {
         margin-top: -35px;
     }
+
+    .btn-buy-tickets-top.checkmate {
+        color: #c7a462 !important;
+        border: 1px solid #c7a462 !important;
+        border-radius: 0px;
+        padding: 14px 78px;
+        position: absolute;
+        top: 175px;
+        left: 8px;
+        z-index: 10;
+        background: black;
+        opacity: .8;
+    }
+
+    .home-page-top-img.checkmate {
+        position: initial;
+        margin-left: 329%;
+        margin-top: -144px;
+        width: 213%;
+    }
+}
+
+@media (max-width: 485px){
+    .home-page-top-img.checkmate {
+        position: initial;
+        margin-left: 293%;
+        margin-top: -144px;
+        width: 254%;
+    }
+
+    .btn-buy-tickets-top.checkmate {
+        color: #c7a462 !important;
+        border: 1px solid #c7a462 !important;
+        border-radius: 0px;
+        padding: 14px 78px;
+        position: absolute;
+        top: 197px;
+        left: 8px;
+        z-index: 10;
+        background: black;
+        opacity: .8;
+    }
+
 }
 
 @media (max-width: 415px) {
@@ -2566,6 +2664,35 @@ h3{
         border-radius: 8px;
         margin-top: 15%;
         padding: 52px;
+    }
+
+    /*Checkmate*/
+    .announce-text-block.checkmate {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 300!important;
+        padding-top: 0;
+        padding-left: 10px;
+        padding-right: 94px;
+    }
+
+    .home-page-top-img.checkmate {
+        position: initial;
+        margin-left: 293%;
+        margin-top: -90px;
+        width: 254%;
+    }
+
+    .btn-buy-tickets-top.checkmate {
+        color: #c7a462 !important;
+        border: 1px solid #c7a462 !important;
+        border-radius: 0px;
+        padding: 14px 78px;
+        position: absolute;
+        top: 241px;
+        left: 54px;
+        z-index: 10;
+        background: black;
+        opacity: .8;
     }
 
 }
@@ -2803,30 +2930,6 @@ h3{
         padding: 0 27px;
     }
 
-    /*.coart-dir {*/
-        /*margin-left: -11px;*/
-        /*padding-bottom: 20px;*/
-        /*padding-top: 31px;*/
-    /*}*/
-
-    /*.coart-name {*/
-        /*margin-top: -50px;*/
-        /*margin-bottom: 0px !important;*/
-        /*font-size: 24px;*/
-        /*font-family: 'Open Sans', sans-serif;*/
-        /*font-weight: lighter;*/
-        /*color: #c7a462;*/
-        /*line-height: 28px;*/
-    /*}*/
-
-    /*.coart-pos {*/
-        /*font-size: 15px;*/
-        /*line-height: 27px;*/
-        /*font-family: 'Open Sans', sans-serif;*/
-        /*font-weight: lighter;*/
-        /*font-style: italic;*/
-        /*color: #c7a462;*/
-    /*}*/
 
     .mission-about-us-container {
         background: #E6E6E6;
@@ -2834,6 +2937,27 @@ h3{
         padding-bottom: 36px;
         padding-left: 15px;
         padding-right: 15px;
+    }
+
+    /*Checkmate*/
+    .btn-buy-tickets-top.checkmate {
+        color: #c7a462 !important;
+        border: 1px solid #c7a462 !important;
+        border-radius: 0px;
+        padding: 14px 78px;
+        position: absolute;
+        top: 296px;
+        left: 44px;
+        z-index: 10;
+        background: black;
+        opacity: .8;
+    }
+
+    .home-page-top-img.checkmate {
+        position: initial;
+        margin-left: 291%;
+        margin-top: -80px;
+        width: 297%;
     }
 
 }
@@ -3091,6 +3215,35 @@ h3{
         padding-bottom: 36px;
         padding-left: 15px;
         padding-right: 15px;
+    }
+
+    /*Checkmate*/
+    .announce-text-block.checkmate {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 300!important;
+        padding-top: 0;
+        padding-left: 10px;
+        padding-right: 49px;
+    }
+
+    .home-page-top-img.checkmate {
+        position: initial;
+        margin-left: 209%;
+        margin-top: -5px;
+        width: 412%;
+    }
+
+    .btn-buy-tickets-top.checkmate {
+        color: #c7a462 !important;
+        border: 1px solid #c7a462 !important;
+        border-radius: 0px;
+        padding: 14px 78px;
+        position: absolute;
+        top: 366px;
+        left: 18px;
+        z-index: 10;
+        background: black;
+        opacity: .8;
     }
 }
 

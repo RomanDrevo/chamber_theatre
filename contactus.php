@@ -2,28 +2,28 @@
 include "header.php";
 ?>
 
+    <div class="fill-background-black">
+        <div class="container-fluid announce-container">
+            <div class="top-wrapper">
 
-<!--<div class="row">-->
-<!--    <div class="container-fluid">-->
-<!--        <section id="image">-->
-<!--            <div class="top-non-home-page-container">-->
-<!--                <img src="img/top/4.png" class="img-responsive top-img" alt="1">-->
-<!--                <div class="well well-sm announce-well">-->
-<!--                    <a href="https://www.facebook.com/events/1673505232945717/" class="btn-link btn-s announcement-btn"-->
-<!--                       id="announcent-clickable-section">-->
-<!--                        <p class="coming-next">Coming Next</p>-->
-<!--                        <p class="announcement-dates">April 4th 2017</p>-->
-<!--                        <p class="show-name">Proposal</p>-->
-<!--                        <p class="show-description"> One Act Comedy by Anton Chekhov</p>-->
-<!--                        <p class="show-description"> A FREE performance followed by lecture on Russian politics</p>-->
-<!--                        <p class="announcement-btn-p">Read More...</p>-->
-<!--                        <!-- <div style="text-align:center;"><a href="http://tickets.thechambertheatre.com/" target="_blank" class="btn btn-read-more btn-buy-tickets-top" role="button">BUY TICKETS</a></div> -->-->
-<!--                    </a>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </section>-->
-<!--    </div>-->
-<!--</div>-->
+                <div class="announce-text-block col-lg-5 col-md-5 col-sm-5 col-xs-8">
+                    <a href="dolls-house.php" class="btn-link btn-s announcement-btn" id="announcent-clickable-section">
+                        <h3 class="coming-next">Coming Next:</h3>
+                        <h3 class="announcement-dates">3.17.17 - 3.25.17</h3>
+                        <h3 class="show-name">A DOLL'S HOUSE</h3>
+                        <h3 class="show-description"> World renowned masterpiece by Henrik Ibsen. Read More...</h3>
+                    </a>
+                    <a href="http://tickets.thechambertheatre.com/" target="_blank"
+                       class="btn btn-buy-tickets-top hover-decoration" role="button">BUY
+                        TICKETS</a>
+                </div>
+                <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
+                    <img src="img/2_2.jpg" class="home-page-top-img">
+                </div>
+
+            </div>
+        </div>
+    </div>
 
 </div>
 

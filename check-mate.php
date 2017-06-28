@@ -3,9 +3,9 @@ include "header.php";
 ?>
     <div class="fill-background-black">
         <div class="container-fluid announce-container">
-            <div class="top-wrapper">
+            <div class="top-wrapper.checkmate">
 
-                <div class="announce-text-block col-lg-5 col-md-5 col-sm-5 col-xs-8">
+                <div class="announce-text-block checkmate col-lg-9 col-md-9 col-sm-9 col-xs-9">
                     <a href="dolls-house.php" class="btn-link btn-s announcement-btn" id="announcent-clickable-section">
                         <h3 class="coming-next">Coming Next:</h3>
                         <h3 class="announcement-dates">3.17.17 - 3.25.17</h3>
@@ -16,8 +16,8 @@ include "header.php";
                        class="btn btn-buy-tickets-top hover-decoration" role="button">BUY
                         TICKETS</a>
                 </div>
-                <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
-                    <img src="img/top_image_homepage_black_bg.png" class="home-page-top-img">
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                    <img src="img/1_1.jpg" class="home-page-top-img checkmate">
                 </div>
 
             </div>
@@ -32,8 +32,9 @@ include "header.php";
                 </div>
                 <div class="panel-body">
                     <p>
-                        <span class="show-subheading-style">Two Comic Vaudvilles by Anton Chekhov The Boor & The Proposal</span>
-<!--                        <span class="show-subheading-style"> The Boor & The Proposal</span><br>-->
+                        <span class="show-subheading-style two-comic-vaudvilles">Two Comic Vaudvilles by Anton Chekhov</span><br>
+                        <span class="show-subheading-style the-boor">The Boor & The Proposal</span>
+                        <br>
                         The two plays feature unconventional love stories.
                         The Boor has a frustrated man just a day ahead of his creditors realize that he is falling for
                         the widow denying him his money.  The Proposal sees a courtship nearly thwarted by a casual mention of a

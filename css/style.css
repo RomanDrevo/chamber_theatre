@@ -718,6 +718,26 @@ h3{
 /*Contact Us Page End*/
 
 /*Chek-Mate Page Start*/
+
+.top-wrapper.checkmate{
+    padding-top: 0px;
+    padding-left: 25px;
+    padding-right: 20px;
+}
+
+.home-page-top-img.checkmate{
+    margin-left: 0px;
+    margin-top: 85px;
+}
+
+.announce-text-block.checkmate{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300!important;
+    padding-top: 0;
+    padding-left: 10px;
+    padding-right: 140px;
+}
+
 .chek-mate-slider{
     margin-top: 56px;
 }
@@ -749,20 +769,6 @@ h3{
     font-weight: 800;
 }
 
-/*.chek-mate-top-container {*/
-    /*padding-top:60px;*/
-    /*margin-left:30%;*/
-    /*margin-right:auto;*/
-    /*max-width: 40%;*/
-/*}*/
-
-.chek-mate-photos-container {
-    /*padding-left:70px;*/
-    /*padding-right:100px;*/
-    /*padding-top:100px;*/
-}
-
-
 .chek-mate-trailer-container {
     padding-top:60px;
     padding-bottom: 60px;
@@ -770,10 +776,11 @@ h3{
     padding-right: 400px;
 }
 
-/* Main carousel style */
-/*.gallery-carousel {
-    width: 600px;
-}*/
+.show-subheading-style.the-boor{
+    display: block;
+    margin-bottom: -31px;
+    margin-top: -9px;
+}
 
 /* Indicators list style */
 .article-slide .gallery-carousel-indicators {
@@ -1138,6 +1145,10 @@ h3{
 
 /*MOBILE STYLES*/
 
+@media (max-width: 1650px){
+
+}
+
 @media (max-width: 1320px) {
     .home-page-top-img {
         /* margin-left: 135px; */
@@ -1436,7 +1447,7 @@ h3{
     .announce-text-block {
         font-family: 'Open Sans', sans-serif;
         font-weight: 300!important;
-        padding-top: 0px;
+        padding-top: 25px;
         padding-left: 0;
         padding-right: 30px;
     }
@@ -1479,7 +1490,7 @@ h3{
 
 
     .home-page-top-img {
-        margin-left: -59px;
+        margin-left: -156px;
         margin-top: 0;
     }
 
@@ -1527,6 +1538,8 @@ h3{
 @media (max-width: 945px) {
     .home-page-top-img{
         width: 131%;
+        margin-left: -102px;
+        margin-top: 0;
     }
 
     .homepage-heading-style {
@@ -1555,6 +1568,14 @@ h3{
         padding-right: 25px;
         padding-bottom: 34px;
         padding-top: 34px;
+    }
+}
+
+@media (max-width: 796px){
+    .home-page-top-img {
+        width: 147%;
+        margin-left: -77px;
+        margin-top: 16px;
     }
 }
 
@@ -1759,6 +1780,12 @@ h3{
         display: block;
         width: 100%;
     }
+
+    .home-page-top-img {
+        width: 83%;
+        margin-left: 205px;
+        margin-top: -323px;
+    }
 }
 
 @media (max-width: 690px){
@@ -1867,9 +1894,10 @@ h3{
     }
 
     .announce-text-block {
-        margin-top: -40px;
-        margin-left: 34px;
+        margin-top: -4%;
+        margin-left: 1%;
         background: none;
+        padding-right: 11%;
     }
 
     .coming-next {
@@ -1899,9 +1927,9 @@ h3{
     }
 
     .home-page-top-img {
-        margin-top: -37px;
-        margin-left: 19px;
-        width: 128%;
+        margin-top: -25%;
+        margin-left: 3%;
+        width: 115%;
     }
 
     .btn-buy-tickets-top {
@@ -1910,8 +1938,8 @@ h3{
         border-radius: 0px;
         padding: 14px 144px;
         position: absolute;
-        top: 490px;
-        left: 58px;
+        top: 207%;
+        left: 29%;
         z-index: 10;
         background: black;
         opacity: .8;
@@ -2075,6 +2103,36 @@ h3{
         padding-bottom: 36px;
         padding-left: 15px;
         padding-right: 15px;
+    }
+}
+
+@media (max-width: 650px){
+    .btn-buy-tickets-top {
+        color: #c7a462 !important;
+        border: 1px solid #c7a462 !important;
+        border-radius: 0px;
+        padding: 14px 144px;
+        position: absolute;
+        top: 190%;
+        left: 29%;
+        z-index: 10;
+        background: black;
+        opacity: .8;
+    }
+}
+
+@media (max-width: 588px){
+    .btn-buy-tickets-top {
+        color: #c7a462 !important;
+        border: 1px solid #c7a462 !important;
+        border-radius: 0px;
+        padding: 14px 144px;
+        position: absolute;
+        top: 180%;
+        left: 29%;
+        z-index: 10;
+        background: black;
+        opacity: .8;
     }
 }
 
@@ -2242,8 +2300,8 @@ h3{
 
     .home-page-top-img {
         margin-top: -37px;
-        margin-left: 19px;
-        width: 128%;
+        margin-left: 14px;
+        width: 118%;
     }
 
     .btn-buy-tickets-top {
@@ -2464,6 +2522,54 @@ h3{
     }
 }
 
+@media (max-width: 415px) {
+    .announce-text-block {
+        margin-top: -28%;
+        margin-left: 7%;
+        background: none;
+    }
+
+    .home-page-top-img {
+        margin-top: -7%;
+        margin-left: 9%;
+        width: 109%;
+    }
+
+    .btn-buy-tickets-top {
+        color: #c7a462 !important;
+        border: 1px solid #c7a462 !important;
+        border-radius: 0px;
+        padding: 14px 107px;
+        position: absolute;
+        top: 360px;
+        left: 8px;
+        z-index: 10;
+        background: black;
+        opacity: .8;
+    }
+
+    .crew {
+        margin-bottom: 7px;
+        line-height: 11px;
+    }
+
+    .chek-mate-crew {
+        margin-top: 2%;
+    }
+
+    .show-slider.panel-body {
+        margin-top: 5%;
+    }
+
+    .golden-quote {
+        border: 2px solid rgba(199, 164, 98, 0.4);
+        border-radius: 8px;
+        margin-top: 15%;
+        padding: 52px;
+    }
+
+}
+
 /*iPhone6/ Galaxy S5*/
 @media (max-width: 376px) {
     html, body {
@@ -2589,13 +2695,25 @@ h3{
         text-align: right;
     }
 
+    .announce-text-block {
+        margin-top: -26%;
+        margin-left: 7%;
+        background: none;
+    }
+
+    .home-page-top-img {
+        margin-top: -28%;
+        margin-left: 2%;
+        width: 113%;
+    }
+
     .btn-buy-tickets-top {
         color: #c7a462 !important;
         border: 1px solid #c7a462 !important;
         border-radius: 0px;
         padding: 14px 107px;
         position: absolute;
-        top: 347px;
+        top: 298px;
         left: 5px;
         z-index: 10;
         background: black;
@@ -2792,6 +2910,18 @@ h3{
         margin-bottom: 11px;
     }
 
+    .home-page-top-img {
+        margin-top: -22%;
+        margin-left: 2%;
+        width: 113%;
+    }
+
+    .announce-text-block {
+        margin-top: -48%;
+        margin-left: 7%;
+        background: none;
+    }
+
     .btn-read-more {
         color: black;
         font-size: 16px;
@@ -2860,7 +2990,7 @@ h3{
         border-radius: 0px;
         padding: 14px 81px;
         position: absolute;
-        top: 324px;
+        top: 340px;
         left: 1px;
         z-index: 10;
         background: black;

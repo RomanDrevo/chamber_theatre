@@ -17,7 +17,8 @@ include "header.php";
                     TICKETS</a>
             </div>
             <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
-                <img src="img/top_image_homepage_black_bg.png" class="home-page-top-img">
+                <img src="img/top_image_homepage.jpg" class="home-page-top-img">
+
             </div>
 
         </div>
@@ -39,7 +40,7 @@ include "header.php";
                 <img src="img/212x212.jpg"  alt="..."
                      class="insider-louisville-image">
             </div>
-            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
+            <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
                 <div class="panel-article-insider-louisville">
                     <div class="insider-louisville-text">
                         <p class="eli-keel section-text-block">
@@ -67,7 +68,7 @@ include "header.php";
             <div class="marriages-on-the-verge-container col-md-10 col-md-offset-1">
                 <div class="row">
                     <div class="homepage-heading-style col-md-9">Marriages On The Verge</div>
-                    <div class="col-md-6 col-sm-6 col-xs-12 ashlie-stevens-text">
+                    <div class="col-md-6 col-sm-12 col-xs-12 ashlie-stevens-text">
                         <p class="section-text-block">
                             <i class="author">By ASHLIE STEVENS, WFPL</i><br>
                             Long-held secrets, fears of infidelity, meddling exes — these are themes that might seem

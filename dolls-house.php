@@ -17,7 +17,7 @@ include "header.php";
                         TICKETS</a>
                 </div>
                 <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
-                    <img src="img/top_image_homepage_black_bg.png" class="home-page-top-img">
+                    <img src="img/5_5.jpg" class="home-page-top-img">
                 </div>
 
             </div>

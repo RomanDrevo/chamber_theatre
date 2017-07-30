@@ -218,11 +218,8 @@ include "header.php";
                         </div>
 
                         <div class="crew">
-                            <span class="gold-heading-small text-weight-400"> Assistant Director
-
- </span><br>
-                            <span class="text-weight-400">Jasmine Jones
- </span>
+                            <span class="gold-heading-small text-weight-400"> Assistant Director</span><br>
+                            <span class="text-weight-400">Jasmine Jones</span>
                         </div>
 
                         <div class="crew">
@@ -244,13 +241,14 @@ include "header.php";
 
                         <div class="crew">
                             <span class="gold-heading-small text-weight-400"> Performing ASMs </span><br>
-                            <span class="text-weight-400">Christina Woosley  </span>
+                            <span class="text-weight-400">Christina Woosley</span><br>
                             <span class="text-weight-400">Brice Cunningham</span>
                         </div>
 
                         <div class="crew">
                             <span class="gold-heading-small text-weight-400"> Cast </span><br>
                             <span class="text-weight-400">Polina Shafran</span><br>
+                            <span class="text-weight-400">Gerry Rose</span><br>
                             <span class="text-weight-400"> Brian Hinds </span> <br>
                             <span class="text-weight-400">Joe Monroe</span><br>
                             <span class="text-weight-400">Beth Tantanella</span><br>

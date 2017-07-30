@@ -378,7 +378,7 @@ h3{
 .announce-text-block {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300!important;
-    padding-top: 146px;
+    padding-top: 0px;
     /* border: 1px dashed white; */
     padding-left: 0;
     padding-right: 140px;
@@ -408,7 +408,8 @@ h3{
 
 .home-page-top-img{
     /*margin-left: 135px;*/
-    margin-left: 135px;
+    margin-left: 0px;
+    margin-top: -122px;
     /*border: 1px solid red;*/
 }
 
@@ -700,9 +701,42 @@ h3{
     background: transparent;
 }
 
+
+.announce-text-block.about {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300!important;
+    padding-top: 0px;
+    /* border: 1px dashed white; */
+    padding-left: 0;
+    padding-right: 140px;
+}
+
+.home-page-top-img.about {
+    margin-top: -119px;
+    /* margin-left: 135px; */
+    margin-left: 135px;
+    /* border: 1px solid red; */
+}
 /*About Us Page End*/
 
 /*Contact Us Page Start*/
+
+.contact .announce-text-block {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300!important;
+    padding-top: 0px;
+    /* border: 1px dashed white; */
+    padding-left: 0;
+    padding-right: 140px;
+}
+
+.contact .home-page-top-img {
+    margin-top: -119px;
+    /* margin-left: 135px; */
+    margin-left: 135px;
+    /* border: 1px solid red; */
+}
+
 .social-container {
     max-width: 100%;
     padding-top:100px;
@@ -714,6 +748,22 @@ h3{
 .instagram_svg{
     text-align: center;
     padding: 20px;
+}
+
+.contact-us-icons{
+    width: 55%;
+    padding-top: 13%;
+}
+
+.inline-block{
+    display: inline-block;
+}
+
+.contacts{
+    display: block;
+    color: #c7a462;
+    font-weight: bold;
+    margin-top: 2px;
 }
 /*Contact Us Page End*/
 
@@ -850,6 +900,11 @@ h3{
     color: black;
 }
 
+.quote-text:hover{
+    text-decoration: none;
+    opacity: 0.4;
+}
+
 .golden-quote a:nth-child(2){
     padding-top: 26px;
 }
@@ -872,6 +927,47 @@ h3{
 }
 
 /*Chek-Mate Page End*/
+
+
+/*Doll's House start*/
+.dolls .announce-text-block {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300!important;
+    padding-top: 0px;
+    /* border: 1px dashed white; */
+    padding-left: 0;
+    padding-right: 140px;
+}
+
+.dolls .home-page-top-img {
+    /* margin-left: 135px; */
+    margin-left: 135px;
+    /* border: 1px solid red; */
+    margin-top: -131px;
+}
+
+/*Creditors Start*/
+.creditors .announce-text-block {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300!important;
+    padding-top: 0px;
+    /* border: 1px dashed white; */
+    padding-left: 0;
+    padding-right: 140px;
+}
+
+.creditors .home-page-top-img {
+    margin-top: -152px;
+    /* margin-left: 135px; */
+    margin-left: 135px;
+    /* border: 1px solid red; */
+}
+
+
+
+
+
+
 
 
 /*HZ Start*/
@@ -1437,6 +1533,17 @@ h3{
     overflow-x: hidden;
     }
 
+    .navbar-nav > li > .dropdown-menu {
+        background-color: black;
+        font-size: 30px;
+    }
+
+    .navbar-right .dropdown-menu {
+        right: 0;
+        left: 51px;
+        padding: 30px;
+    }
+
     .heading-style {
         color: #c7a462;
         font-size: 36px;
@@ -1464,8 +1571,6 @@ h3{
 
     .announcement-dates {
         font-size: 30px;
-        /* line-height: 18px; */
-        /* margin: 0px; */
     }
 
     .show-name {

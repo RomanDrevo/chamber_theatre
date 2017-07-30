@@ -8,9 +8,13 @@ include "header.php";
             <div class="announce-text-block col-lg-5 col-md-5 col-sm-5 col-xs-8">
                 <a href="dolls-house.php" class="btn-link btn-s announcement-btn" id="announcent-clickable-section">
                     <h3 class="coming-next">Coming Next:</h3>
-                    <h3 class="announcement-dates">3.17.17 - 3.25.17</h3>
-                    <h3 class="show-name">A DOLL'S HOUSE</h3>
-                    <h3 class="show-description"> World renowned masterpiece by Henrik Ibsen. Read More...</h3>
+                    <h3 class="announcement-dates">April 4th 2017</h3>
+                    <h3 class="show-name">Proposal</h3>
+                    <h3 class="show-description"> One Act Comedy by Anton Chekhov
+
+                        A FREE performance followed by lecture on Russian politics
+
+                        Read More...</h3>
                 </a>
                 <a href="http://tickets.thechambertheatre.com/" target="_blank"
                    class="btn btn-buy-tickets-top hover-decoration" role="button">BUY

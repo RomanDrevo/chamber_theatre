@@ -2,11 +2,11 @@
 include "header.php";
 ?>
 
-    <div class="fill-background-black">
+    <div class="fill-background-black not-home-page">
         <div class="container-fluid announce-container">
             <div class="top-wrapper">
 
-                <div class="announce-text-block col-lg-5 col-md-5 col-sm-5 col-xs-8">
+                <div class="announce-text-block about-us col-lg-5 col-md-5 col-sm-5 col-xs-8">
                     <a href="dolls-house.php" class="btn-link btn-s announcement-btn" id="announcent-clickable-section">
                         <h3 class="coming-next">Coming Next:</h3>
                         <h3 class="announcement-dates">3.17.17 - 3.25.17</h3>
@@ -14,11 +14,11 @@ include "header.php";
                         <h3 class="show-description"> World renowned masterpiece by Henrik Ibsen. Read More...</h3>
                     </a>
                     <a href="http://tickets.thechambertheatre.com/" target="_blank"
-                       class="btn btn-buy-tickets-top hover-decoration" role="button">BUY
+                       class="btn btn-buy-tickets-top about-us hover-decoration" role="button">BUY
                         TICKETS</a>
                 </div>
                 <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
-                    <img src="img/top_image_homepage_black_bg.png" class="home-page-top-img">
+                    <img src="img/4_4.jpg" class="home-page-top-img about-us">
                 </div>
 
             </div>
@@ -107,10 +107,10 @@ include "header.php";
         <div class="row">
 <!--            <div class="border-gold clearfix">-->
 
-                <div class="col-lg-5 col-lg-offset-1 col-md-6 col-sm-12 col-xs-12 panel panel-default border-gold-column">
+                <div class="col-lg-5 col-lg-offset-1 col-md-6 col-sm-12 col-xs-12 panel panel-default border-gold-column hover-decoration">
 
-<!--                    <a href="http://arts-louisville.com/2013/04/02/the-second-coming-of-undead-theater-at-the-alley-a-conversation-with-martin-french/"-->
-<!--                       target="_blank" class="hover-decoration" role="button">-->
+                    <a href="http://arts-louisville.com/2013/04/02/the-second-coming-of-undead-theater-at-the-alley-a-conversation-with-martin-french/"
+                       target="_blank" class="hover-decoration" role="button">
 
                         <div class="row panel-heading">
                             <div class="col-lg-3 col-md-3 col-sm-2 col-xs-4 thumb-column">
@@ -131,13 +131,13 @@ include "header.php";
                             </p>
                         </div>
 
-<!--                    </a>-->
+                    </a>
 
                 </div>
-                <div class="col-lg-5 col-md-6 col-sm-12 col-xs-12 panel panel-default border-gold-column">
+                <div class="col-lg-5 col-md-6 col-sm-12 col-xs-12 panel panel-default border-gold-column hover-decoration">
 
-<!--                    <a href="http://arts-louisville.com/2016/01/04/polina-shafran-translates-chekhov-for-you/"-->
-<!--                       target="_blank" class="hover-decoration" role="button">-->
+                    <a href="http://arts-louisville.com/2016/01/04/polina-shafran-translates-chekhov-for-you/"
+                       target="_blank" class="hover-decoration" role="button">
 
                         <div class="row panel-heading">
                             <div class="col-lg-3 col-md-3 col-sm-2 col-xs-4 thumb-column">
@@ -156,7 +156,7 @@ include "header.php";
                                 here from other countries; Polina is one.</p>
                         </div>
 
-<!--                    </a>-->
+                    </a>
 
                 </div>
 <!--            </div>-->
@@ -167,7 +167,7 @@ include "header.php";
     <div class="fill-background-gray">
         <div class="container-fluid mission-about-us-container">
             <div class="row">
-                <div class="col-lg-5 col-lg-offset-1 col-md-6 col-sm-12 col-xs-12 panel panel-default border-gold-column">
+                <div class="col-lg-5 col-lg-offset-1 col-md-6 col-sm-12 col-xs-12 panel panel-default">
                     <h2 class="heading-style-italic">Our Mission</h2>
                     <p class="panel-body">The goal of the Chamber Theatre is to produce high quality small scale theatre that is
                         intimate,

@@ -52,8 +52,8 @@
                         <a href="https://www.facebook.com/thechambertheatre/" target="_blank"><img src="img/social-icons/fb.svg"
                                                                                                    class="social-icon navbar-social pull-right img-responsive "></a>
                     </div>
-                    <img src="img/logo.svg" id="logo-img" class="img-responsive hover-decoration">
-                    <img src="img/logo_svg_two_lines.svg" id="logo-img-mobile" class="img-responsive hover-decoration">
+                    <a href="index.php"><img src="img/logo.svg" id="logo-img" class="img-responsive hover-decoration"></a>
+                    <a href="index.php"><img src="img/logo_svg_two_lines.svg" id="logo-img-mobile" class="img-responsive hover-decoration"></a>
                 </div>
 
                 <div class="navbar-collapse collapse" id="nav-bar">

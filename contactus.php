@@ -28,41 +28,62 @@ include "header.php";
 </div>
 
 <div class="container social-container">
-    <div class="row">
-        <div class="facebook_svg col-lg-4 col-md-4 col-sm-4 col-xs-12">
-            <a href="https://www.facebook.com/thechambertheatre/" target="_blank"><img src="img/fb_213x239.svg"
-                                                                                       class="social-icon-contact-us"></a>
+    <div class="row text-center">
+        <div class="col-md-4 col-sm-12 col-xs-12">
+            <a href="https://www.facebook.com/thechambertheatre/" target="_blank"><img src="img/fb_213x239.svg" class="contact-us-icons"></a>
         </div>
-        <div class="twitter_svg col-lg-4 col-md-4 col-sm-4 col-xs-12">
-            <a href="https://twitter.com/TheChamberLVL" target="_blank"><img src="img/tw_213x239.svg"
-                                                                             class="social-icon-contact-us"></a>
+
+        <div class="col-md-4 col-sm-12 col-xs-12">
+            <a href="https://twitter.com/TheChamberLVL" target="_blank"><img src="img/tw_213x239.svg" class="contact-us-icons"></a>
         </div>
-        <div class="instagram_svg col-lg-4 col-md-4 col-sm-4 col-xs-12">
-            <a href="https://www.instagram.com/thechambertheatre/" target="_blank"><img src="img/inst_213x239.svg"
-                                                                                        class="social-icon-contact-us"></a>
+
+        <div class="col-md-4 col-sm-12 col-xs-12">
+            <a href="https://www.instagram.com/thechambertheatre/" target="_blank"><img src="img/inst_213x239.svg" class="contact-us-icons"></a>
         </div>
+
+        <div class="col-md-4 col-sm-12 col-xs-12">
+            <img src="img/email_213x218.svg" class="contact-us-icons">
+            <span class="contacts">thechambertheatre@gmail.com</span>
+        </div>
+
+        <div class="col-md-4 col-sm-12 col-xs-12">
+            <img src="img/phone_213x218.svg" class="contact-us-icons">
+            <span class="contacts">(502)724-6968</span>
+        </div>
+
+
+
+
+
+
+
+
+
+
+<!---->
+<!--        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">-->
+<!--            <a href=""> <img src="img/email_213x218.svg" class="social-icon-contact-us-no-hover img-responsive"></a>-->
+<!--        </div>-->
+<!--        <div class="center-text">-->
+<!--           <p class="bold-gold-text">thechambertheatre@gmail.com</p>-->
+<!--        </div>-->
+<!--        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">-->
+<!--            <a href=""> <img src="img/phone_213x218.svg" class="img-responsive social-icon-contact-us-no-hover"></a>-->
+<!--        </div>-->
+<!--        <div class="center-text">-->
+<!--            <p class="bold-gold-text">(502)724-6968</p>-->
+<!--        </div>-->
+
+
     </div>
 </div>
 
 <div class="">
     <div class="container-fluid email-phone-container">
         <div class="row">
-            <div class="col-lg-6 col-md-6 col-sm-12 col-sm-12">
-                <div class="center-block">
-                    <img src="img/email_213x218.svg" class="social-icon-contact-us-no-hover img-responsive">
-                </div>
-                <div class="center-text">
-                    <p class="bold-gold-text">thechambertheatre@gmail.com</p>
-                </div>
-            </div>
-            <div class="col-lg-6 col-md-6 col-sm-12 col-sm-12">
-                <div class="center-block">
-                    <img src="img/phone_213x218.svg" class="img-responsive social-icon-contact-us-no-hover">
-                </div>
-                <div class="center-text">
-                    <p class="bold-gold-text">(502)724-6968</p>
-                </div>
-            </div>
+
+
+
         </div>
     </div>
 </div>

@@ -491,8 +491,29 @@ h3{
 }
 /* Chekhov In Library Section End */
 
+/*Elizabet kramer section Start */
+.ek-container {
+    margin-bottom: 52px;
+}
+
+.ek-image {
+    width: 100%;
+    margin-top: 34px;
+}
+
+.ek-image_mobile{
+    width: 100%;
+    display: none;
+}
+
+.ek{
+    line-height: 30px;
+}
+
+/*Elizabet kramer section End */
+
 /*Eli Keel Section Start*/
-.eli-keel-container{
+.eli-keel-container {
     margin-bottom: 52px;
 }
 
@@ -1827,11 +1848,13 @@ h3{
 
     .marriages-on-the-verge-img,
     .insider-louisville-image,
-    .chekhov-in-library-image {
+    .chekhov-in-library-image,
+    .ek-image {
         display: none;
     }
 
-    .insider-louisville-image_mobile{
+    .insider-louisville-image_mobile,
+    .ek-image_mobile {
         width: 100%;
         display: block;
     }
@@ -2427,11 +2450,13 @@ h3{
 
     .marriages-on-the-verge-img,
     .insider-louisville-image,
-    .chekhov-in-library-image {
+    .chekhov-in-library-image,
+    .ek-image {
         display: none;
     }
 
-    .insider-louisville-image_mobile{
+    .insider-louisville-image_mobile
+    .ek-image_mobile {
         width: 100%;
         display: block;
     }
@@ -2920,11 +2945,13 @@ h3{
 
     .marriages-on-the-verge-img,
     .insider-louisville-image,
-    .chekhov-in-library-image {
+    .chekhov-in-library-image,
+    .ek-image {
         display: none;
     }
 
-    .insider-louisville-image_mobile{
+    .insider-louisville-image_mobile,
+    .ek-image_mobile {
         width: 100%;
         display: block;
     }
@@ -3213,7 +3240,8 @@ h3{
 
     .marriages-on-the-verge-img,
     .insider-louisville-image,
-    .chekhov-in-library-image {
+    .chekhov-in-library-image,
+    .ek-image {
         display: none;
     }
 
@@ -3221,7 +3249,8 @@ h3{
         line-height: 0;
     }
 
-    .insider-louisville-image_mobile{
+    .insider-louisville-image_mobile,
+    .ek-image_mobile {
         width: 100%;
         display: block;
     }

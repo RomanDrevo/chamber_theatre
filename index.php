@@ -34,36 +34,66 @@ include "header.php";
 </div>
 
 
+<div class="container">
+    <div class="chekhov-in-library-container col-md-12 col-md-offset-1">
+        <div class="row">
+            <div class="homepage-heading-style">The Chamber Theatre is coming to the library</div>
+            <div class="col-md-6 col-sm-12 col-xs-12">
+                <p class="section-text-block">
+                    As part of the Fast Class series and in partnership with Louisville Free Public Library and Sister Cities Of Louisville The Chamber Theatre will perform their <a href="check-mate.php" class="chekhov-in-library-link">critically acclaimed 
+                    one-act comedy “The Proposal” </a> written by Anton Chekhov, translated by the The Chamber Theatre's co-artistic director Polina Shafran 
+                    and directed by another co-artistic director Martin French. The performance will be followed by a lecture from UofL professor Charles Ziegler on Russia’s tumultuous history, focusing on the cultural impact - past, present, and future - of politics.
+                </p>
+                <a href="https://www.facebook.com/events/1673505232945717/" target="_blank" class="btn btn-read-more" role="button">READ MORE</a> 
+            </div>
+
+            <div class="col-md-6 col-sm-6 col-xs-12">
+                <div class="row">
+                    <img src="img/lib-poster.jpg"  alt="..." class="chekhov-in-library-image img-responsive section-text-block">
+                </div>
+            </div>   
+            <img class="chekhov-in-library-image_mobile mobile-img" src="img/330x144-lib-poster.jpg">                 
+        </div>
+    </div>
+</div>
+
 <div class="fill-background-gray">
     <div class="container">
-            <div class="chekhov-in-library-container col-md-12 col-md-offset-1">
+        <div class="container ek-container">
+            <div class="col-md-10 col-md-offset-1">
                 <div class="row">
-                    <div class="homepage-heading-style">The Chamber Theatre is coming to the library</div>
-                    <div class="col-md-6 col-sm-12 col-xs-12">
-                        <p class="section-text-block">
-                            As part of the Fast Class series and in partnership with Louisville Free Public Library and Sister Cities Of Louisville The Chamber Theatre will perform their <a href="check-mate.php" class="chekhov-in-library-link">critically acclaimed 
-                            one-act comedy “The Proposal” </a> written by Anton Chekhov, translated by the The Chamber Theatre's co-artistic director Polina Shafran 
-                            and directed by another co-artistic director Martin French. The performance will be followed by a lecture from UofL professor Charles Ziegler on Russia’s tumultuous history, focusing on the cultural impact - past, present, and future - of politics.
-                        </p>
-                        <a href="https://www.facebook.com/events/1673505232945717/" target="_blank" class="btn btn-read-more" role="button">READ MORE</a> 
-                    </div>
-
-                    <div class="col-md-6 col-sm-6 col-xs-12">
-                        <div class="row">
-                            <img src="img/lib-poster.jpg"  alt="..." class="chekhov-in-library-image img-responsive section-text-block">
+                    <div class="homepage-heading-style col-md-12">New company stages classic, 'A Doll's House'
                         </div>
-                    </div>   
-                    <img class="chekhov-in-library-image_mobile mobile-img" src="img/330x144-lib-poster.jpg">                 
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                        <img src="img/212x212-dolls-house-image.jpg"  alt="..."
+                            class="ek-image">
+                    </div>
+                    <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
+                        <div class="">
+                            <div class="">
+                                <p class="ek section-text-block">
+                                    <i class="author"> By ELIZABETH KRAMER, Journal Senteniel </i><br>
+                                    Despite being nearly 138 years old, theater companies and audiences worldwide find the play 
+                                    still resonates with the often limited opportunities many women have today. <br>
+                                    This month, Louisville’s new company Chamber Theatre tests those waters when it brings 
+                                    “A Doll’s House” to stage under director Martin French, who is also co-artistic director of the company.
+                                </p>
+                                <a href="https://www.jsonline.com/story/entertainment/theater/2017/03/08/new-company-stages-classic-dolls-house/98847240/"
+                                target="_blank" class="btn btn-read-more" role="button">READ MORE</a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <img class="ek-image_mobile mobile-img" src="img/330x144_dolls-house.jpg">
                 </div>
             </div>
+        </div>
     </div>
 </div>
 
 <div class="container eli-keel-container">
     <div class="col-md-10 col-md-offset-1">
         <div class="row">
-
-
             <div class="homepage-heading-style col-md-12">The Chamber Theatre continues its Modernist focus with
                     Strindberg’s ‘Creditors’
                 </div>

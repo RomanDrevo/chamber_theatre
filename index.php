@@ -72,7 +72,7 @@ include "header.php";
                         <div class="">
                             <div class="">
                                 <p class="ek section-text-block">
-                                    <i class="author"> By ELIZABETH KRAMER, Journal Senteniel </i><br>
+                                    <i class="author"> By ELIZABETH KRAMER, Journal Sentinel </i><br>
                                     Despite being nearly 138 years old, theater companies and audiences worldwide find the play 
                                     still resonates with the often limited opportunities many women have today. <br>
                                     This month, Louisville’s new company Chamber Theatre tests those waters when it brings 

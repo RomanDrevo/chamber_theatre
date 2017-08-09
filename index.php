@@ -34,7 +34,30 @@ include "header.php";
 </div>
 
 
+<div class="fill-background-gray">
+    <div class="container">
+            <div class="chekhov-in-library-container col-md-12 col-md-offset-1">
+                <div class="row">
+                    <div class="homepage-heading-style">The Chamber Theatre is coming to the library</div>
+                    <div class="col-md-6 col-sm-12 col-xs-12">
+                        <p class="section-text-block">
+                            As part of the Fast Class series and in partnership with Louisville Free Public Library and Sister Cities Of Louisville The Chamber Theatre will perform their <a href="check-mate.php" class="chekhov-in-library-link">critically acclaimed 
+                            one-act comedy “The Proposal” </a> written by Anton Chekhov, translated by the The Chamber Theatre's co-artistic director Polina Shafran 
+                            and directed by another co-artistic director Martin French. The performance will be followed by a lecture from UofL professor Charles Ziegler on Russia’s tumultuous history, focusing on the cultural impact - past, present, and future - of politics.
+                        </p>
+                        <a href="https://www.facebook.com/events/1673505232945717/" target="_blank" class="btn btn-read-more" role="button">READ MORE</a> 
+                    </div>
 
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <div class="row">
+                            <img src="img/lib-poster.jpg"  alt="..." class="chekhov-in-library-image img-responsive section-text-block">
+                        </div>
+                    </div>   
+                    <img class="chekhov-in-library-image_mobile mobile-img" src="img/330x144-lib-poster.jpg">                 
+                </div>
+            </div>
+    </div>
+</div>
 
 <div class="container eli-keel-container">
     <div class="col-md-10 col-md-offset-1">
@@ -61,7 +84,7 @@ include "header.php";
                             anyway.”
                         </p>
                         <a href="http://insiderlouisville.com/lifestyle_culture/arts-and-entertainment/with-strindbergs-the-creditors-the-chamber-theatre-continues-modernist-focus/"
-                           target="_blank" class="btn btn-read-more eli-btn" role="button">READ MORE</a>
+                           target="_blank" class="btn btn-read-more" role="button">READ MORE</a>
                     </div>
                 </div>
 

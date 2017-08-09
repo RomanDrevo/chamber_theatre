@@ -463,6 +463,34 @@ h3{
 }
 /*Coming Next Section End*/
 
+/* Chekhov In Library Section Start */
+.chekhov-in-library-container {
+    line-height: 30px;
+    margin-bottom: 52px;
+}
+
+.chekhov-in-library-link {
+    color:#c7a462;
+}
+
+.chekhov-in-library-link:focus,
+.chekhov-in-library-link:hover {
+    opacity: 0.5;
+    text-decoration: none !important;
+}
+
+.chekhov-in-library-image {
+    opacity: 0.7;
+    height: 300;
+    width: auto;
+}
+
+.chekhov-in-library-image_mobile {
+    width: 100%;
+    display: none;
+}
+/* Chekhov In Library Section End */
+
 /*Eli Keel Section Start*/
 .eli-keel-container{
     margin-bottom: 52px;
@@ -1798,13 +1826,20 @@ h3{
     }
 
     .marriages-on-the-verge-img,
-    .insider-louisville-image {
+    .insider-louisville-image,
+    .chekhov-in-library-image {
         display: none;
     }
 
     .insider-louisville-image_mobile{
         width: 100%;
         display: block;
+    }
+
+    .chekhov-in-library-image_mobile {
+        width: 100%;
+        display: block;
+        opacity: 0.7;
     }
 
     .btn.btn-read-more{
@@ -2391,13 +2426,20 @@ h3{
     }
 
     .marriages-on-the-verge-img,
-    .insider-louisville-image {
+    .insider-louisville-image,
+    .chekhov-in-library-image {
         display: none;
     }
 
     .insider-louisville-image_mobile{
         width: 100%;
         display: block;
+    }
+
+    .chekhov-in-library-image_mobile {
+        width: 100%;
+        display: block;
+        opacity: 0.7;
     }
 
     .eli-keel-container,
@@ -2877,13 +2919,20 @@ h3{
     }
 
     .marriages-on-the-verge-img,
-    .insider-louisville-image {
+    .insider-louisville-image,
+    .chekhov-in-library-image {
         display: none;
     }
 
     .insider-louisville-image_mobile{
         width: 100%;
         display: block;
+    }
+
+    .chekhov-in-library-image_mobile {
+        width: 100%;
+        display: block;
+        opacity: 0.7;
     }
 
     .eli-keel-container,
@@ -3163,7 +3212,8 @@ h3{
     }
 
     .marriages-on-the-verge-img,
-    .insider-louisville-image {
+    .insider-louisville-image,
+    .chekhov-in-library-image {
         display: none;
     }
 
@@ -3174,6 +3224,12 @@ h3{
     .insider-louisville-image_mobile{
         width: 100%;
         display: block;
+    }
+
+    .chekhov-in-library-image_mobile {
+        width: 100%;
+        display: block;
+        opacity: 0.7;
     }
 
     .eli-keel-container,

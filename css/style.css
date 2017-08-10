@@ -375,6 +375,11 @@ h3{
     padding-top: 100px;
 }
 
+.announce-container-index {
+    margin-top: -2px;
+    padding-top: 250px;
+}
+
 .announce-text-block {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300!important;
@@ -1652,6 +1657,11 @@ h3{
         margin-top: 0;
     }
 
+    .announce-container-index {
+        margin-top: -2px;
+        padding-top: 100px;
+    }
+    
     .strindberg-in-bergman-container .strindberg-in-bergman-well {
         position: absolute;
         background-color: rgba(255,255,255, 0.85);
@@ -2477,6 +2487,11 @@ h3{
         margin-top: 62px;
     }
 
+    .announce-container-index {
+        margin-top: -2px;
+        padding-top: 100px;
+    }
+
     /*Footer*/
     #contact-info-footer {
         padding-top: 28px;
@@ -2976,7 +2991,10 @@ h3{
         margin-top: 62px;
     }
 
-
+    .announce-container-index {
+        margin-top: -2px;
+        padding-top: 100px;
+    }
 
     .top-container {
         padding-left: 0px;
@@ -3271,7 +3289,10 @@ h3{
         margin-top: 62px;
     }
 
-
+    .announce-container-index {
+        margin-top: -2px;
+        padding-top: 100px;
+    }
 
     .top-container {
         padding-left: 0px;

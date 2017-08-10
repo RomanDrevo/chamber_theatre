@@ -2,7 +2,7 @@
 include "header.php";
 ?>
 <div class="fill-background-black">
-    <div class="container-fluid announce-container">
+    <div class="container-fluid announce-container-index">
         <div class="top-wrapper">
 
          <!--   <div class="announce-text-block col-lg-5 col-md-5 col-sm-5 col-xs-8">

@@ -34,10 +34,11 @@ include "header.php";
 </div>
 
 
-<div class="container">
-    <div class="chekhov-in-library-container col-md-12 col-md-offset-1">
+
+<div class="container chekhov-in-library-container">
+    <div class="col-md-12 col-md-offset-1">
         <div class="row">
-            <div class="homepage-heading-style">The Chamber Theatre is coming to the library</div>
+            <div class="homepage-heading-style col-md-12">The Chamber Theatre is coming to the library</div>
             <div class="col-md-6 col-sm-12 col-xs-12">
                 <p class="section-text-block">
                     As part of the Fast Class series and in partnership with Louisville Free Public Library and Sister Cities Of Louisville The Chamber Theatre will perform their <a href="check-mate.php" class="chekhov-in-library-link">critically acclaimed 
@@ -62,8 +63,8 @@ include "header.php";
         <div class="container ek-container">
             <div class="col-md-10 col-md-offset-1">
                 <div class="row">
-                    <div class="homepage-heading-style col-md-12">New company stages classic, 'A Doll's House'
-                        </div>
+                    <div class="homepage-heading-style col-md-12">New company stages classic, A Doll's House
+                    </div>
                     <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
                         <img src="img/212x212-dolls-house-image.jpg"  alt="..."
                             class="ek-image">

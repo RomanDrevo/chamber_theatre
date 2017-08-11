@@ -305,10 +305,7 @@ include "header.php";
 
             </div>
         </div>
-
-
     </div>
-
 
     <div class="fill-background-black">
         <div class="container-fluid ">

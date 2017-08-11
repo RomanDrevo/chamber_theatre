@@ -242,17 +242,11 @@ include "header.php";
     </div>
 
 
-
-
-
-
-
-
-
-
-    <div class="container-fluid ">
+ <div class="fill-background-creditors-poster">
+    <div class="container-fluid">
         <img src="img/creditors-flyer.jpg" class="img-responsive creditors-img" alt="1">
     </div>
+ <div class="fill-background-black">
 
 <?php
 include "footer.php";

@@ -18,9 +18,9 @@ body {
     /* border: 1px solid red; */
 }
 
-image{
+/*image{
     width: 100% !important;
-}
+}*/
 
 .container-fluid {
     max-width: 1440px;
@@ -115,6 +115,10 @@ image{
 .fill-background-gray{
     background-color: #E8E8E8;
 }
+
+.fill-background-creditors-poster {
+    background-color: #666666;
+} 
 
 .fill-footer {
     background-color: #4d4d4d;

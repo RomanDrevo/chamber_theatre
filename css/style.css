@@ -375,6 +375,11 @@ h3{
     padding-top: 100px;
 }
 
+.announce-container-index {
+    margin-top: -2px;
+    padding-top: 250px;
+}
+
 .announce-text-block {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300!important;
@@ -463,8 +468,57 @@ h3{
 }
 /*Coming Next Section End*/
 
+/* Chekhov In Library Section Start */
+.chekhov-in-library-container {
+    line-height: 30px;
+    margin-bottom: 52px;
+}
+
+.chekhov-in-library-link {
+    color:#c7a462;
+}
+
+.chekhov-in-library-link:focus,
+.chekhov-in-library-link:hover {
+    opacity: 0.5;
+    text-decoration: none !important;
+}
+
+.chekhov-in-library-image {
+    opacity: 0.7;
+    height: 300;
+    width: auto;
+}
+
+.chekhov-in-library-image_mobile {
+    width: 100%;
+    display: none;
+}
+/* Chekhov In Library Section End */
+
+/*Elizabet kramer section Start */
+.ek-container {
+    margin-bottom: 52px;
+}
+
+.ek-image {
+    width: 100%;
+    margin-top: 34px;
+}
+
+.ek-image_mobile{
+    width: 100%;
+    display: none;
+}
+
+.ek{
+    line-height: 30px;
+}
+
+/*Elizabet kramer section End */
+
 /*Eli Keel Section Start*/
-.eli-keel-container{
+.eli-keel-container {
     margin-bottom: 52px;
 }
 
@@ -1603,6 +1657,11 @@ h3{
         margin-top: 0;
     }
 
+    .announce-container-index {
+        margin-top: -2px;
+        padding-top: 100px;
+    }
+    
     .strindberg-in-bergman-container .strindberg-in-bergman-well {
         position: absolute;
         background-color: rgba(255,255,255, 0.85);
@@ -1798,13 +1857,22 @@ h3{
     }
 
     .marriages-on-the-verge-img,
-    .insider-louisville-image {
+    .insider-louisville-image,
+    .chekhov-in-library-image,
+    .ek-image {
         display: none;
     }
 
-    .insider-louisville-image_mobile{
+    .insider-louisville-image_mobile,
+    .ek-image_mobile {
         width: 100%;
         display: block;
+    }
+
+    .chekhov-in-library-image_mobile {
+        width: 100%;
+        display: block;
+        opacity: 0.7;
     }
 
     .btn.btn-read-more{
@@ -2391,13 +2459,22 @@ h3{
     }
 
     .marriages-on-the-verge-img,
-    .insider-louisville-image {
+    .insider-louisville-image,
+    .chekhov-in-library-image,
+    .ek-image {
         display: none;
     }
 
-    .insider-louisville-image_mobile{
+    .insider-louisville-image_mobile
+    .ek-image_mobile {
         width: 100%;
         display: block;
+    }
+
+    .chekhov-in-library-image_mobile {
+        width: 100%;
+        display: block;
+        opacity: 0.7;
     }
 
     .eli-keel-container,
@@ -2408,6 +2485,11 @@ h3{
 
     #image {
         margin-top: 62px;
+    }
+
+    .announce-container-index {
+        margin-top: -2px;
+        padding-top: 100px;
     }
 
     /*Footer*/
@@ -2877,13 +2959,22 @@ h3{
     }
 
     .marriages-on-the-verge-img,
-    .insider-louisville-image {
+    .insider-louisville-image,
+    .chekhov-in-library-image,
+    .ek-image {
         display: none;
     }
 
-    .insider-louisville-image_mobile{
+    .insider-louisville-image_mobile,
+    .ek-image_mobile {
         width: 100%;
         display: block;
+    }
+
+    .chekhov-in-library-image_mobile {
+        width: 100%;
+        display: block;
+        opacity: 0.7;
     }
 
     .eli-keel-container,
@@ -2900,7 +2991,10 @@ h3{
         margin-top: 62px;
     }
 
-
+    .announce-container-index {
+        margin-top: -2px;
+        padding-top: 100px;
+    }
 
     .top-container {
         padding-left: 0px;
@@ -3163,7 +3257,9 @@ h3{
     }
 
     .marriages-on-the-verge-img,
-    .insider-louisville-image {
+    .insider-louisville-image,
+    .chekhov-in-library-image,
+    .ek-image {
         display: none;
     }
 
@@ -3171,9 +3267,16 @@ h3{
         line-height: 0;
     }
 
-    .insider-louisville-image_mobile{
+    .insider-louisville-image_mobile,
+    .ek-image_mobile {
         width: 100%;
         display: block;
+    }
+
+    .chekhov-in-library-image_mobile {
+        width: 100%;
+        display: block;
+        opacity: 0.7;
     }
 
     .eli-keel-container,
@@ -3186,7 +3289,10 @@ h3{
         margin-top: 62px;
     }
 
-
+    .announce-container-index {
+        margin-top: -2px;
+        padding-top: 100px;
+    }
 
     .top-container {
         padding-left: 0px;

@@ -6,7 +6,7 @@ include "header.php";
         <div class="container-fluid announce-container">
             <div class="top-wrapper">
 
-                <div class="announce-text-block about-us col-lg-5 col-md-5 col-sm-5 col-xs-8">
+              <!--  <div class="announce-text-block about-us col-lg-5 col-md-5 col-sm-5 col-xs-8">
                     <a href="dolls-house.php" class="btn-link btn-s announcement-btn" id="announcent-clickable-section">
                         <h3 class="coming-next">Coming Next:</h3>
                         <h3 class="announcement-dates">3.17.17 - 3.25.17</h3>
@@ -16,6 +16,13 @@ include "header.php";
                     <a href="http://tickets.thechambertheatre.com/" target="_blank"
                        class="btn btn-buy-tickets-top about-us hover-decoration" role="button">BUY
                         TICKETS</a>
+                </div>-->
+                <div class="announce-text-block col-lg-5 col-md-5 col-sm-5 col-xs-8">
+                    <div class="btn-link btn-s announcement-btn" id="announcent-clickable-section">
+                        <h3 class="coming-next">Coming Soon:</h3>
+                        <h3 class="announcement-dates">2017-2018 Season Announcement</h3>
+                        <h3 class="show-description">We will be announcing our shows and auditions shortly</h3>
+                    </div>
                 </div>
                 <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
                     <img src="img/4_4.jpg" class="home-page-top-img about-us">

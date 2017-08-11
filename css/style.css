@@ -764,13 +764,6 @@ h3{
     padding-left: 0;
     padding-right: 140px;
 }
-
-.home-page-top-img.about {
-    margin-top: -119px;
-    /* margin-left: 135px; */
-    margin-left: 135px;
-    /* border: 1px solid red; */
-}
 /*About Us Page End*/
 
 /*Contact Us Page Start*/
@@ -822,18 +815,6 @@ h3{
 /*Contact Us Page End*/
 
 /*Chek-Mate Page Start*/
-
-.top-wrapper.checkmate{
-    padding-top: 0px;
-    padding-left: 25px;
-    padding-right: 20px;
-}
-
-.home-page-top-img.checkmate{
-    margin-left: 0px;
-    margin-top: 85px;
-}
-
 .announce-text-block.checkmate{
     font-family: 'Open Sans', sans-serif;
     font-weight: 300!important;
@@ -1572,12 +1553,6 @@ h3{
         padding-left: 36px;
         padding-right: 36px;
     }
-
-    /*Checkmate*/
-    .home-page-top-img.checkmate {
-        margin-left: -10%;
-        margin-top: 85px;
-    }
 }
 
 /*iPad Pro*/
@@ -1700,12 +1675,6 @@ h3{
 
     .border-gold-column {
         padding: 0px 59px;
-    }
-
-    /*Checkmate*/
-    .home-page-top-img.checkmate {
-        margin-left: -10%;
-        margin-top: 85px;
     }
 }
 
@@ -1951,15 +1920,6 @@ h3{
         border-radius: 7px;
         margin-bottom: 104px;
         /* padding: 0px 52px; */
-    }
-
-    /*Checkmate*/
-    .home-page-top-img.checkmate {
-        position: relative;
-        z-index: 1;
-        margin-left: -72%;
-        margin-top: 60px;
-        width: 175%;
     }
 }
 
@@ -2297,14 +2257,6 @@ h3{
         padding-right: 15px;
     }
 
-    /*Checkmate*/
-    .home-page-top-img.checkmate {
-        position: initial;
-        margin-left: 289%;
-        margin-top: -192px;
-        width: 175%;
-    }
-
     .btn-buy-tickets-top.checkmate {
         color: #c7a462 !important;
         border: 1px solid #c7a462 !important;
@@ -2332,13 +2284,6 @@ h3{
         background: black;
         opacity: .8;
     }
-    /*Checkmate*/
-    .home-page-top-img.checkmate {
-        position: initial;
-        margin-left: 289%;
-        margin-top: -165px;
-        width: 175%;
-    }
 }
 
 @media (max-width: 588px){
@@ -2353,14 +2298,6 @@ h3{
         z-index: 10;
         background: black;
         opacity: .8;
-    }
-
-    /*Checkmate*/
-    .home-page-top-img.checkmate {
-        position: initial;
-        margin-left: 289%;
-        margin-top: -135px;
-        width: 175%;
     }
 }
 
@@ -2775,23 +2712,9 @@ h3{
         background: black;
         opacity: .8;
     }
-
-    .home-page-top-img.checkmate {
-        position: initial;
-        margin-left: 329%;
-        margin-top: -144px;
-        width: 213%;
-    }
 }
 
 @media (max-width: 485px){
-    .home-page-top-img.checkmate {
-        position: initial;
-        margin-left: 293%;
-        margin-top: -144px;
-        width: 254%;
-    }
-
     .btn-buy-tickets-top.checkmate {
         color: #c7a462 !important;
         border: 1px solid #c7a462 !important;
@@ -2860,13 +2783,6 @@ h3{
         padding-top: 0;
         padding-left: 10px;
         padding-right: 94px;
-    }
-
-    .home-page-top-img.checkmate {
-        position: initial;
-        margin-left: 293%;
-        margin-top: -90px;
-        width: 254%;
     }
 
     .btn-buy-tickets-top.checkmate {
@@ -3151,14 +3067,6 @@ h3{
         background: black;
         opacity: .8;
     }
-
-    .home-page-top-img.checkmate {
-        position: initial;
-        margin-left: 291%;
-        margin-top: -80px;
-        width: 297%;
-    }
-
 }
 
 /*iPhone5*/
@@ -3435,13 +3343,6 @@ h3{
         padding-top: 0;
         padding-left: 10px;
         padding-right: 49px;
-    }
-
-    .home-page-top-img.checkmate {
-        position: initial;
-        margin-left: 209%;
-        margin-top: -5px;
-        width: 412%;
     }
 
     .btn-buy-tickets-top.checkmate {

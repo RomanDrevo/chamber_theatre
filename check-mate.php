@@ -3,7 +3,7 @@ include "header.php";
 ?>
     <div class="fill-background-black">
         <div class="container-fluid announce-container">
-            <div class="top-wrapper.checkmate">
+            <div class="top-wrapper">
 
                <!-- <div class="announce-text-block checkmate col-lg-9 col-md-9 col-sm-9 col-xs-9">
                     <a href="dolls-house.php" class="btn-link btn-s announcement-btn" id="announcent-clickable-section">
@@ -23,8 +23,8 @@ include "header.php";
                         <h3 class="show-description">We will be announcing our shows and auditions shortly</h3>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
-                    <img src="img/1_1.jpg" class="home-page-top-img checkmate">
+                <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
+                    <img src="img/1_1.jpg" class="home-page-top-img">
                 </div>
 
             </div>

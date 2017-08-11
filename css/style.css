@@ -1352,6 +1352,31 @@ h3{
         display:block !important;
     }
 
+    .modal-nav-content {
+        width: 100%;
+        height: auto;
+    }
+
+    .modal-nav-body {
+        margin-top: 100px; 
+    }
+
+    .modal-nav-body ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    .modal-nav-body ul li {
+        text-align: left;
+    }
+
+    .nav-modal {
+        background-color: black;
+        opacity: 0.85 !important;
+    }
+
     /*#top-nav-social {*/
         /*margin-top: 40px;*/
         /*font-size: 35px;*/

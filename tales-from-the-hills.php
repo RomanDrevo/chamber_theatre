@@ -35,28 +35,26 @@ include "header.php";
         <div class="row">
             <div class="col-lg-5 col-lg-offset-1 col-md-6 col-sm-6 col-xs-12 panel panel-default chek-mate-slider">
                 <div class="panel-heading">
-                    <div class="homepage-heading-style">Creditors</div>
+                    <div class="homepage-heading-style">Tales from the Hills</div>
                 </div>
                 <div class="panel-body">
                     <p>
-                        <span class="show-subheading-style">An uncomfortable tragicomedy By August Strindberg</span><br>
-                        Two men meet while one awaits the return of his wife, and become fast friends. They talk of art,
-                        and in time, they talk of relationships - one starts to ask questions, and doubts start to form:
-                        doubts that only the wife can dispel. One of Strindberg's most powerful plays, Creditors explores
-                        the power of doubt, and how a seed of mistrust can disintegrate a relationship.
+                        <span class="show-subheading-style">WB Yeats’ verse tragedy Deirdre and <br>J.M. Synge’s In The Shadow of The Glen</span><br>
+                        Tales from the Hills is raucous comedy that explores the difference
+                        between tragic legend in Deirdre, and the comedy of folk tale suffused borne out of gossip through In The
+                        Shadow of The Glen.
                     </p>
                     <p>
-                        <a href="https://www.google.com/maps/place/Vault1031/@38.2384223,-85.7649021,17z/data=!4m12!1m6!3m5!1s0x88690d5492f4bc47:0xaa4107cddfa349b7!2sVault1031!8m2!3d38.2384181!4d-85.7627134!3m4!1s0x88690d5492f4bc47:0xaa4107cddfa349b7!8m2!3d38.2384181!4d-85.7627134" target="_blank" class="btn vault-btn">THE VAULT 1031 <i class="fa fa-map-marker"></i> </a> | <a href="https://www.facebook.com/events/1228137350541427/" target="_blank" class="btn vault-btn">12/02/16 - 12/10/16</a>
+                        <a href="https://www.google.com/maps/place/Hope+Culture+Church/@38.2625772,-85.7151737,17z/data=!4m12!1m6!3m5!1s0x88697317a7fc6239:0xcf1ffbe866bb3273!2sHope+Culture+Church!8m2!3d38.262573!4d-85.712985!3m4!1s0x88697317a7fc6239:0xcf1ffbe866bb3273!8m2!3d38.262573!4d-85.712985" target="_blank" class="btn vault-btn">HOPE COMMUNITY & COFFEE <i class="fa fa-map-marker"></i> </a> | <a href="https://www.facebook.com/events/1228137350541427/" target="_blank" class="btn vault-btn">11/10/17 - 11/18/17</a>
                     </p>
                 </div>
 
-                <div class="show-slider panel-body">
+             <!--   <div class="show-slider panel-body">
                     <div class="show-subheading-style">PHOTOS FROM THE SHOW</div>
 
                     <section class="chek-mate-photos-section">
                         <div class="chek-mate-photos-container">
                             <div class="carousel slide article-slide gallery-carousel" id="article-photo-carousel">
-                                <!-- Wrapper for slides -->
                                 <div class="carousel-inner cont-slider">
                                     <div class="item active">
                                         <img alt="" title="" src="img/creditors-photos/14.jpg">
@@ -101,7 +99,7 @@ include "header.php";
                                         <img alt="" title="" src="img/creditors-photos/13.jpg">
                                     </div>
                                 </div>
-                                <!-- Indicators -->
+
                                 <div>
                                     <ol class="gallery-carousel-indicators carousel-indicators">
                                         <li class="active" data-slide-to="0" data-target="#article-photo-carousel">
@@ -151,15 +149,15 @@ include "header.php";
                             </div>
                         </div>
                     </section>
-                </div>
+                </div>  -->
 
-                <div class="show-video panel-body">
+            <!--    <div class="show-video panel-body">
                     <div class="show-subheading-style">WATCH VIDEO FROM THE SHOW</div>
                     <div class="embed-responsive embed-responsive-16by9 list-group-item">
                         <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/HLF7pEoOjIM"
                                 allowfullscreen></iframe>
                     </div>
-                </div>
+                </div>-->
             </div>
 
             <div class="col-lg-5 col-md-6 col-sm-6 col-xs-12 panel panel-default chek-mate-crew">
@@ -167,11 +165,13 @@ include "header.php";
                     <div class="col-md-6">
 
                         <div class="crew">
-                            <span class="gold-heading-small text-weight-400"> Director </span><br>
+                            <span class="gold-heading-small text-weight-400"> Directors </span><br>
                             <span class="text-weight-400">Martin French  </span>
+                            <br>
+                            <span class="text-weight-400">Polina Shafran  </span>
                         </div>
 
-                        <div class="crew">
+                   <!--     <div class="crew">
                             <span class="gold-heading-small text-weight-400"> Assistant Director </span><br>
                             <span class="text-weight-400">Jay Marie Padilla</span>
                         </div>
@@ -184,7 +184,7 @@ include "header.php";
                         <div class="crew">
                             <span class="gold-heading-small text-weight-400"> Design </span><br>
                             <span class="text-weight-400">Martin French, Clare Hagan, Polina Shafran</span>
-                        </div>
+                        </div>-->
 
 
                     </div>
@@ -193,15 +193,15 @@ include "header.php";
                             <span class="gold-heading-small text-weight-400"> Poster Design </span><br>
                             <span class="text-weight-400">Elina Unger</span>
                         </div>
-                        <div class="crew">
+                  <!--      <div class="crew">
                             <span class="gold-heading-small text-weight-400">Cast </span><br>
                             <span class="text-weight-400">Michael Drury </span>
                             <span class="text-weight-400">Ryan Watson </span>
                             <span class="text-weight-400">Polina Shafran</span>
-                        </div>
+                        </div>-->
                     </div>
 
-                    <div class="golden-quote col-md-12">
+               <!--     <div class="golden-quote col-md-12">
                         <a href="http://arts-louisville.com/2016/12/03/threes-company/">
                             <p class="quote-text">
                                 <i class="unicode-quote">&#x201c</i>
@@ -235,18 +235,17 @@ include "header.php";
                             </p>
                         </a>
 
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
     </div>
 
 
- <div class="fill-background-creditors-poster">
+<!--<div class="fill-background-creditors-poster">
     <div class="container-fluid">
         <img src="img/creditors-flyer.jpg" class="img-responsive creditors-img" alt="1">
-    </div>
- </div>
+    </div> -->
 
 <?php
 include "footer.php";

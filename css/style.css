@@ -472,6 +472,28 @@ h3{
 }
 /*Coming Next Section End*/
 
+/* Season 2017-18 Section Start */
+.season-17-18-container {
+    margin-bottom: 52px;   
+}
+
+.season-17-18-image {
+    width: 100%;
+    margin-top: 34px;
+}
+
+
+.season-17-18-image_mobile {
+    width: 100%;
+    display: none;
+}
+
+.season-17-18{
+    line-height: 30px;
+}
+
+/* Season 2017-18 Section End */
+
 /* Chekhov In Library Section Start */
 .chekhov-in-library-container {
     line-height: 30px;
@@ -510,7 +532,7 @@ h3{
     margin-top: 34px;
 }
 
-.ek-image_mobile{
+.ek-image_mobile {
     width: 100%;
     display: none;
 }
@@ -1123,6 +1145,20 @@ h3{
 
 .vault-btn:focus,
 .vault-btn:hover {
+    opacity: 0.4;
+    text-decoration: none;
+}
+
+.hope-culture-btn {
+    font-family: 'Open Sans' !important;
+    font-weight: lighter !important;
+    color: #c7a462 !important;
+    font-size: 17px !important;
+    padding: 0px !important;
+}
+
+.hope-culture-btn:focus,
+.hope-culture-btn:hover {
     opacity: 0.4;
     text-decoration: none;
 }
@@ -1832,12 +1868,14 @@ h3{
     .marriages-on-the-verge-img,
     .insider-louisville-image,
     .chekhov-in-library-image,
-    .ek-image {
+    .ek-image,
+    .season-17-18-image {
         display: none;
     }
 
     .insider-louisville-image_mobile,
-    .ek-image_mobile {
+    .ek-image_mobile,
+    .season-17-18-image_mobile {
         width: 100%;
         display: block;
     }
@@ -2402,12 +2440,14 @@ h3{
     .marriages-on-the-verge-img,
     .insider-louisville-image,
     .chekhov-in-library-image,
-    .ek-image {
+    .ek-image,
+    .season-17-18-image {
         display: none;
     }
 
-    .insider-louisville-image_mobile
-    .ek-image_mobile {
+    .insider-louisville-image_mobile,
+    .ek-image_mobile,
+    .season-17-18-image_mobile {
         width: 100%;
         display: block;
     }
@@ -2678,6 +2718,14 @@ h3{
         font-size: 16px !important;
         padding: 0px !important;
     }
+    
+    .hope-culture-btn {
+        font-family: 'Open Sans' !important;
+        font-weight: lighter !important;
+        color: #c7a462 !important;
+        font-size: 14px !important;
+        padding: 0px !important;
+    }
 
     .chek-mate-slider .homepage-heading-style {
         color: #c7a462;
@@ -2881,12 +2929,14 @@ h3{
     .marriages-on-the-verge-img,
     .insider-louisville-image,
     .chekhov-in-library-image,
-    .ek-image {
+    .ek-image,
+    .season-17-18-image {
         display: none;
     }
 
     .insider-louisville-image_mobile,
-    .ek-image_mobile {
+    .ek-image_mobile,
+    .season-17-18-image_mobile {
         width: 100%;
         display: block;
     }
@@ -3171,7 +3221,8 @@ h3{
     .marriages-on-the-verge-img,
     .insider-louisville-image,
     .chekhov-in-library-image,
-    .ek-image {
+    .ek-image,
+    .season-17-18-image {
         display: none;
     }
 
@@ -3180,7 +3231,8 @@ h3{
     }
 
     .insider-louisville-image_mobile,
-    .ek-image_mobile {
+    .ek-image_mobile,
+    .season-17-18-image_mobile {
         width: 100%;
         display: block;
     }

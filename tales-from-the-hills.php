@@ -39,13 +39,20 @@ include "header.php";
                 </div>
                 <div class="panel-body">
                     <p>
-                        <span class="show-subheading-style">WB Yeats’ verse tragedy Deirdre and <br>J.M. Synge’s In The Shadow of The Glen</span><br>
-                        Tales from the Hills is raucous comedy that explores the difference
-                        between tragic legend in Deirdre, and the comedy of folk tale suffused borne out of gossip through In The
-                        Shadow of The Glen.
+                        <span class="show-subheading-style">Deirdre by WB Yeats and In The Shadow of The Glen by J.M. Synge’s </span><br> 
+                        People will tell you that a lot can happen in the Hills, but how much can you believe?  What is a fact and what is a fiction, what is a myth and what is just gossip. 
+                        Kings and heroes walked this land once, and so too did tramps and shepherds. Is the truth of a story to be defined or destroyed by the beauty of it? <br>
+                        Two classics from the Irish theatrical explosion of the early 20th Century, In the Shadow of The Glen and Deirdre are two episodes of Irish storytelling.  
+                        Deirdre by WB Yeats, is a verse tragedy that happens towards the endgame of the legend / myth of Deirdre who ran away from a planned marriage to the king to be with a man she loved.  In The Shadow of The Glen by JM Synge, was reputed to be half created from what he heard servants talking about when staying in a boarding house, and is an exaggerated comedy in the isolation of the hills.
                     </p>
                     <p>
-                        <a href="https://www.google.com/maps/place/Hope+Culture+Church/@38.2625772,-85.7151737,17z/data=!4m12!1m6!3m5!1s0x88697317a7fc6239:0xcf1ffbe866bb3273!2sHope+Culture+Church!8m2!3d38.262573!4d-85.712985!3m4!1s0x88697317a7fc6239:0xcf1ffbe866bb3273!8m2!3d38.262573!4d-85.712985" target="_blank" class="btn vault-btn">HOPE COMMUNITY & COFFEE <i class="fa fa-map-marker"></i> </a> | <a href="https://www.facebook.com/events/1228137350541427/" target="_blank" class="btn vault-btn">11/10/17 - 11/18/17</a>
+                        <a href="https://www.google.com/maps/place/Hope+Culture+Church/@38.2625772,-85.7151737,17z/data=!4m12!1m6!3m5!1s0x88697317a7fc6239:0xcf1ffbe866bb3273!2sHope+Culture+Church!8m2!3d38.262573!4d-85.712985!3m4!1s0x88697317a7fc6239:0xcf1ffbe866bb3273!8m2!3d38.262573!4d-85.712985" 
+                            target="_blank" 
+                            class="btn hope-culture-btn">HOPE COMMUNITY & COFFEE 
+                            <i class="fa fa-map-marker"></i> </a> | <a href="https://www.facebook.com/events/1228137350541427/" 
+                                                                        target="_blank" 
+                                                                        class="btn vault-btn">
+                                                                                Nov 10, 11, 13, 16,17,18 at 7:30pm</a>
                     </p>
                 </div>
 

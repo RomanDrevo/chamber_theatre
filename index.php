@@ -34,6 +34,40 @@ include "header.php";
 </div>
 
 
+<div class="fill-background-gray">
+    <div class="container">
+        <div class="container season-17-18-container">
+            <div class="col-md-11 col-md-offset-1">
+                <div class="row">
+                    <div class="homepage-heading-style col-md-12">The Chamber Theatre Announces 2017/18 Season
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                        <img src="img/season-17-18.jpg"  alt="..."
+                            class="season-17-18-image">
+                    </div>
+                    <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
+                        <div class="">
+                            <div class="">
+                                <p class="season-17-18 section-text-block">
+                                    <i class="author"> By ASHLIE STEVENS, WFPL </i><br>
+                                    Louisville’s Chamber Theatre has announced its 2017/18 season, which will include two productions: “Tales from the Hills” and “All People Sneeze.” <br>
+                                    Both Shafran and French say there is an emphasis this season on narrative and commonalities between cultures.
+                                    “One of the things about ‘Tales from the Hills’ in tandem with ‘All People Sneeze’ is that it’s a great opportunity to explore storytelling,” French says. 
+                                    “And that’s what we want to do this time around — look at plays, look at stories and how they are told.”
+                                </p>
+                                <a href="http://wfpl.org/louisvilles-chamber-theatre-announces-201718-season/"
+                                target="_blank" class="btn btn-read-more" role="button">READ MORE</a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <img class="season-17-18-image_mobile mobile-img" src="img/season-17-18-mobile.png">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 
 <div class="container chekhov-in-library-container">
     <div class="col-md-12 col-md-offset-1">

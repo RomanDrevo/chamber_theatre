@@ -37,15 +37,16 @@ include "header.php";
         <div class="row">
             <div class="col-lg-5 col-lg-offset-1 col-md-6 col-sm-6 col-xs-12 panel panel-default chek-mate-slider">
                 <div class="panel-heading">
-                    <div class="homepage-heading-style">Tales from the Hills</div>
+                    <div class="homepage-heading-style">All People Sneeze</div>
                 </div>
                 <div class="panel-body">
                     <p>
-                        <span class="show-subheading-style">Deirdre by WB Yeats and In The Shadow of The Glen by J.M. Synge’s </span><br> 
-                        People will tell you that a lot can happen in the Hills, but how much can you believe?  What is a fact and what is a fiction, what is a myth and what is just gossip. 
-                        Kings and heroes walked this land once, and so too did tramps and shepherds. Is the truth of a story to be defined or destroyed by the beauty of it? <br>
-                        Two classics from the Irish theatrical explosion of the early 20th Century, In the Shadow of The Glen and Deirdre are two episodes of Irish storytelling.  
-                        Deirdre by WB Yeats, is a verse tragedy that happens towards the endgame of the legend / myth of Deirdre who ran away from a planned marriage to the king to be with a man she loved.  In The Shadow of The Glen by JM Synge, was reputed to be half created from what he heard servants talking about when staying in a boarding house, and is an exaggerated comedy in the isolation of the hills.
+                        <span class="show-subheading-style">From short stories by Anton Chekhov</span><br> 
+                        When it is time to see what the humanity is become, how will be know it?  Will we know it by how we behave with our spouses?  
+                        How we treat the dogs of others?  How we cope with jealousy?  So many ways to approach these dilemmas, so many stories of how.  
+                        Perhaps there is one thing that unites all people - the need to tell their stories.  That, and the fact that all people sneeze. <br>
+                        Rifling through the pages of Chekhov's short stories, we look in on people of all backgrounds as they the get on with the daily business 
+                        of eating, drinking, living, and dying, with Chekhov as our guide through their world.
                     </p>
                     <p>
                         <a href="https://www.google.com/maps/place/Hope+Culture+Church/@38.2625772,-85.7151737,17z/data=!4m12!1m6!3m5!1s0x88697317a7fc6239:0xcf1ffbe866bb3273!2sHope+Culture+Church!8m2!3d38.262573!4d-85.712985!3m4!1s0x88697317a7fc6239:0xcf1ffbe866bb3273!8m2!3d38.262573!4d-85.712985" 
@@ -54,7 +55,7 @@ include "header.php";
                             <i class="fa fa-map-marker"></i> </a> | <a href="https://www.facebook.com/events/1228137350541427/" 
                                                                         target="_blank" 
                                                                         class="btn vault-btn">
-                                                                                Nov 10, 11, 13, 16,17,18 at 7:30pm</a>
+                                                                                March 2, 3, 5, 8, 9, 10 at 7:30pm</a>
                     </p>
                 </div>
 
@@ -174,10 +175,8 @@ include "header.php";
                     <div class="col-md-6">
 
                         <div class="crew">
-                            <span class="gold-heading-small text-weight-400"> Directors </span><br>
+                            <span class="gold-heading-small text-weight-400"> Director </span><br>
                             <span class="text-weight-400">Martin French  </span>
-                            <br>
-                            <span class="text-weight-400">Polina Shafran  </span>
                         </div>
 
                    <!--     <div class="crew">

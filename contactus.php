@@ -6,19 +6,7 @@ include "header.php";
         <div class="container-fluid announce-container">
             <div class="top-wrapper">
 
-               <div class="announce-text-block col-lg-5 col-md-5 col-sm-5 col-xs-8">
-                    <a href="tales-from-the-hills.php" class="btn-link btn-s announcement-btn" id="announcent-clickable-section">
-                        <h3 class="coming-next">Coming Next:</h3>
-                        <h3 class="announcement-dates">11.10.17 - 11.18.17</h3>
-                        <h3 class="show-name">TALES FROM THE HILLS</h3>
-                        <h3 class="show-description">WB Yeats’ verse tragedy Deirdre and <br> J.M. Synge’s raucous comedy In The Shadow of The Glen</h3>
-                </a>
-                <!--    <a href="http://tickets.thechambertheatre.com/" target="_blank"
-                   class="btn btn-buy-tickets-top hover-decoration" role="button">BUY
-                    TICKETS</a>-->
-                    <a href="https://www.facebook.com/events/1907604012834766/" target="_blank"
-                        class="btn btn-buy-tickets-top hover-decoration" role="button">AUDITIONS</a>
-                </div>
+                <?php include "comming-next.php";?>
                 <!--    <div class="announce-text-block col-lg-5 col-md-5 col-sm-5 col-xs-8">
                     <div class="btn-link btn-s announcement-btn" id="announcent-clickable-section">
                         <h3 class="coming-next">Coming Soon:</h3>
@@ -85,6 +73,22 @@ include "header.php";
 
 
     </div>
+    <div class="col-sm-4"></div>
+    <form class="contact-us-form col-sm-4">
+        <div class="form-group">
+            <label for="email">Email address</label>
+            <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+        <div class="form-group">
+            <label for="message">Message</label>
+            <textarea class="form-control"></textarea>
+        </div>
+        <div class="form-group">
+            <button type="submit" class="btn btn-primary">Send</button>
+        </div>
+    </form>
+    <div class="col-sm-4"></div>
 </div>
 
 <div class="">

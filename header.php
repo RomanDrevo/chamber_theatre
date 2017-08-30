@@ -71,7 +71,7 @@
                     <ul class="nav navbar-nav navbar-right">
                         <li class="navbar"><a href="index.php">HOME</a></li>
                         <li class=" navbar dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
-                                                        aria-haspopup="true" aria-expanded="false">SHOWS<span class="caret"></span></a>
+                                                        aria-haspopup="true" aria-expanded="false">SHOWS<span class="fa fa-caret-down fa-caret-size"></span></a>
                             <ul class="dropdown-menu">
                                 <li role="separator" class="divider"></li>
                                 <li class="dropdown-header">Season 2017/2018</li>

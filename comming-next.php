@@ -8,6 +8,6 @@
     <!--   <a href="http://tickets.thechambertheatre.com/" target="_blank"
           class="btn btn-buy-tickets-top hover-decoration" role="button">BUY
            TICKETS</a>-->
-    <a href="https://www.facebook.com/events/1907604012834766/" target="_blank"
-       class="btn btn-buy-tickets-top hover-decoration" role="button">AUDITIONS</a>
+   <!-- <a href="https://www.facebook.com/events/1907604012834766/" target="_blank"
+       class="btn btn-buy-tickets-top hover-decoration" role="button">AUDITIONS</a> -->
 </div>

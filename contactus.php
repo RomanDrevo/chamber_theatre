@@ -73,7 +73,7 @@ include "header.php";
 
 
     </div>
-    <div class="col-sm-4"></div>
+   <!-- <div class="col-sm-4"></div>
     <form class="contact-us-form col-sm-4">
         <div class="form-group">
             <label for="email">Email address</label>
@@ -88,7 +88,7 @@ include "header.php";
             <button type="submit" class="btn btn-primary">Send</button>
         </div>
     </form>
-    <div class="col-sm-4"></div>
+    <div class="col-sm-4"></div> -->
 </div>
 
 <div class="">

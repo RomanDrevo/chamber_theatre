@@ -304,6 +304,10 @@ body {
     margin-bottom: 23px;
 }
 
+.fa-caret-size {
+    font-size: 70%;
+}
+
 
 /*Header End*/
 
@@ -497,7 +501,7 @@ h3{
 }
 
 .chekhov-in-library-link {
-    color:#c7a462;
+    color:#c7a462 !important;
 }
 
 .chekhov-in-library-link:focus,

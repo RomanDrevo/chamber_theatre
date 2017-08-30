@@ -164,7 +164,7 @@ include "header.php";
 
                         <div class="crew">
                             <span class="gold-heading-small text-weight-400"> Director </span><br>
-                            <span class="text-weight-400">Martin French  </span>
+                            <span class="text-weight-400">Polina Shafran</span>
                         </div>
 
                    <!--     <div class="crew">

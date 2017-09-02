@@ -95,12 +95,21 @@
                 <div class="modal fade nav-modal" id="nav-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                     <div class="modal-dialog" role="document">
                         <div class="modal-nav-content">
+                             <div class="modal-header">
+                                <button type="button" class="close overlay-modal-close-btn" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
                             <div class="modal-nav-body">
-                                <ul class="nav navbar-nav navbar-right">
+                                <ul class="nav navbar-nav navbar-right ">
                                     <li class="navbar"><a href="index.php">HOME</a></li>
-                                    <li class=" navbar dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
-                                                                    aria-haspopup="true" aria-expanded="false">SHOWS<span class="caret"></span></a>
+                                    <li class="navbar dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                                                                    aria-haspopup="true" aria-expanded="false">SHOWS<span class="fa fa-caret-down fa-caret-size"></span></span></a>
                                         <ul class="dropdown-menu">
+                                            <li role="separator" class="divider"></li>
+                                            <li class="dropdown-header">Season 2017/2018</li>
+                                            <li><a href="tales-from-the-hills.php">TALES FROM THE HILLS</a></li>
+                                            <li><a href="all-people-sneeze.php">ALL PEOPLE SNEEZE</a></li>
                                             <li role="separator" class="divider"></li>
                                             <li class="dropdown-header">Season 2016/2017</li>
                                             <li><a href="dolls-house.php">A DOLL'S HOUSE</a></li>

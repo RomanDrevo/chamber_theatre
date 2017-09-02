@@ -177,6 +177,8 @@ include "header.php";
     </div>
 </div>
 
+
+<!--
 <div class="container-fluid">
     <section class="strindberg-in-bergman-section">
         <div class="strindberg-in-bergman-container">
@@ -212,7 +214,7 @@ include "header.php";
             </div>
         </div>
     </section>
-</div>
+</div>  -->
 
 <div class="container">
         <div class="translate-chekhov-container col-md-10 col-md-offset-1">

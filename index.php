@@ -51,7 +51,7 @@ include "header.php";
                         </div>
 
                     </div>
-                    <img class="season-17-18-image_mobile mobile-img" src="img/season-17-18-mobile.png">
+                    <img class="season-17-18-image_mobile mobile-img" src="img/season-17-18-mobile.jpg">
                 </div>
             </div>
         </div>
@@ -178,7 +178,7 @@ include "header.php";
 </div>
 
 
-<!--
+
 <div class="container-fluid">
     <section class="strindberg-in-bergman-section">
         <div class="strindberg-in-bergman-container">
@@ -214,7 +214,7 @@ include "header.php";
             </div>
         </div>
     </section>
-</div>  -->
+</div>  
 
 <div class="container">
         <div class="translate-chekhov-container col-md-10 col-md-offset-1">

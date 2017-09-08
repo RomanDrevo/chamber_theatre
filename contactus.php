@@ -79,7 +79,7 @@ include "header.php";
 
 
 <!--   <div class="col-sm-4"></div>-->
-<!--    <form class="contact-us-form col-sm-4">-->
+<!--    <form class="contact-us-form col-sm-12">-->
 <!--        <div class="form-group">-->
 <!--            <label for="name">Name</label>-->
 <!--            <input type="text" class="form-control" id="name" aria-describedby="emailHelp" placeholder="Name">-->
@@ -95,10 +95,10 @@ include "header.php";
 <!--        </div>-->
 <!--        <div class="form-group">-->
 <!--            <label for="message">Message</label>-->
-<!--            <textarea class="form-control"></textarea>-->
+<!--            <textarea class="form-control" rows="6"></textarea>-->
 <!--        </div>-->
 <!--        <div class="form-group">-->
-<!--            <button type="submit" class="btn btn-primary">Send</button>-->
+<!--            <button type="submit" class="btn btn-read-more">SUBMIT</button>-->
 <!--        </div>-->
 <!--    </form>-->
 <!--    <div class="col-sm-4"></div>-->

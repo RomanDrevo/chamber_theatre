@@ -47,6 +47,8 @@ include "header.php";
                                 </p>
                                 <a href="http://wfpl.org/louisvilles-chamber-theatre-announces-201718-season/"
                                 target="_blank" class="btn btn-read-more" role="button">READ MORE</a>
+                                <a href="http://wfpl.org/louisvilles-chamber-theatre-announces-201718-season/"
+                                   target="_blank" class="btn btn-read-more-mobile" role="button">Read more...</a>
                             </div>
                         </div>
 
@@ -69,7 +71,8 @@ include "header.php";
                     one-act comedy “The Proposal” </a> written by Anton Chekhov, translated by the The Chamber Theatre's co-artistic director Polina Shafran 
                     and directed by another co-artistic director Martin French. The performance will be followed by a lecture from UofL professor Charles Ziegler on Russia’s tumultuous history, focusing on the cultural impact - past, present, and future - of politics.
                 </p>
-                <a href="https://www.facebook.com/events/1673505232945717/" target="_blank" class="btn btn-read-more" role="button">READ MORE</a> 
+                <a href="https://www.facebook.com/events/1673505232945717/" target="_blank" class="btn btn-read-more" role="button">READ MORE</a>
+                <a href="https://www.facebook.com/events/1673505232945717/" target="_blank" class="btn btn-read-more-mobile" role="button">Read more...</a>
             </div>
 
             <div class="col-md-6 col-sm-6 col-xs-12">
@@ -105,6 +108,8 @@ include "header.php";
                                 </p>
                                 <a href="https://www.jsonline.com/story/entertainment/theater/2017/03/08/new-company-stages-classic-dolls-house/98847240/"
                                 target="_blank" class="btn btn-read-more" role="button">READ MORE</a>
+                                <a href="https://www.jsonline.com/story/entertainment/theater/2017/03/08/new-company-stages-classic-dolls-house/98847240/"
+                                   target="_blank" class="btn btn-read-more-mobile" role="button">Read more...</a>
                             </div>
                         </div>
 
@@ -140,6 +145,8 @@ include "header.php";
                         </p>
                         <a href="http://insiderlouisville.com/lifestyle_culture/arts-and-entertainment/with-strindbergs-the-creditors-the-chamber-theatre-continues-modernist-focus/"
                            target="_blank" class="btn btn-read-more" role="button">READ MORE</a>
+                        <a href="http://insiderlouisville.com/lifestyle_culture/arts-and-entertainment/with-strindbergs-the-creditors-the-chamber-theatre-continues-modernist-focus/"
+                           target="_blank" class="btn btn-read-more-mobile" role="button">Read more...</a>
                     </div>
                 </div>
 
@@ -166,6 +173,8 @@ include "header.php";
                         </p>
                         <a href="http://wfpl.org/chamber-theatres-upcoming-season-explores-marriages-verge/"
                            target="_blank" class="btn btn-read-more" role="button">READ MORE</a>
+                        <a href="http://wfpl.org/chamber-theatres-upcoming-season-explores-marriages-verge/"
+                           target="_blank" class="btn btn-read-more-mobile" role="button">Read more...</a>
                     </div>
                     <div class="col-md-6 col-sm-6 col-xs-12">
                         <img src="img/marriages_on_the_verge.jpg" id="" width="368" height="368"
@@ -186,8 +195,9 @@ include "header.php";
                     <h2 class="strindberg-in-bergman-heading"> Strindberg in Bergman</h2>
                         <p class="strindberg-in-bergman-text"> Exclusive essay by Professor Egil Törnqvist on August
                             Strindberg's great influence on Bergman – and (in a manner of speaking) vice versa. </p>
-                    <div class="text-center"><a href="http://www.ingmarbergman.se/en/universe/strindberg-bergman"
-                                                target="_blank" class="btn btn-read-more btn-bergman" role="button">READ MORE</a>
+                    <div class="text-center">
+                        <a href="http://www.ingmarbergman.se/en/universe/strindberg-bergman" target="_blank" class="btn btn-read-more btn-bergman" role="button">READ MORE</a>
+                        <a href="http://www.ingmarbergman.se/en/universe/strindberg-bergman" target="_blank" class="btn btn-read-more-mobile btn-bergman" role="button">Read more...</a>
                     </div>
                 </div>
             </div>
@@ -204,8 +214,8 @@ include "header.php";
                             Exclusive essay by Professor Egil Törnqvist on August
                             Strindberg's great influence on Bergman – and (in a manner of speaking) vice versa.
                         </p>
-                        <a href="http://www.ingmarbergman.se/en/universe/strindberg-bergman"
-                           target="_blank" class="btn btn-read-more btn-bergman" role="button">READ MORE</a>
+                        <a href="http://www.ingmarbergman.se/en/universe/strindberg-bergman" target="_blank" class="btn btn-read-more btn-bergman" role="button">READ MORE</a>
+                        <a href="http://www.ingmarbergman.se/en/universe/strindberg-bergman" target="_blank" class="btn btn-read-more-mobile btn-bergman" role="button">Read more...</a>
                     </div>
                     <img class="strindberg-in-bergman-image_mobile mobile-img" src="img/Strindberg_Homepage_mobile.jpg">
                 </div>
@@ -229,8 +239,8 @@ include "header.php";
                                 Russia, she came of age in Israel after moving there with her family, and then came to
                                 Louisville about five years ago.
                             </p>
-                            <a href="http://arts-louisville.com/2016/01/04/polina-shafran-translates-chekhov-for-you/"
-                           target="_blank" class="btn btn-read-more" role="button">READ MORE</a>
+                            <a href="http://arts-louisville.com/2016/01/04/polina-shafran-translates-chekhov-for-you/" target="_blank" class="btn btn-read-more" role="button">READ MORE</a>
+                            <a href="http://arts-louisville.com/2016/01/04/polina-shafran-translates-chekhov-for-you/" target="_blank" class="btn btn-read-more-mobile" role="button">Read more...</a>
                     </div>
                 </div>
 

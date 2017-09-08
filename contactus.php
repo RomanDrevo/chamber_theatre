@@ -39,14 +39,16 @@ include "header.php";
         </div>
 
         <div class="col-md-4 col-sm-12 col-xs-12">
+            <img src="img/phone_213x218.svg" class="contact-us-icons">
+            <span class="contacts">(502)724-6968</span>
+        </div>
+
+        <div class="col-md-4 col-sm-12 col-xs-12">
             <img src="img/email_213x218.svg" class="contact-us-icons">
             <span class="contacts">thechambertheatre@gmail.com</span>
         </div>
 
-        <div class="col-md-4 col-sm-12 col-xs-12">
-            <img src="img/phone_213x218.svg" class="contact-us-icons">
-            <span class="contacts">(502)724-6968</span>
-        </div>
+
 
 
 
@@ -73,22 +75,36 @@ include "header.php";
 
 
     </div>
-   <!-- <div class="col-sm-4"></div>
-    <form class="contact-us-form col-sm-4">
-        <div class="form-group">
-            <label for="email">Email address</label>
-            <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
-            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-        </div>
-        <div class="form-group">
-            <label for="message">Message</label>
-            <textarea class="form-control"></textarea>
-        </div>
-        <div class="form-group">
-            <button type="submit" class="btn btn-primary">Send</button>
-        </div>
-    </form>
-    <div class="col-sm-4"></div> -->
+
+
+
+<!--   <div class="col-sm-4"></div>-->
+<!--    <form class="contact-us-form col-sm-4">-->
+<!--        <div class="form-group">-->
+<!--            <label for="name">Name</label>-->
+<!--            <input type="text" class="form-control" id="name" aria-describedby="emailHelp" placeholder="Name">-->
+<!--        </div>-->
+<!--        <div class="form-group">-->
+<!--            <label for="email">Email address</label>-->
+<!--            <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">-->
+<!--            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>-->
+<!--        </div>-->
+<!--        <div class="form-group">-->
+<!--            <label for="subject">Subject</label>-->
+<!--            <input type="text" class="form-control" id="subject" aria-describedby="emailHelp" placeholder="Subject">-->
+<!--        </div>-->
+<!--        <div class="form-group">-->
+<!--            <label for="message">Message</label>-->
+<!--            <textarea class="form-control"></textarea>-->
+<!--        </div>-->
+<!--        <div class="form-group">-->
+<!--            <button type="submit" class="btn btn-primary">Send</button>-->
+<!--        </div>-->
+<!--    </form>-->
+<!--    <div class="col-sm-4"></div>-->
+
+
+
 </div>
 
 <div class="">

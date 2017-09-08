@@ -51,6 +51,10 @@ body {
     float: right;
 }
 
+.btn-read-more-mobile{
+    display: none;
+}
+
 .btn-read-more:hover,
 .btn-read-more:active {
     border: 2px solid #c7a462 ;
@@ -2060,14 +2064,29 @@ h3{
     }
 
     .btn-read-more {
+        display: none;
         color: black;
         font-size: 16px;
         background: none;
         border: none;
         font-family: 'Open Sans', sans-serif;
+        font-weight: 600;
         padding: 0;
         float: none;
         margin-bottom: 11px;
+    }
+
+    .btn-read-more-mobile{
+        display: inline-block;
+        color: black;
+        font-size: 16px;
+        background: none;
+        border: none;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 600;
+        padding: 0;
+        float: none;
+        margin-bottom: 26px;
     }
 
 
@@ -2090,7 +2109,6 @@ h3{
         padding-top: 35px;
         padding-left: 12px;
         padding-right: 12px;
-        /* border: 1px solid red; */
     }
 
     .announce-text-block {
@@ -2108,8 +2126,6 @@ h3{
 
     .announcement-dates {
         font-size: 24px;
-        /* line-height: 18px; */
-        /* margin: 0px; */
     }
 
     .show-name {

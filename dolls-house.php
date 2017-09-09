@@ -1,7 +1,7 @@
 <?php
 include "header.php";
 ?>
-    <div class="fill-background-black">
+    <div class="fill-background-black gold-bottm-border">
         <div class="container-fluid announce-container">
             <div class="top-wrapper">
 
@@ -14,7 +14,7 @@ include "header.php";
                     </div>
                 </div>-->
                 <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
-                    <img src="img/5_5.jpg" class="home-page-top-img">
+                    <img src="img/5.jpg" class="home-page-top-img">
                 </div>
 
             </div>

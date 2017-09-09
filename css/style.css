@@ -18,6 +18,10 @@ body {
     /* border: 1px solid red; */
 }
 
+.modal-header {
+    border: 0;
+}
+
 /*image{
     width: 100% !important;
 }*/
@@ -112,7 +116,10 @@ body {
 
 /*Backgrounds*/
 .fill-background-black {
-    background-color: black;
+    background-color: black; 
+}
+
+.gold-bottm-border {
     border-bottom: 2px solid #c7a462 ;
 }
 
@@ -163,6 +170,11 @@ body {
 
 #nav-bar {
     /*height: 150px !important;*/
+}
+
+#nav-modal {
+    background-color: black;
+    opacity: 0.9 !important;
 }
 
 #navbar-menus {
@@ -311,7 +323,6 @@ body {
 .fa-caret-size {
     font-size: 70%;
 }
-
 
 /*Header End*/
 
@@ -1410,6 +1421,41 @@ label {
         display:block !important;
     }
 
+    .modal-nav-content {
+        width: 100%;
+        height: auto;
+    }
+
+    .modal-nav-body {
+        margin-top: 60px; 
+    }
+
+    .modal-nav-body ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    .modal-nav-body ul li {
+        text-align: center !important; 
+        font-size: 24px !important;
+    }
+
+    .modal-nav-body ul li ul li {
+        text-align: center !important; 
+        font-size: 16px !important;
+        margin-bottom: 0 !important;
+    }
+
+    .overlay-modal-close-btn {
+        font-size: 48px !important;
+        color: #c7a462 !important;
+        text-shadow: none !important;
+        opacity: 1;
+        font-weight: lighter;
+    }
+
     /*#top-nav-social {*/
         /*margin-top: 40px;*/
         /*font-size: 35px;*/
@@ -1526,7 +1572,7 @@ label {
     }
 
     .navbar-nav>li {
-        padding-top: 60px !important;
+        padding-top: 40px !important;
         padding-left: 40px !important;
         padding-right: 40px !important;
         font-size: 70px !important;
@@ -1635,8 +1681,24 @@ label {
 /*iPad Pro*/
 @media (max-width: 1025px) {
     html, body {
-    max-width: 100%;
-    overflow-x: hidden;
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+    .modal-nav-body {
+        margin-top: 30px; 
+    }
+
+    .modal-nav-body ul li {
+        text-align: center !important; 
+        font-size: 36px !important;
+        margin-bottom: 20px !important;
+    }
+
+    .modal-nav-body ul li ul li {
+        text-align: center !important; 
+        font-size: 24px !important;
+        margin-bottom: 10px !important;
     }
 
     .navbar-nav > li > .dropdown-menu {
@@ -1644,10 +1706,12 @@ label {
         font-size: 30px;
     }
 
-    .navbar-right .dropdown-menu {
-        right: 0;
-        left: 51px;
-        padding: 30px;
+    .overlay-modal-close-btn {
+        font-size: 48px !important;
+        color: #c7a462 !important;
+        text-shadow: none !important;
+        opacity: 1;
+        font-weight: lighter;
     }
 
     .heading-style {
@@ -1822,10 +1886,6 @@ label {
     }
 
 /*Dropdown menu open*/
-    #nav-bar {
-        /*height: 794px !important;*/
-    }
-
     #navbar-menus {
         padding-top: 0px;
         text-align: center;
@@ -1833,10 +1893,34 @@ label {
     }
 
     .navbar-nav>li {
-        padding-top: 60px !important;
+        padding-top: 40px !important;
         padding-left: 40px !important;
         padding-right: 40px !important;
         font-size: 70px !important;
+    }
+
+    .modal-nav-body {
+        margin-top: 40px; 
+    }
+
+     .modal-nav-body ul li {
+        text-align: center !important; 
+        font-size: 36px !important;
+        margin-bottom: 20px !important;
+    }
+
+    .modal-nav-body ul li ul li {
+        text-align: center !important; 
+        font-size: 24px !important;
+        margin-bottom: 10px !important;
+    }
+
+    .overlay-modal-close-btn {
+        font-size: 48px !important;
+        color: #c7a462 !important;
+        text-shadow: none !important;
+        opacity: 1;
+        font-weight: lighter;
     }
 
     /*Footer*/
@@ -2413,11 +2497,11 @@ label {
     }
 
     #logo-img {
-    display: none;
+        display: none;
     }
 
     #logo-img-mobile{
-    display: block;
+        display: block;
     }
 
     #logo-img-mobile {
@@ -2436,6 +2520,34 @@ label {
 
     .navbar-social {
         margin-right: 22px;
+    }
+
+    .modal-nav-body {
+        margin-top: 40px; 
+    }
+
+    .modal-nav-body ul li {
+        text-align: center !important; 
+        font-size: 24px !important;
+        margin-bottom: 40px !important;
+    }
+
+    .modal-nav-body ul li ul li {
+        text-align: center !important; 
+        font-size: 20px !important;
+        margin-bottom: 10px !important;
+    }
+
+    .navbar-right .dropdown-menu {
+        padding: 0 !important;
+    }
+
+    .overlay-modal-close-btn {
+        font-size: 48px !important;
+        color: #c7a462 !important;
+        text-shadow: none !important;
+        opacity: 1;
+        font-weight: lighter;
     }
 
     .navbar-toggle .icon-bar {
@@ -2945,6 +3057,34 @@ label {
         margin-bottom: 11px;
     }
 
+    .modal-nav-body {
+        margin-top: 40px; 
+    }
+
+    .modal-nav-body ul li {
+        text-align: center !important; 
+        font-size: 24px !important;
+        margin-bottom: 40px !important;
+    }
+
+    .modal-nav-body ul li ul li {
+        text-align: center !important; 
+        font-size: 18px !important;
+        margin-bottom: 0 !important;
+    }
+
+    .navbar-right .dropdown-menu {
+        padding: 0;
+    }
+
+    .overlay-modal-close-btn {
+        font-size: 48px !important;
+        color: #c7a462 !important;
+        text-shadow: none !important;
+        opacity: 1;
+        font-weight: lighter;
+    }
+
     .heading-style {
         color: #c7a462;
         font-size: 24px;
@@ -3234,6 +3374,34 @@ label {
 
     .navbar-social {
         margin-right: 17px;
+    }
+
+    .modal-nav-body {
+        margin-top: 20px;
+    }
+
+    .modal-nav-body ul li {
+        text-align: center !important; 
+        font-size: 24px !important;
+        margin-bottom: 40px !important;
+    }
+
+    .modal-nav-body ul li ul li {
+        text-align: center !important; 
+        font-size: 18px !important;
+        margin-bottom: 0 !important;
+    }
+
+    .navbar-right .dropdown-menu {
+        padding: 0 !important;
+    }
+
+    .overlay-modal-close-btn {
+        font-size: 48px !important;
+        color: #c7a462 !important;
+        text-shadow: none !important;
+        opacity: 1;
+        font-weight: lighter;
     }
 
     .navbar-toggle .icon-bar {

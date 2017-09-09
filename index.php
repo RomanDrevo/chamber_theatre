@@ -1,7 +1,7 @@
 <?php
 include "header.php";
 ?>
-<div class="fill-background-black">
+<div class="fill-background-black gold-bottm-border">
     <div class="container-fluid announce-container-index">
         <div class="top-wrapper">
 
@@ -53,7 +53,7 @@ include "header.php";
                         </div>
 
                     </div>
-                    <img class="season-17-18-image_mobile mobile-img" src="img/season-17-18-mobile.png">
+                    <img class="season-17-18-image_mobile mobile-img" src="img/season-17-18-mobile.jpg">
                 </div>
             </div>
         </div>
@@ -77,10 +77,10 @@ include "header.php";
 
             <div class="col-md-6 col-sm-6 col-xs-12">
                 <div class="row">
-                    <img src="img/lib-poster.jpg"  alt="..." class="chekhov-in-library-image img-responsive section-text-block">
+                    <img src="img/lib_poster_350_350.jpg"  alt="..." class="chekhov-in-library-image img-responsive section-text-block">
                 </div>
             </div>   
-            <img class="chekhov-in-library-image_mobile mobile-img" src="img/330x144-lib-poster.jpg">                 
+            <img class="chekhov-in-library-image_mobile mobile-img" src="img/lib_poster_330_144.jpg">                 
         </div>
     </div>
 </div>
@@ -186,6 +186,8 @@ include "header.php";
     </div>
 </div>
 
+
+
 <div class="container-fluid">
     <section class="strindberg-in-bergman-section">
         <div class="strindberg-in-bergman-container">
@@ -222,7 +224,7 @@ include "header.php";
             </div>
         </div>
     </section>
-</div>
+</div>  
 
 <div class="container">
         <div class="translate-chekhov-container col-md-10 col-md-offset-1">

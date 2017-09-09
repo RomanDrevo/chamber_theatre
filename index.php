@@ -1,7 +1,7 @@
 <?php
 include "header.php";
 ?>
-<div class="fill-background-black">
+<div class="fill-background-black gold-bottm-border">
     <div class="container-fluid announce-container-index">
         <div class="top-wrapper">
 

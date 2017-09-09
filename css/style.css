@@ -112,7 +112,10 @@ body {
 
 /*Backgrounds*/
 .fill-background-black {
-    background-color: black;
+    background-color: black; 
+}
+
+.gold-bottm-border {
     border-bottom: 2px solid #c7a462 ;
 }
 

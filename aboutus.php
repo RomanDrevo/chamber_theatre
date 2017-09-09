@@ -2,7 +2,7 @@
 include "header.php";
 ?>
 
-    <div class="fill-background-black not-home-page">
+    <div class="fill-background-black gold-bottm-border not-home-page">
         <div class="container-fluid announce-container">
             <div class="top-wrapper">
 

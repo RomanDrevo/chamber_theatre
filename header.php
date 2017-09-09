@@ -34,7 +34,7 @@
 
             <nav class="navbar navbar-default">
                 <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-bar"
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="modal" data-target="#nav-modal" data-backdrop="false"
                             aria-expanded="false">
                         <span class="sr-only">Toggle navigation</span>
                         <span class="icon-bar"></span>
@@ -90,6 +90,41 @@
                         <li class="navbar"><a href="contactus.php">CONTACT US</a></li>
                     </ul>
 
+                </div>
+
+                <div class="modal fade nav-modal" id="nav-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-nav-content">
+                             <div class="modal-header">
+                                <button type="button" class="close overlay-modal-close-btn" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-nav-body">
+                                <ul class="nav navbar-nav navbar-right ">
+                                    <li class="navbar"><a href="index.php">HOME</a></li>
+                                    <li class="navbar dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                                                                    aria-haspopup="true" aria-expanded="false">SHOWS<span class="fa fa-caret-down fa-caret-size"></span></span></a>
+                                        <ul class="dropdown-menu">
+                                            <li role="separator" class="divider"></li>
+                                            <li class="dropdown-header">Season 2017/2018</li>
+                                            <li><a href="tales-from-the-hills.php">TALES FROM THE HILLS</a></li>
+                                            <li><a href="all-people-sneeze.php">ALL PEOPLE SNEEZE</a></li>
+                                            <li role="separator" class="divider"></li>
+                                            <li class="dropdown-header">Season 2016/2017</li>
+                                            <li><a href="dolls-house.php">A DOLL'S HOUSE</a></li>
+                                            <li><a href="creditors.php">CREDITORS</a></li>
+                                            <li role="separator" class="divider"></li>
+                                            <li class="dropdown-header">Season 2015/2016</li>
+                                            <li><a href="check-mate.php">CHEK-MATE</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="navbar"><a href="aboutus.php">ABOUT US</a></li>
+                                    <li class="navbar"><a href="contactus.php">CONTACT US</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </nav>
         </div>

@@ -74,10 +74,10 @@ include "header.php";
 
             <div class="col-md-6 col-sm-6 col-xs-12">
                 <div class="row">
-                    <img src="img/lib-poster.jpg"  alt="..." class="chekhov-in-library-image img-responsive section-text-block">
+                    <img src="img/lib_poster_350_350.jpg"  alt="..." class="chekhov-in-library-image img-responsive section-text-block">
                 </div>
             </div>   
-            <img class="chekhov-in-library-image_mobile mobile-img" src="img/330x144-lib-poster.jpg">                 
+            <img class="chekhov-in-library-image_mobile mobile-img" src="img/lib_poster_330_144.jpg">                 
         </div>
     </div>
 </div>

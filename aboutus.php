@@ -15,7 +15,7 @@ include "header.php";
                     </div>
                 </div>-->
                 <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
-                    <img src="img/4_4.jpg" class="home-page-top-img">
+                    <img src="img/4.jpg" class="home-page-top-img">
                 </div>
 
             </div>

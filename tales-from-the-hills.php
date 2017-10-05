@@ -241,7 +241,7 @@ include "header.php";
 
 <div class="fill-background-tales-poster">
     <div class="container-fluid">
-        <img src="img/tales-banner.jpg" class="img-responsive creditors-img" alt="1">
+        <img src="img/Tales-banner.jpg" class="img-responsive creditors-img" alt="1">
 </div>
 
 <?php

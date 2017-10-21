@@ -173,10 +173,10 @@ include "header.php";
 
                         <div class="crew">
                             <span class="gold-heading-small text-weight-400"> Design </span><br>
-                            <span class="text-weight-400">Martin French, Clare Hagan, Polina Shafran</span>
+                            <span class="text-weight-400">Martin French</span><br>
+                            <span class="text-weight-400">Clare Hagan</span><br>
+                            <span class="text-weight-400">Polina Shafran</span><br>
                         </div>
-
-
                     </div>
                     <div class="col-md-6">
                         <div class="crew">
@@ -185,9 +185,9 @@ include "header.php";
                         </div>
                         <div class="crew">
                             <span class="gold-heading-small text-weight-400">Cast </span><br>
-                            <span class="text-weight-400">Michael Drury </span>
-                            <span class="text-weight-400">Ryan Watson </span>
-                            <span class="text-weight-400">Polina Shafran</span>
+                            <span class="text-weight-400">Michael Drury </span><br>
+                            <span class="text-weight-400">Ryan Watson </span><br>
+                            <span class="text-weight-400">Polina Shafran</span><br>
                         </div>
                     </div>
 

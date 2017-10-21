@@ -131,6 +131,10 @@ body {
     background-color: #666666;
 } 
 
+.fill-background-tales-poster {
+    background-color: #F3F3F3;
+} 
+
 .fill-footer {
     background-color: #4d4d4d;
     border-top: 2px solid #c7a462;

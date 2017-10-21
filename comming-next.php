@@ -5,9 +5,9 @@
         <h3 class="show-name">TALES FROM THE HILLS</h3>
         <h3 class="show-description">WB Yeats’ verse tragedy Deirdre and <br> J.M. Synge’s raucous comedy In The Shadow of The Glen</h3>
     </a>
-    <!--   <a href="http://tickets.thechambertheatre.com/" target="_blank"
+    <a href="http://tickets.thechambertheatre.com/" target="_blank"
           class="btn btn-buy-tickets-top hover-decoration" role="button">BUY
-           TICKETS</a>-->
+           TICKETS</a>
    <!-- <a href="https://www.facebook.com/events/1907604012834766/" target="_blank"
        class="btn btn-buy-tickets-top hover-decoration" role="button">AUDITIONS</a> -->
 </div>

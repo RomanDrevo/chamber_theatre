@@ -29,7 +29,7 @@ include "header.php";
                 </div>
                 <div class="panel-body">
                     <p>
-                        <span class="show-subheading-style">Deirdre by WB Yeats and In The Shadow of The Glen by J.M. Synge’s </span><br> 
+                        <span class="show-subheading-style">Deirdre by WB Yeats and In The Shadow of The Glen by J.M. Synge </span><br> 
                         People will tell you that a lot can happen in the Hills, but how much can you believe?  What is a fact and what is a fiction, what is a myth and what is just gossip. 
                         Kings and heroes walked this land once, and so too did tramps and shepherds. Is the truth of a story to be defined or destroyed by the beauty of it? <br>
                         Two classics from the Irish theatrical explosion of the early 20th Century, In the Shadow of The Glen and Deirdre are two episodes of Irish storytelling.  
@@ -167,35 +167,46 @@ include "header.php";
                             <br>
                             <span class="text-weight-400">Polina Shafran  </span>
                         </div>
-
-                   <!--     <div class="crew">
-                            <span class="gold-heading-small text-weight-400"> Assistant Director </span><br>
-                            <span class="text-weight-400">Jay Marie Padilla</span>
-                        </div>
-
                         <div class="crew">
-                            <span class="gold-heading-small text-weight-400"> Stage Manager </span><br>
-                            <span class="text-weight-400">Clare Hagan</span>
+                            <span class="gold-heading-small text-weight-400"> Stage Managers </span><br>
+                            <span class="text-weight-400">Allison Anderson Coomes</span>
+                            <span class="text-weight-400">Julia Bright Moran</span>
+                        </div>
+                        <div class="crew">
+                            <span class="gold-heading-small text-weight-400"> Poster Design </span><br>
+                            <span class="text-weight-400">Elina Unger</span>
+                        </div>
+                       <!-- <div class="crew">
+                            <span class="gold-heading-small text-weight-400"> Costumes </span><br>
+                            <span class="text-weight-400">Martin French, Clare Hagan, Polina Shafran</span>
                         </div>
 
+                  
                         <div class="crew">
                             <span class="gold-heading-small text-weight-400"> Design </span><br>
                             <span class="text-weight-400">Martin French, Clare Hagan, Polina Shafran</span>
-                        </div>-->
+                        </div> -->
 
 
                     </div>
                     <div class="col-md-6">
                         <div class="crew">
-                            <span class="gold-heading-small text-weight-400"> Poster Design </span><br>
-                            <span class="text-weight-400">Elina Unger</span>
+                            <span class="gold-heading-small text-weight-400">Cast of Deirdre</span><br>
+                            <span class="text-weight-400">Cameron Bernard</span><br>
+                            <span class="text-weight-400">Rena Brown</span><br>
+                            <span class="text-weight-400">Sean Childress</span><br>
+                            <span class="text-weight-400">Hannah Marie Connally</span><br>
+                            <span class="text-weight-400">Tony Harris</span><br>
+                            <span class="text-weight-400">Clare Hagan</span><br>
+                            <span class="text-weight-400">Cate Willard</span><br>
                         </div>
-                  <!--      <div class="crew">
-                            <span class="gold-heading-small text-weight-400">Cast </span><br>
-                            <span class="text-weight-400">Michael Drury </span>
-                            <span class="text-weight-400">Ryan Watson </span>
-                            <span class="text-weight-400">Polina Shafran</span>
-                        </div>-->
+                        <div class="crew">
+                            <span class="gold-heading-small text-weight-400">Cast of In The Shadow Of The Glen </span><br>
+                            <span class="text-weight-400">Gerry Rose </span><br>
+                            <span class="text-weight-400">Vidalia Unwin </span><br>
+                            <span class="text-weight-400">Rich Williams</span><br>
+                            <span class="text-weight-400">Marcy Ziegler</span><br>
+                        </div>
                     </div>
 
                <!--     <div class="golden-quote col-md-12">

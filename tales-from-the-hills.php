@@ -148,13 +148,12 @@ include "header.php";
                     </section>
                 </div>  -->
 
-            <!--    <div class="show-video panel-body">
+                <div class="show-video panel-body">
                     <div class="show-subheading-style">WATCH VIDEO FROM THE SHOW</div>
                     <div class="embed-responsive embed-responsive-16by9 list-group-item">
-                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/HLF7pEoOjIM"
-                                allowfullscreen></iframe>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/yCjCn2fsHOE" frameborder="0" allowfullscreen></iframe>
                     </div>
-                </div>-->
+                </div>
             </div>
 
             <div class="col-lg-5 col-md-6 col-sm-6 col-xs-12 panel panel-default chek-mate-crew">
@@ -169,8 +168,13 @@ include "header.php";
                         </div>
                         <div class="crew">
                             <span class="gold-heading-small text-weight-400"> Stage Managers </span><br>
-                            <span class="text-weight-400">Allison Anderson Coomes</span>
+                            <span class="text-weight-400">Allison Anderson Coomes</span><br>
                             <span class="text-weight-400">Julia Bright Moran</span>
+                        </div>
+                        <div class="crew">
+                            <span class="gold-heading-small text-weight-400"> Original Music</span><br>
+                            <span class="text-weight-400">Clare Hagan</span><br>
+                            <span class="text-weight-400">Marcy Ziegler</span>
                         </div>
                         <div class="crew">
                             <span class="gold-heading-small text-weight-400"> Poster Design </span><br>
@@ -192,7 +196,7 @@ include "header.php";
                     <div class="col-md-6">
                         <div class="crew">
                             <span class="gold-heading-small text-weight-400">Cast of Deirdre</span><br>
-                            <span class="text-weight-400">Cameron Bernard</span><br>
+                            <span class="text-weight-400">Everett Brodbeck</span><br>
                             <span class="text-weight-400">Rena Brown</span><br>
                             <span class="text-weight-400">Sean Childress</span><br>
                             <span class="text-weight-400">Hannah Marie Connally</span><br>

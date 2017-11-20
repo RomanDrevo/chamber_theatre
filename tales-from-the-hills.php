@@ -46,107 +46,140 @@ include "header.php";
                     </p>
                 </div>
 
-             <!--   <div class="show-slider panel-body">
+                <div class="show-slider panel-body">
                     <div class="show-subheading-style">PHOTOS FROM THE SHOW</div>
 
                     <section class="chek-mate-photos-section">
                         <div class="chek-mate-photos-container">
                             <div class="carousel slide article-slide gallery-carousel" id="article-photo-carousel">
                                 <div class="carousel-inner cont-slider">
+                                    <div class="item">
+                                        <img alt="" title="" src="img/tfth-photos/2.jpeg">
+                                    </div>
+                                    <div class="item">
+                                        <img alt="" title="" src="img/tfth-photos/3.jpeg">
+                                    </div>
+                                    <div class="item">
+                                        <img alt="" title="" src="img/tfth-photos/4.jpeg">
+                                    </div>
+                                    <div class="item">
+                                        <img alt="" title="" src="img/tfth-photos/5.jpeg">
+                                    </div>
+                                    <div class="item">
+                                        <img alt="" title="" src="img/tfth-photos/6.jpeg">
+                                    </div>
+                                    <div class="item">
+                                        <img alt="" title="" src="img/tfth-photos/7.jpeg">
+                                    </div>
+                                    <div class="item">
+                                        <img alt="" title="" src="img/tfth-photos/8.jpeg">
+                                    </div>
+                                    <div class="item">
+                                        <img alt="" title="" src="img/tfth-photos/10.jpeg">
+                                    </div>
+                                    <div class="item">
+                                        <img alt="" title="" src="img/tfth-photos/11.jpeg">
+                                    </div>
                                     <div class="item active">
-                                        <img alt="" title="" src="img/creditors-photos/14.jpg">
+                                        <img alt="" title="" src="img/tfth-photos/1.jpeg">
                                     </div>
                                     <div class="item">
-                                        <img alt="" title="" src="img/creditors-photos/1.jpg">
+                                        <img alt="" title="" src="img/tfth-photos/12.jpeg">
                                     </div>
                                     <div class="item">
-                                        <img alt="" title="" src="img/creditors-photos/2.jpg">
+                                        <img alt="" title="" src="img/tfth-photos/13.jpeg">
                                     </div>
                                     <div class="item">
-                                        <img alt="" title="" src="img/creditors-photos/3.jpg">
+                                        <img alt="" title="" src="img/tfth-photos/14.jpeg">
                                     </div>
                                     <div class="item">
-                                        <img alt="" title="" src="img/creditors-photos/4.jpg">
+                                        <img alt="" title="" src="img/tfth-photos/15.jpeg">
                                     </div>
                                     <div class="item">
-                                        <img alt="" title="" src="img/creditors-photos/5.jpg">
+                                        <img alt="" title="" src="img/tfth-photos/16.jpeg">
                                     </div>
                                     <div class="item">
-                                        <img alt="" title="" src="img/creditors-photos/6.jpg">
+                                        <img alt="" title="" src="img/tfth-photos/17.jpeg">
                                     </div>
                                     <div class="item">
-                                        <img alt="" title="" src="img/creditors-photos/7.jpg">
+                                        <img alt="" title="" src="img/tfth-photos/18.jpeg">
                                     </div>
                                     <div class="item">
-                                        <img alt="" title="" src="img/creditors-photos/8.jpg">
+                                        <img alt="" title="" src="img/tfth-photos/19.jpeg">
                                     </div>
                                     <div class="item">
-                                        <img alt="" title="" src="img/creditors-photos/9.jpg">
+                                        <img alt="" title="" src="img/tfth-photos/20.jpeg">
                                     </div>
                                     <div class="item">
-                                        <img alt="" title="" src="img/creditors-photos/10.jpg">
-                                    </div>
-                                    <div class="item">
-                                        <img alt="" title="" src="img/creditors-photos/11.jpg">
-                                    </div>
-                                    <div class="item">
-                                        <img alt="" title="" src="img/creditors-photos/12.jpg">
-                                    </div>
-                                    <div class="item">
-                                        <img alt="" title="" src="img/creditors-photos/13.jpg">
+                                        <img alt="" title="" src="img/tfth-photos/21.jpeg">
                                     </div>
                                 </div>
 
                                 <div>
-                                    <ol class="gallery-carousel-indicators carousel-indicators">
-                                        <li class="active" data-slide-to="0" data-target="#article-photo-carousel">
-                                            <img alt="" src="img/creditors-photos/14.jpg">
+                                    <ol class="gallery-carousel-indicators carousel-indicators">    
+                                        <li class="" data-slide-to="0" data-target="#article-photo-carousel">
+                                            <img alt="" src="img/tfth-photos/2.jpeg">
                                         </li>
                                         <li class="" data-slide-to="1" data-target="#article-photo-carousel">
-                                            <img alt="" src="img/creditors-photos/1.jpg">
+                                            <img alt="" src="img/tfth-photos/3.jpeg">
                                         </li>
                                         <li class="" data-slide-to="2" data-target="#article-photo-carousel">
-                                            <img alt="" src="img/creditors-photos/2.jpg">
+                                            <img alt="" src="img/tfth-photos/4.jpeg">
                                         </li>
                                         <li class="" data-slide-to="3" data-target="#article-photo-carousel">
-                                            <img alt="" src="img/creditors-photos/3.jpg">
+                                            <img alt="" src="img/tfth-photos/5.jpeg">
                                         </li>
                                         <li class="" data-slide-to="4" data-target="#article-photo-carousel">
-                                            <img alt="" src="img/creditors-photos/4.jpg">
+                                            <img alt="" src="img/tfth-photos/6.jpeg">
                                         </li>
                                         <li class="" data-slide-to="5" data-target="#article-photo-carousel">
-                                            <img alt="" src="img/creditors-photos/5.jpg">
+                                            <img alt="" src="img/tfth-photos/7.jpeg">
                                         </li>
                                         <li class="" data-slide-to="6" data-target="#article-photo-carousel">
-                                            <img alt="" src="img/creditors-photos/6.jpg">
+                                            <img alt="" src="img/tfth-photos/8.jpeg">
                                         </li>
                                         <li class="" data-slide-to="7" data-target="#article-photo-carousel">
-                                            <img alt="" src="img/creditors-photos/7.jpg">
+                                            <img alt="" src="img/tfth-photos/10.jpeg">
                                         </li>
                                         <li class="" data-slide-to="8" data-target="#article-photo-carousel">
-                                            <img alt="" src="img/creditors-photos/8.jpg">
+                                            <img alt="" src="img/tfth-photos/11.jpeg">
                                         </li>
                                         <li class="" data-slide-to="9" data-target="#article-photo-carousel">
-                                            <img alt="" src="img/creditors-photos/9.jpg">
+                                            <img alt="" src="img/tfth-photos/1.jpeg">
                                         </li>
                                         <li class="" data-slide-to="10" data-target="#article-photo-carousel">
-                                            <img alt="" src="img/creditors-photos/10.jpg">
+                                            <img alt="" src="img/tfth-photos/12.jpeg">
                                         </li>
                                         <li class="" data-slide-to="11" data-target="#article-photo-carousel">
-                                            <img alt="" src="img/creditors-photos/11.jpg">
+                                            <img alt="" src="img/tfth-photos/13.jpeg">
                                         </li>
-                                        <li class="" data-slide-to="12" data-target="#article-photo-carousel">
-                                            <img alt="" src="img/creditors-photos/12.jpg">
+                                        <li class="active" data-slide-to="12" data-target="#article-photo-carousel">
+                                            <img alt="" src="img/tfth-photos/14.jpeg">
                                         </li>
                                         <li class="" data-slide-to="13" data-target="#article-photo-carousel">
-                                            <img alt="" src="img/creditors-photos/13.jpg">
+                                            <img alt="" src="img/tfth-photos/15.jpeg">
+                                        </li>
+                                        <li class="" data-slide-to="14" data-target="#article-photo-carousel">
+                                            <img alt="" src="img/tfth-photos/16.jpeg">
+                                        </li>
+                                        <li class="" data-slide-to="15" data-target="#article-photo-carousel">
+                                            <img alt="" src="img/tfth-photos/17.jpeg">
+                                        </li>
+                                        <li class="" data-slide-to="16" data-target="#article-photo-carousel">
+                                            <img alt="" src="img/tfth-photos/18.jpeg">
+                                        </li>
+                                        <li class="" data-slide-to="17" data-target="#article-photo-carousel">
+                                            <img alt="" src="img/tfth-photos/19.jpeg">
+                                        </li>
+                                        <li class="" data-slide-to="18" data-target="#article-photo-carousel">
+                                            <img alt="" src="img/tfth-photos/20.jpeg">
                                         </li>
                                     </ol>
                                 </div>
                             </div>
                         </div>
                     </section>
-                </div>  -->
+                </div> 
 
                 <div class="show-video panel-body">
                     <div class="show-subheading-style">WATCH VIDEO FROM THE SHOW</div>

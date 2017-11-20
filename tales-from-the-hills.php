@@ -53,7 +53,7 @@ include "header.php";
                         <div class="chek-mate-photos-container">
                             <div class="carousel slide article-slide gallery-carousel" id="article-photo-carousel">
                                 <div class="carousel-inner cont-slider">
-                                    <div class="item">
+                                    <div class="item active">
                                         <img alt="" title="" src="img/tfth-photos/2.jpeg">
                                     </div>
                                     <div class="item">
@@ -80,7 +80,7 @@ include "header.php";
                                     <div class="item">
                                         <img alt="" title="" src="img/tfth-photos/11.jpeg">
                                     </div>
-                                    <div class="item active">
+                                    <div class="item">
                                         <img alt="" title="" src="img/tfth-photos/1.jpeg">
                                     </div>
                                     <div class="item">

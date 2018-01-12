@@ -46,7 +46,7 @@ include "header.php";
                     </p>
                 </div>
 
-             <!--   <div class="show-slider panel-body">
+                <div class="show-slider panel-body">
                     <div class="show-subheading-style">PHOTOS FROM THE SHOW</div>
 
                     <section class="chek-mate-photos-section">
@@ -54,107 +54,139 @@ include "header.php";
                             <div class="carousel slide article-slide gallery-carousel" id="article-photo-carousel">
                                 <div class="carousel-inner cont-slider">
                                     <div class="item active">
-                                        <img alt="" title="" src="img/creditors-photos/14.jpg">
+                                        <img alt="" title="" src="img/tfth-photos/2.jpeg">
                                     </div>
                                     <div class="item">
-                                        <img alt="" title="" src="img/creditors-photos/1.jpg">
+                                        <img alt="" title="" src="img/tfth-photos/3.jpeg">
                                     </div>
                                     <div class="item">
-                                        <img alt="" title="" src="img/creditors-photos/2.jpg">
+                                        <img alt="" title="" src="img/tfth-photos/4.jpeg">
                                     </div>
                                     <div class="item">
-                                        <img alt="" title="" src="img/creditors-photos/3.jpg">
+                                        <img alt="" title="" src="img/tfth-photos/5.jpeg">
                                     </div>
                                     <div class="item">
-                                        <img alt="" title="" src="img/creditors-photos/4.jpg">
+                                        <img alt="" title="" src="img/tfth-photos/6.jpeg">
                                     </div>
                                     <div class="item">
-                                        <img alt="" title="" src="img/creditors-photos/5.jpg">
+                                        <img alt="" title="" src="img/tfth-photos/7.jpeg">
                                     </div>
                                     <div class="item">
-                                        <img alt="" title="" src="img/creditors-photos/6.jpg">
+                                        <img alt="" title="" src="img/tfth-photos/8.jpeg">
                                     </div>
                                     <div class="item">
-                                        <img alt="" title="" src="img/creditors-photos/7.jpg">
+                                        <img alt="" title="" src="img/tfth-photos/10.jpeg">
                                     </div>
                                     <div class="item">
-                                        <img alt="" title="" src="img/creditors-photos/8.jpg">
+                                        <img alt="" title="" src="img/tfth-photos/11.jpeg">
                                     </div>
                                     <div class="item">
-                                        <img alt="" title="" src="img/creditors-photos/9.jpg">
+                                        <img alt="" title="" src="img/tfth-photos/1.jpeg">
                                     </div>
                                     <div class="item">
-                                        <img alt="" title="" src="img/creditors-photos/10.jpg">
+                                        <img alt="" title="" src="img/tfth-photos/12.jpeg">
                                     </div>
                                     <div class="item">
-                                        <img alt="" title="" src="img/creditors-photos/11.jpg">
+                                        <img alt="" title="" src="img/tfth-photos/13.jpeg">
                                     </div>
                                     <div class="item">
-                                        <img alt="" title="" src="img/creditors-photos/12.jpg">
+                                        <img alt="" title="" src="img/tfth-photos/14.jpeg">
                                     </div>
                                     <div class="item">
-                                        <img alt="" title="" src="img/creditors-photos/13.jpg">
+                                        <img alt="" title="" src="img/tfth-photos/15.jpeg">
+                                    </div>
+                                    <div class="item">
+                                        <img alt="" title="" src="img/tfth-photos/16.jpeg">
+                                    </div>
+                                    <div class="item">
+                                        <img alt="" title="" src="img/tfth-photos/17.jpeg">
+                                    </div>
+                                    <div class="item">
+                                        <img alt="" title="" src="img/tfth-photos/18.jpeg">
+                                    </div>
+                                    <div class="item">
+                                        <img alt="" title="" src="img/tfth-photos/19.jpeg">
+                                    </div>
+                                    <div class="item">
+                                        <img alt="" title="" src="img/tfth-photos/20.jpeg">
+                                    </div>
+                                    <div class="item">
+                                        <img alt="" title="" src="img/tfth-photos/21.jpeg">
                                     </div>
                                 </div>
 
                                 <div>
-                                    <ol class="gallery-carousel-indicators carousel-indicators">
-                                        <li class="active" data-slide-to="0" data-target="#article-photo-carousel">
-                                            <img alt="" src="img/creditors-photos/14.jpg">
+                                    <ol class="gallery-carousel-indicators carousel-indicators">    
+                                        <li class="" data-slide-to="0" data-target="#article-photo-carousel">
+                                            <img alt="" src="img/tfth-photos/2.jpeg">
                                         </li>
                                         <li class="" data-slide-to="1" data-target="#article-photo-carousel">
-                                            <img alt="" src="img/creditors-photos/1.jpg">
+                                            <img alt="" src="img/tfth-photos/3.jpeg">
                                         </li>
                                         <li class="" data-slide-to="2" data-target="#article-photo-carousel">
-                                            <img alt="" src="img/creditors-photos/2.jpg">
+                                            <img alt="" src="img/tfth-photos/4.jpeg">
                                         </li>
                                         <li class="" data-slide-to="3" data-target="#article-photo-carousel">
-                                            <img alt="" src="img/creditors-photos/3.jpg">
+                                            <img alt="" src="img/tfth-photos/5.jpeg">
                                         </li>
                                         <li class="" data-slide-to="4" data-target="#article-photo-carousel">
-                                            <img alt="" src="img/creditors-photos/4.jpg">
+                                            <img alt="" src="img/tfth-photos/6.jpeg">
                                         </li>
                                         <li class="" data-slide-to="5" data-target="#article-photo-carousel">
-                                            <img alt="" src="img/creditors-photos/5.jpg">
+                                            <img alt="" src="img/tfth-photos/7.jpeg">
                                         </li>
                                         <li class="" data-slide-to="6" data-target="#article-photo-carousel">
-                                            <img alt="" src="img/creditors-photos/6.jpg">
+                                            <img alt="" src="img/tfth-photos/8.jpeg">
                                         </li>
                                         <li class="" data-slide-to="7" data-target="#article-photo-carousel">
-                                            <img alt="" src="img/creditors-photos/7.jpg">
+                                            <img alt="" src="img/tfth-photos/10.jpeg">
                                         </li>
                                         <li class="" data-slide-to="8" data-target="#article-photo-carousel">
-                                            <img alt="" src="img/creditors-photos/8.jpg">
+                                            <img alt="" src="img/tfth-photos/11.jpeg">
                                         </li>
                                         <li class="" data-slide-to="9" data-target="#article-photo-carousel">
-                                            <img alt="" src="img/creditors-photos/9.jpg">
+                                            <img alt="" src="img/tfth-photos/1.jpeg">
                                         </li>
                                         <li class="" data-slide-to="10" data-target="#article-photo-carousel">
-                                            <img alt="" src="img/creditors-photos/10.jpg">
+                                            <img alt="" src="img/tfth-photos/12.jpeg">
                                         </li>
                                         <li class="" data-slide-to="11" data-target="#article-photo-carousel">
-                                            <img alt="" src="img/creditors-photos/11.jpg">
+                                            <img alt="" src="img/tfth-photos/13.jpeg">
                                         </li>
-                                        <li class="" data-slide-to="12" data-target="#article-photo-carousel">
-                                            <img alt="" src="img/creditors-photos/12.jpg">
+                                        <li class="active" data-slide-to="12" data-target="#article-photo-carousel">
+                                            <img alt="" src="img/tfth-photos/14.jpeg">
                                         </li>
                                         <li class="" data-slide-to="13" data-target="#article-photo-carousel">
-                                            <img alt="" src="img/creditors-photos/13.jpg">
+                                            <img alt="" src="img/tfth-photos/15.jpeg">
+                                        </li>
+                                        <li class="" data-slide-to="14" data-target="#article-photo-carousel">
+                                            <img alt="" src="img/tfth-photos/16.jpeg">
+                                        </li>
+                                        <li class="" data-slide-to="15" data-target="#article-photo-carousel">
+                                            <img alt="" src="img/tfth-photos/17.jpeg">
+                                        </li>
+                                        <li class="" data-slide-to="16" data-target="#article-photo-carousel">
+                                            <img alt="" src="img/tfth-photos/18.jpeg">
+                                        </li>
+                                        <li class="" data-slide-to="17" data-target="#article-photo-carousel">
+                                            <img alt="" src="img/tfth-photos/19.jpeg">
+                                        </li>
+                                        <li class="" data-slide-to="18" data-target="#article-photo-carousel">
+                                            <img alt="" src="img/tfth-photos/20.jpeg">
                                         </li>
                                     </ol>
                                 </div>
                             </div>
                         </div>
                     </section>
-                </div>  -->
+                </div> 
 
-            <!--    <div class="show-video panel-body">
+                <div class="show-video panel-body">
                     <div class="show-subheading-style">WATCH VIDEO FROM THE SHOW</div>
                     <div class="embed-responsive embed-responsive-16by9 list-group-item">
-                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/HLF7pEoOjIM"
-                                allowfullscreen></iframe>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/yCjCn2fsHOE" frameborder="0" allowfullscreen></iframe>
                     </div>
-                </div>-->
+                </div>
             </div>
 
             <div class="col-lg-5 col-md-6 col-sm-6 col-xs-12 panel panel-default chek-mate-crew">
@@ -169,8 +201,13 @@ include "header.php";
                         </div>
                         <div class="crew">
                             <span class="gold-heading-small text-weight-400"> Stage Managers </span><br>
-                            <span class="text-weight-400">Allison Anderson Coomes</span>
+                            <span class="text-weight-400">Allison Anderson Coomes</span><br>
                             <span class="text-weight-400">Julia Bright Moran</span>
+                        </div>
+                        <div class="crew">
+                            <span class="gold-heading-small text-weight-400"> Original Music</span><br>
+                            <span class="text-weight-400">Clare Hagan</span><br>
+                            <span class="text-weight-400">Marcy Ziegler</span>
                         </div>
                         <div class="crew">
                             <span class="gold-heading-small text-weight-400"> Poster Design </span><br>
@@ -192,7 +229,7 @@ include "header.php";
                     <div class="col-md-6">
                         <div class="crew">
                             <span class="gold-heading-small text-weight-400">Cast of Deirdre</span><br>
-                            <span class="text-weight-400">Cameron Bernard</span><br>
+                            <span class="text-weight-400">Everett Brodbeck</span><br>
                             <span class="text-weight-400">Rena Brown</span><br>
                             <span class="text-weight-400">Sean Childress</span><br>
                             <span class="text-weight-400">Hannah Marie Connally</span><br>
@@ -209,41 +246,39 @@ include "header.php";
                         </div>
                     </div>
 
-               <!--     <div class="golden-quote col-md-12">
-                        <a href="http://arts-louisville.com/2016/12/03/threes-company/">
+                   <div class="golden-quote col-md-12">
+                        <a href="http://arts-louisville.com/2017/11/11/sadness-and-laughter/">
                             <p class="quote-text">
                                 <i class="unicode-quote">&#x201c</i>
-                                To watch the dark, revelatory heart of
-                                Creditors play out in the hands of these three is fascinating, and as lean
-                                and economical a piece of theatre as you are likely to find.
+                                The Chamber Theater uses brilliant prose and verse from Irish writers W.B. Yeats and J.M. Synge 
+                                to produce a unique night of theater. 
                                 <br>
                                 <span class="quote-author">Keith Waits, Arts-Lousiville</span>
                             </p>
                         </a>
 
 
-                        <a href="http://www.broadwayworld.com/louisville/article/BWW-Review-CREDITORS-Presented-by-The-Chamber-Theatre-at-Vault-1031-20161205">
+                        <a href="https://www.leoweekly.com/2017/11/skeleton-crew-unflinching-reality-flashes-hope-inspiration/">
                             <p class="quote-text">
                                 <i class="unicode-quote">&#x201c</i>
-                                It's deep and insanely thought provoking,
-                                with performances that leave your jaw practically attached to the floor.
-                                <br>
-                                <span class="quote-author">Taylor Clemons, BWW</span>
-                            </p>
-                        </a>
-
-                        <a href="http://www.leoweekly.com/2016/12/creditors-action-way-weve-never-experienced/">
-                            <p class="quote-text">
-                                <i class="unicode-quote">&#x201c</i>
-                                It’s a unique setup, risky and strange,
-                                that brings us into the action in a way I’ve never before experienced — and
-                                it calls for extraordinary acting.
+                                The production paired two Irish short plays that in these parts are rarely if ever seen: 
+                                W.B. Yeats’ “Deirdre” and J.M. Synge’s “In the Shadow of the Glen.Both plays were superb.
                                 <br>
                                 <span class="quote-author">Marty Rosen, LEO Weekly</span>
                             </p>
                         </a>
 
-                    </div> -->
+                        <a href="https://insiderlouisville.com/lifestyle_culture/review-the-chamber-theatres-tales-from-the-hills-is-a-little-known-treat/">
+                            <p class="quote-text">
+                                <i class="unicode-quote">&#x201c</i>
+                                It’s a remarkably timely discussion of consent and abuse, although the power 
+                                dynamics between women and powerful men have been violent and dangerous for women since the dawn of time.
+                                <br>
+                                <span class="quote-author">Eli Keel, Insider Louisville</span>
+                            </p>
+                        </a>
+
+                    </div> 
                 </div>
             </div>
         </div>

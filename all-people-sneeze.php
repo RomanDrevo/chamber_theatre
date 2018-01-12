@@ -167,12 +167,17 @@ include "header.php";
                             <span class="text-weight-400">Polina Shafran</span>
                         </div>
 
-                   <!--     <div class="crew">
+                        <div class="crew">
                             <span class="gold-heading-small text-weight-400"> Assistant Director </span><br>
-                            <span class="text-weight-400">Jay Marie Padilla</span>
+                            <span class="text-weight-400">Lena K. Gale</span>
                         </div>
 
                         <div class="crew">
+                            <span class="gold-heading-small text-weight-400"> Poster Design </span><br>
+                            <span class="text-weight-400">Elina Unger</span>
+                        </div>
+
+                     <!--   <div class="crew">
                             <span class="gold-heading-small text-weight-400"> Stage Manager </span><br>
                             <span class="text-weight-400">Clare Hagan</span>
                         </div>
@@ -185,16 +190,14 @@ include "header.php";
 
                     </div>
                     <div class="col-md-6">
-                        <div class="crew">
-                            <span class="gold-heading-small text-weight-400"> Poster Design </span><br>
-                            <span class="text-weight-400">Elina Unger</span>
-                        </div>
-                  <!--      <div class="crew">
+                       <div class="crew">
                             <span class="gold-heading-small text-weight-400">Cast </span><br>
-                            <span class="text-weight-400">Michael Drury </span>
-                            <span class="text-weight-400">Ryan Watson </span>
-                            <span class="text-weight-400">Polina Shafran</span>
-                        </div>-->
+                            <span class="text-weight-400">Hannah Connally </span> <br>
+                            <span class="text-weight-400">Carol Dines </span><br>
+                            <span class="text-weight-400">Laura Eigelbach</span><br>
+                            <span class="text-weight-400">Chris Meier</span><br>
+                            <span class="text-weight-400">Rich Williams</span><br>
+                        </div>
                     </div>
 
                <!--     <div class="golden-quote col-md-12">
